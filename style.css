@@ -1,4 +1,65 @@
-div 
+#contener,img 
 {
+    width: 15em;
+    background-image: yellow;
+    box-shadow: 8px 8px 5px whitesmoke;
+    padding: 8px 12px;
+    border: 1px solid whitesmoke;
+    float: right;
+    border-radius: 20px/20px;
+    text-align: left;
   
+}
+.Hébergement,img
+{
+    width: 15em;
+    background-image: yellow;
+    box-shadow: 8px 8px 5px whitesmoke;
+    padding: 8px 12px;
+    border: 1px solid whitesmoke;
+    float: right;
+    border-radius: 20px/20px;
+    text-align: left;
+}
+footer
+{
+    align-content: center;
+}
+.vieuxport
+{
+    float: left;
+}
+.fortdepomegues
+{
+    float: left;
+}
+.iledufrioul
+{
+    float: left;
+}
+.ParcNationaldesCalanques
+{
+    float: left;
+}
+.NotreDamedelaGarde
+{
+    float: right;
+}
+.ParcLongchamp
+{
+    float:right;
+}
+.footerflottegauche
+{
+    float: left;
+    text-align: left;
+}
+p
+{
+    float: left;
+    size: small;
+}
+.footer
+{
+    float: righ;
 }
