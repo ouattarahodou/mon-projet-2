@@ -1,65 +1,167 @@
-#contener,img 
+.img128
 {
-    width: 15em;
-    background-image: yellow;
-    box-shadow: 8px 8px 5px whitesmoke;
-    padding: 8px 12px;
+    width: 20em;
+    background: white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 5px 5px;
     border: 1px solid whitesmoke;
-    float: right;
+    float: left;
     border-radius: 20px/20px;
-    text-align: left;
+    text-align: justify;
+    margin: 15px;
   
 }
-.Hébergement,img
+.img71
 {
-    width: 15em;
-    background-image: yellow;
-    box-shadow: 8px 8px 5px whitesmoke;
-    padding: 8px 12px;
+   width: 20em;
+   background: white;
+   box-shadow: 5px 5px 5px whitesmoke;
+   padding: 5px 5px;
+   border: 1px solid whitesmoke;
+   float: left;
+   border-radius: 20px/20px;
+   text-align: justify;
+   margin: 15px;
+}
+.img68
+{
+    width: 20em;
+    background: white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 5px 5px;
     border: 1px solid whitesmoke;
-    float: right;
+    float: left;
     border-radius: 20px/20px;
-    text-align: left;
+    text-align: justify;
+    margin: 15px;
+    border: 20px/20px;
 }
-footer
+.img25
 {
-    align-content: center;
+    width: 20em;
+    background: white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 5px 5px;
+    border: 1px solid whitesmoke;
+    float: left;
+    border-radius: 20px/20px;
+    text-align: justify;
+    margin: 15px;
 }
-.vieuxport
+.img52
+{
+    width: 20em;
+    background: white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 5px 5px;
+    border: 1px solid whitesmoke;
+    float: left;
+    border-radius: 20px/20px;
+    text-align: justify;
+    margin: 15px;
+}
+.img76
+{
+    width: 20em;
+    background: white;
+    box-shadow: 5px 5px 5px whitesmoke;
+    padding: 5px 5px;
+    border: 1px solid whitesmoke;
+    float: left;
+    border-radius: 20px/20px;
+    text-align: justify;
+    margin: 15px;
+}
+.img46
+{
+     width: 20em;
+     background: white;
+     box-shadow: 5px 5px 5px whitesmoke;
+     padding: 5px 5px;
+     border: 1px solid whitesmoke;
+     float: left;
+     border-radius: 20px/20px;
+     text-align: justify;
+     margin: 15px;
+}
+.img23
+{
+   width: 20em;
+   background: white;
+   box-shadow: 5px 5px 5px whitesmoke;
+   padding: 5px 5px;
+   border: 1px solid whitesmoke;
+   float: left;
+   border-radius: 20px/20px;
+   text-align: justify;
+   margin: 15px;
+}
+.img96
+{
+   width: 20em;
+   background: white;
+   box-shadow: 5px 5px 5px whitesmoke;
+   padding: 5px 5px;
+   border: 1px solid whitesmoke;
+   float: left;
+   border-radius: 20px/20px;
+   text-align: justify;
+   margin: 15px;
+}
+img
+{
+    border-radius: 20px/20px;
+}
+body
+{
+    border-radius: 20px/20px;
+    background-color: white;
+}
+figure
+{
+    border-radius: 20px/20px;
+    background-color: whitesmoke;
+}
+.VieuxPort
 {
     float: left;
+    border-radius: 20px/20px;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
-.fortdepomegues
+.FortdePomegues
 {
     float: left;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
 .iledufrioul
 {
-    float: left;
+    float: none;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
 .ParcNationaldesCalanques
 {
     float: left;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
-.NotreDamedelaGarde
+.Notre-Dame-de-la-Garde
 {
-    float: right;
+    float: left;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
 .ParcLongchamp
 {
-    float:right;
-}
-.footerflottegauche
-{
     float: left;
-    text-align: left;
-}
-p
-{
-    float: left;
-    size: small;
-}
-.footer
-{
-    float: righ;
+    margin: 5px;
+    border-radius: 20px/20px;
+    text-align: justify;
 }
