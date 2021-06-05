@@ -7,7 +7,7 @@
     border: 1px solid whitesmoke;
     float: left;
     border-radius: 20px/20px;
-    text-align: justify;
+    text-align: left;
     margin: 15px;
   
 }
@@ -129,13 +129,20 @@ figure
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px whitesmoke;
+    background: white;
 }
-.FortdePomegues
+.a_1
 {
     float: left;
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px w;
+    
+    
 }
 .iledufrioul
 {
@@ -143,6 +150,9 @@ figure
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px whitesmoke;
+    background: white;
 }
 .ParcNationaldesCalanques
 {
@@ -150,6 +160,9 @@ figure
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px whitesmoke;
+   background: white;
 }
 .Notre-Dame-de-la-Garde
 {
@@ -157,6 +170,9 @@ figure
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px whitesmoke;
+    background: white;
 }
 .ParcLongchamp
 {
@@ -164,4 +180,31 @@ figure
     margin: 5px;
     border-radius: 20px/20px;
     text-align: justify;
+    padding: 5px 5px;
+    box-shadow: 2px 5px 5px 2px whitesmoke;
+    background: white;
+}
+.a_2
+{
+   padding: 5px 5px;
+   box-shadow: 2px 5px 5px 2px whitesmoke;
+   
+}
+.FortdePomegues 
+{
+     float: left;
+     border-radius: 20px/20px;
+     margin: 5px;
+     text-align: justify;
+     padding: 5px 5px;
+     box-shadow: 2px 5px 5px 2px whitesmoke;
+     background: white;
+}
+div.desc
+{
+    text-align: left;
+}
+img
+{
+    
 }
