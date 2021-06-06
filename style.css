@@ -204,7 +204,8 @@ div.desc
 {
     text-align: left;
 }
-img
+.nos_hebergement
 {
+   flex-direction: wrap;
     
 }
