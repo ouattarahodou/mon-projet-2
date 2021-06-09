@@ -5,7 +5,7 @@
     background: white;
     box-shadow: 5px 5px 5px whitesmoke;
     padding: 5px 5px;
-    border: 1px solid whitesmoke;
+    border: 1px solid white;
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
@@ -116,8 +116,7 @@ body
 {
     border-radius: 20px/20px;
     background-color: white;
-    min-height:0%;
-     width:px;
+   
 }
 .VieuxPort
 {
@@ -206,20 +205,20 @@ footer
     position: relative;
     text-align: justify;
 }
-.nos_hebergement
+div.centre
 {
-    float: left;
+    float:center;
+    text-align:justify;
+}
+div.droit
+{
+    float: right;
     text-align: justify;
 }
-.assitance
+.gauche
 {
-    float: left;
-    text-align: justify;
-}
-.a_propos
-{
-    float: left;
-    text-align: justify;
+    float:left;
+    text-align: left;
 }
 img 
 {
@@ -241,4 +240,17 @@ nav
 .gauche
 {
     text-align: left;
+}
+#conteneur1
+{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 300px;
+   
+}
+#conteneur2
+{
+     background-color: whitesmoke;
+     border-radius: 20px;
+     height: 720px;
 }
