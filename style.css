@@ -8,7 +8,7 @@
     border: 1px solid whitesmoke;
     float: left;
     border-radius: 20px/20px;
-    text-align: left;
+    text-align: justify;
     margin: 35px;
   
 }
@@ -50,6 +50,7 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin: 35px;
+    
 }
 .img52
 {
@@ -219,4 +220,25 @@ footer
 {
     float: left;
     text-align: justify;
+}
+img 
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20PX;
+}
+.arrondie
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 0em;
+    border-top-right-radius: 0em;
+}
+nav
+{
+    word-spacing: 5em;
+    text-align: right;
+}
+.gauche
+{
+    text-align: left;
 }
