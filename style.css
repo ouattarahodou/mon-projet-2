@@ -198,27 +198,32 @@ body
      padding: 5px 5px;
    
 }
-footer
+footer#horizontal
 {
     width: 1099px;
-    display: flex;
-    position: relative;
+    
+    text-align: horizontal,justify;
+   letter-spacing: 5em;
+    
+     
+}
+.nos_hebergement
+{
+    float:left;
+    text-align:center;
+    display: inline-block;
+}
+
+{
+    float: ;
     text-align: justify;
 }
-div.centre
-{
-    float:center;
-    text-align:justify;
-}
-div.droit
-{
-    float: right;
-    text-align: justify;
-}
-.gauche
+.a_propos
 {
     float:left;
     text-align: left;
+    display: inline-block;
+   
 }
 img 
 {
@@ -237,9 +242,12 @@ nav
     word-spacing: 5em;
     text-align: right;
 }
-.gauche
+.assitance
 {
     text-align: left;
+    float: right;
+    display: inline-block;
+   
 }
 #conteneur1
 {
@@ -253,4 +261,63 @@ nav
      background-color: whitesmoke;
      border-radius: 20px;
      height: 720px;
+}
+ul
+{
+    list-style-type: none;
+   
+}
+.money
+{
+   width: 180px;
+   height: 50px;
+   border: 1px solid black;
+   border-radius: 50px;
+   text-align:justify;
+   float: left;
+ display: inline-block;margin-left: 2em;
+}
+.child
+{
+     width: 140px;
+     height: 50px;
+     border: 1px solid black;
+     border-radius: 50px;
+     text-align: center;
+     float: left;
+    display: inline-block;margin-left:2em;
+}
+.heart
+{
+     width: 190px;
+     height: 50px;
+     border: 1px solid black;
+     border-radius: 50px;
+     text-align: justify;
+     float: left;
+    display: inline-block;margin-left: 2em;
+}
+.dog
+{
+     width: 220px;
+     height: 50px;
+     border: 1px solid black;
+     border-radius: 50px;
+     text-align: justify;
+     float: left;
+    display: inline-block;margin-left: 2em;
+}
+.info
+{
+    text-align: justify;
+    float: left;
+    display: inline-block;
+    margin-left: 2em;
+}
+article
+{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    text-align: horizontal;
 }
