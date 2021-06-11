@@ -116,6 +116,8 @@ body
 {
     border-radius: 20px/20px;
     background-color: white;
+    margin: 10px;
+  
    
 }
 .VieuxPort
@@ -198,31 +200,26 @@ body
      padding: 5px 5px;
    
 }
-footer#horizontal
+#horizontal 
 {
-    width: 1099px;
-    
-    text-align: horizontal,justify;
-   letter-spacing: 5em;
-    
-     
+    width: 1099px;   
+    text-align: justify;
+    float: left;
+    float: right;
+    line-height: 2em;       
 }
 .nos_hebergement
 {
     float:left;
-    text-align:center;
-    display: inline-block;
-}
-
-{
-    float: ;
-    text-align: justify;
+    text-align:justify;
+    margin-right:10em;
+    margin-left: em;
 }
 .a_propos
 {
     float:left;
-    text-align: left;
-    display: inline-block;
+    text-align: justify;
+    margin-right: 20em;
    
 }
 img 
@@ -244,10 +241,9 @@ nav
 }
 .assitance
 {
-    text-align: left;
-    float: right;
-    display: inline-block;
-   
+    text-align:justify;
+    float:left ;
+    margin-right:1em;   
 }
 #conteneur1
 {
@@ -275,7 +271,9 @@ ul
    border-radius: 50px;
    text-align:justify;
    float: left;
- display: inline-block;margin-left: 2em;
+   line-height: 3em;
+   margin-right: 2em;
+   margin-left: 2em;
 }
 .child
 {
@@ -284,8 +282,9 @@ ul
      border: 1px solid black;
      border-radius: 50px;
      text-align: center;
-     float: left;
-    display: inline-block;margin-left:2em;
+    float: left;
+    line-height: 3em;
+    margin-right: 2em;
 }
 .heart
 {
@@ -295,7 +294,8 @@ ul
      border-radius: 50px;
      text-align: justify;
      float: left;
-    display: inline-block;margin-left: 2em;
+     line-height: 3em;
+     margin-right: 2em;
 }
 .dog
 {
@@ -305,19 +305,65 @@ ul
      border-radius: 50px;
      text-align: justify;
      float: left;
-    display: inline-block;margin-left: 2em;
+     line-height: 3em;
 }
-.info
+.fa-info
 {
-    text-align: justify;
-    float: left;
-    display: inline-block;
-    margin-left: 2em;
+
+    float:left; 
+    color:blue;
+    width: 3em;  
+    
 }
 article
 {
-    width: 1200px;
-    height: 150px;
+    width: 500px;
+    height: 60px;
     display: flex;
     text-align: horizontal;
+    padding-right: 5em;
+    
+}
+a, a:hover, a:visited, a:active
+{
+    text-decoration: none;
+}
+input
+{
+    border-radius: 5px;
+    width: 220px;
+    height: 120;
+    border: 1px solid white;
+    
+}
+button
+{
+    width: 220;
+    border: 1px solid black;
+    
+}
+aside
+{
+    height: 140px;
+
+}
+.info
+{
+    text-align: horizontal;
+    float: left;
+     width: 500px
+}
+.chart-line
+{
+    float: right;
+}
+.circle
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    line-height: 55px;
+    text-align: center;
+    background-color: aquamarine;
 }
