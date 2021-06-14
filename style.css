@@ -249,14 +249,14 @@ header
     float:left ;
     margin-right:1em;   
 }
-#conteneur1
+#plus_popular
 {
     background-color: whitesmoke;
     border-radius: 20px;
     height: 300px;
-   
+    
 }
-#conteneur2
+#hebergemen_marseille
 {
      background-color: whitesmoke;
      border-radius: 20px;
@@ -276,10 +276,10 @@ ul
    text-align:justify;
    float: left;
    line-height: 3em;
-   margin-right: 2em;
-   margin-left: 2em;
+   margin: em;
+   margin:18px;
    color: black;
-    justify-content: space-between;
+    
     display: flex;
     align-items: center;
 }
@@ -291,10 +291,10 @@ ul
      border-radius: 50px;
      text-align: center;
     float: left;
-    line-height: 3em;
-    margin-right: 2em;
+    
+    margin:18px;
     color: black;
-     justify-content: space-between;
+    
     display: flex;
     align-items: center;
 }
@@ -306,53 +306,55 @@ ul
      border-radius: 50px;
      text-align: justify;
      float: left;
-     line-height: 3em;
-     margin-right: 2em;
+    
+     margin: 18px;
     color: black;
-     justify-content: space-between;
+    
     display: flex;
     align-items: center;
 }
 .dog
 {
-     width: 300px;
+     width: 200px;
      height: 50px;
+     
      border: 2px solid silver;
      border-radius: 50px;
      
      text-align: justify;
      float: left;
-     line-height: 3em;
-     margin-right:3em;
+     
+     margin:18px;
     color: black;
-     justify-content: space-between;
+    
     display: flex;
-    align-items: center;
+     align-items: center;
+   
 }
 .info
 {
 
     float:left; 
-    height: 35px;
-    width: 35px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
-    border: 1px solid whitesmoke;
-    line-height: 55px;
+    border: 2px solid whitesmoke;
+    line-height: 35px;
     text-align: center;
-    background-color: red;
-    margin-right: 1em;
+    background-color: white;
+    margin-right:1em;
+    
+    
 }
 #box_filtres
 {
-    width: 500px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    text-align: horizontal;
+   
+    font-size:18px;
     padding:50px;
-    justify-content: space-between;
+    font-style: normal;
     display: flex;
     align-items: center;
+   
     
 }
 a, a:hover, a:visited, a:active
@@ -362,8 +364,8 @@ a, a:hover, a:visited, a:active
 .search_input
 {
     border-radius: 5px;
-    
-   
+    height:45px;
+    width:220px;
     border: 1px solid white;
     padding:1px;
     
@@ -372,19 +374,19 @@ a, a:hover, a:visited, a:active
 {
     width: 90px;
     border: 1px solid black;
-    height: 1px;
+    height: 12px;
     background-color: blue;
     border-bottom-right-radius: 1em;
     border-top-right-radius: 1em;
-    padding: 22px;
-    color: aliceblue;
-    justify-content:last baseline; 
+    padding:20px;
+    color: white;
+    justify-content: baseline; 
     display: flex;
     align-items: center;
 }
 #search_header
 {
-   justify-content:last baseline; 
+   
    display: flex;
    align-items: center;
   
@@ -397,12 +399,18 @@ a, a:hover, a:visited, a:active
 }
 .chart-line
 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
     float: right;
+    font-size:25px;
+    text-align: center;
+    
 }
 .circle
 {
-    height: 55px;
-    width: 55px;
+    height: 52px;
+    width: 52px;
     border-radius: 50%;
     border: 1px solid whitesmoke;
     line-height: 55px;
@@ -411,8 +419,8 @@ a, a:hover, a:visited, a:active
 }
 .search_map
 {
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 52px;
     border: 1px solid whitesmoke;
     line-height: 55px;
     text-align: center;
