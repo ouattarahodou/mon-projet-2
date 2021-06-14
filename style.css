@@ -9,8 +9,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin: 35px;
-  
+    margin: 35px; 
 }
 .img71
 {
@@ -50,7 +49,6 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin: 35px;
-    
 }
 .img52
 {
@@ -116,9 +114,7 @@ body
 {
     border-radius: 20px/20px;
     background-color: white;
-    margin: 10px;
-  
-   
+    margin: 10px; 
 }
 .VieuxPort
 {
@@ -137,9 +133,7 @@ body
     border-radius: 20px/20px;
     text-align: justify;
     padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px w;
-    
-    
+    box-shadow: 2px 5px 5px 2px w;   
 }
 .iledufrioul
 {
@@ -197,8 +191,7 @@ body
      margin: 5px;
      border-radius: 20px/20px;
      text-align: justify;
-     padding: 5px 5px;
-   
+     padding: 5px 5px;  
 }
 #footer 
 {
@@ -212,15 +205,13 @@ body
 {
     float:left;
     text-align:justify;
-    margin-right:10em;
-    
+    margin-right:10em;   
 }
 .a_propos
 {
     float:left;
     text-align: justify;
-    margin-right: 20em;
-   
+    margin-right: 20em;  
 }
 img 
 {
@@ -240,8 +231,7 @@ header
     text-align: left;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 .assitance
 {
@@ -253,8 +243,7 @@ header
 {
     background-color: whitesmoke;
     border-radius: 20px;
-    height: 300px;
-    
+    height: 300px;   
 }
 #hebergemen_marseille
 {
@@ -279,9 +268,8 @@ ul
    margin: em;
    margin:18px;
    color: black;
-    
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
 }
 .child
 {
@@ -291,10 +279,8 @@ ul
      border-radius: 50px;
      text-align: center;
     float: left;
-    
     margin:18px;
     color: black;
-    
     display: flex;
     align-items: center;
 }
@@ -306,10 +292,8 @@ ul
      border-radius: 50px;
      text-align: justify;
      float: left;
-    
      margin: 18px;
     color: black;
-    
     display: flex;
     align-items: center;
 }
@@ -317,23 +301,17 @@ ul
 {
      width: 200px;
      height: 50px;
-     
      border: 2px solid silver;
      border-radius: 50px;
-     
      text-align: justify;
      float: left;
-     
      margin:18px;
-    color: black;
-    
+     color: black;
     display: flex;
-     align-items: center;
-   
+    align-items: center;
 }
 .info
 {
-
     float:left; 
     height: 32px;
     width: 32px;
@@ -342,20 +320,17 @@ ul
     line-height: 35px;
     text-align: center;
     background-color: white;
-    margin-right:1em;
-    
-    
+    margin-right:1em; 
+     
 }
 #box_filtres
 {
-   
     font-size:18px;
     padding:50px;
     font-style: normal;
     display: flex;
     align-items: center;
-   
-    
+    height: 5px;  
 }
 a, a:hover, a:visited, a:active
 {
@@ -367,8 +342,7 @@ a, a:hover, a:visited, a:active
     height:45px;
     width:220px;
     border: 1px solid white;
-    padding:1px;
-    
+    padding:1px;   
 }
 .search_button
 {
@@ -389,7 +363,6 @@ a, a:hover, a:visited, a:active
    
    display: flex;
    align-items: center;
-  
 }
 .logement
 {
@@ -404,8 +377,7 @@ a, a:hover, a:visited, a:active
     align-items: center;
     float: right;
     font-size:25px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .circle
 {
@@ -429,3 +401,4 @@ a, a:hover, a:visited, a:active
     border-bottom-left-radius: 1em;
     color: black;
 }
+
