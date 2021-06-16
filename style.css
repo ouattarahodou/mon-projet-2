@@ -9,7 +9,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin:18px; 
+    margin:15px; 
 }
 .img71
 {
@@ -22,7 +22,7 @@
    float: left;
    border-radius: 20px/20px;
    text-align: justify;
-   margin:18px;
+   margin:15px;
 }
 .img68
 {
@@ -35,7 +35,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin:18px;
+    margin:15px;
     border: 20px/20px;
 }
 .img25
@@ -48,7 +48,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin:18px;
+    margin:15px;
 }
 .img52
 {
@@ -60,7 +60,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin:18px;
+    margin:15px;
 }
 .img76
 {
@@ -72,7 +72,7 @@
     float: left;
     border-radius: 20px/20px;
     text-align: justify;
-    margin:18px;
+    margin:15px;
 }
 .img46
 {
@@ -84,7 +84,7 @@
      float: left;
      border-radius: 20px/20px;
      text-align: justify;
-     margin:18px;
+     margin:15px;
 }
 .img23
 {
@@ -96,7 +96,7 @@
    float: left;
    border-radius: 20px/20px;
    text-align: justify;
-   margin: 18px;
+   margin: 15px;
 }
 .img96
 {
@@ -108,14 +108,13 @@
    float: left;
    border-radius: 20px/20px;
    text-align: justify;
-   margin:18px;
+   margin:15px;
 }
 body
 {
     border-radius: 20px/20px;
     background-color: white;
-    margin: 2px; 
-    max-width: 1440px;
+   margin:35px;
 }
 .VieuxPort
 {
@@ -246,18 +245,20 @@ header
 {
     background-color: whitesmoke;
     border-radius: 20px;
+    width: 388px; 
     height: 680px;
-    width: 450px; 
     float: right;
+    margin-top: 20px;
      
 }
 #hebergemen_marseille
 {
      background-color: whitesmoke;
      border-radius: 20px;
-     height: 680px;
      width: 775px;
-}
+     height: 680px;
+     padding-top:5px;
+}    
 ul
 {
     list-style-type: none;
@@ -277,6 +278,7 @@ ul
    color: black;
    display: flex;
    align-items: center;
+    
 }
 .child
 {
@@ -327,7 +329,8 @@ ul
     line-height: 35px;
     text-align: center;
     background-color: white;
-    margin-right:1em; 
+    margin-right:1em;
+    
      
 }
 #box_filtres
@@ -337,7 +340,8 @@ ul
     font-style: normal;
     display: flex;
     align-items: center;
-    height: 5px;  
+    height: 5px; 
+     
 }
 a, a:hover, a:visited, a:active
 {
@@ -378,13 +382,14 @@ a, a:hover, a:visited, a:active
     width:500px
 }
 .chart-line
-{
-    justify-content: space-between;
-    display: flex;
+{ 
     align-items: center;
     float: right;
     font-size:25px;
-    text-align: center;  
+      display: flex;
+    margin-right: 30px;
+     text-align: left;
+    
 }
 .circle
 {
@@ -410,7 +415,15 @@ a, a:hover, a:visited, a:active
 }
 #activites_a_marseille
 {
-    height:770px;
+    height:760px;
     width: 1250px;
 }
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+    
+}
+
+
+
+
 
