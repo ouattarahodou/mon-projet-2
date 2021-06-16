@@ -248,8 +248,8 @@ header
     width: 388px; 
     height: 680px;
     float: right;
-    margin-top: 20px;
-     
+    margin-top: 0px;
+  
 }
 #hebergemen_marseille
 {
@@ -273,7 +273,6 @@ ul
    text-align:justify;
    float: left;
    line-height: 3em;
-   margin: em;
    margin:18px;
    color: black;
    display: flex;
@@ -329,9 +328,9 @@ ul
     line-height: 35px;
     text-align: center;
     background-color: white;
-    margin-right:1em;
+    margin-right:15px; 
+    align-items: center; 
     
-     
 }
 #box_filtres
 {
@@ -340,8 +339,8 @@ ul
     font-style: normal;
     display: flex;
     align-items: center;
-    height: 5px; 
-     
+    height: 50px; 
+    padding-left: 25px;
 }
 a, a:hover, a:visited, a:active
 {
@@ -384,12 +383,11 @@ a, a:hover, a:visited, a:active
 .chart-line
 { 
     align-items: center;
-    float: right;
-    font-size:25px;
-      display: flex;
-    margin-right: 30px;
-     text-align: left;
-    
+    float: left;
+    display: flex;
+    text-align: left;
+    margin-left:50px;
+    margin-right: 38px;
 }
 .circle
 {
@@ -415,12 +413,12 @@ a, a:hover, a:visited, a:active
 }
 #activites_a_marseille
 {
-    height:760px;
+    height:740px;
     width: 1250px;
 }
 @media all and (min-width: 1024px) and (max-width: 1280px)
 {
-    
+
 }
 
 
