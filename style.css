@@ -11,6 +11,7 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin:15px; 
+    color: black;
 }
 .img71
 {
@@ -24,6 +25,7 @@
    border-radius: 20px/20px;
    text-align: justify;
    margin:15px;
+   color: black;
 }
 .img68
 {
@@ -38,6 +40,7 @@
     text-align: justify;
     margin:15px;
     border: 20px/20px;
+    color: black;
 }
 .img25
 {
@@ -50,6 +53,7 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin:15px;
+    color: black;
 }
 .img52
 {
@@ -62,6 +66,7 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin:15px;
+    color: black;
 }
 .img76
 {
@@ -74,6 +79,7 @@
     border-radius: 20px/20px;
     text-align: justify;
     margin:15px;
+    color: black;
 }
 .img46
 {
@@ -86,6 +92,7 @@
      border-radius: 20px/20px;
      text-align: justify;
      margin:15px;
+     color: black;
 }
 .img23
 {
@@ -98,6 +105,7 @@
    border-radius: 20px/20px;
    text-align: justify;
    margin: 15px;
+   color: black;
 }
 .img96
 {
@@ -110,6 +118,7 @@
    border-radius: 20px/20px;
    text-align: justify;
    margin:15px;
+   color: black;
 }
 body
 {
@@ -129,7 +138,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white; 
-    color: black;   
+    color: black;  
 }
 .a_1
 {
@@ -138,8 +147,8 @@ body
     border-radius: 20px/20px;
     text-align: justify;
     padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px; 
-      
+    color: black;
+     
 }
 .iledufrioul
 {
@@ -150,7 +159,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white;
-    
+    color: black;
 }
 .ParcNationaldesCalanques
 {
@@ -160,8 +169,8 @@ body
     text-align: justify;
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
-   background: white;
-   color: black;
+    background: white;
+    color: black;
 }
 .Notre-Dame-de-la-Garde
 {
@@ -194,7 +203,7 @@ body
      padding: 5px 5px;
      box-shadow: 2px 5px 5px 2px whitesmoke;
      background: white;
-     
+     color: black;
 }
 .a_2 
 {
@@ -203,7 +212,7 @@ body
      border-radius: 20px/20px;
      text-align: justify;
      padding: 5px 5px;
-       
+     color: black;  
 }
 #footer 
 {
@@ -220,14 +229,14 @@ body
     float:left;
     text-align:justify;
     margin-right:2em;
-    color: black;   
+       
 }
 .a_propos
 {
     float:left;
     text-align: justify;
     margin-right:2em; 
-    color: black; 
+     
 }
 img 
 {
@@ -255,7 +264,7 @@ header
     text-align:justify;
     float:left ;
     margin-right:1em; 
-    color: black;  
+      
 }
 #plus_popular
 {
@@ -432,4 +441,5 @@ a, a:hover, a:visited, a:active
 {
     height:740px;
     width: 1250px;
+    margin-bottom:2px;  
 }
