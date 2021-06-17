@@ -128,7 +128,8 @@ body
     text-align: justify;
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white;    
+    background: white; 
+    color: black;   
 }
 .a_1
 {
@@ -137,7 +138,8 @@ body
     border-radius: 20px/20px;
     text-align: justify;
     padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px w;   
+    box-shadow: 2px 5px 5px 2px; 
+      
 }
 .iledufrioul
 {
@@ -148,6 +150,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white;
+    
 }
 .ParcNationaldesCalanques
 {
@@ -158,6 +161,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
    background: white;
+   color: black;
 }
 .Notre-Dame-de-la-Garde
 {
@@ -168,6 +172,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white;
+    color: black;
 }
 .ParcLongchamp
 {
@@ -178,6 +183,7 @@ body
     padding: 5px 5px;
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white;
+    color: black;
 }
 .FortdePomegues 
 {
@@ -188,6 +194,7 @@ body
      padding: 5px 5px;
      box-shadow: 2px 5px 5px 2px whitesmoke;
      background: white;
+     
 }
 .a_2 
 {
@@ -195,7 +202,8 @@ body
      margin: 5px;
      border-radius: 20px/20px;
      text-align: justify;
-     padding: 5px 5px;  
+     padding: 5px 5px;
+       
 }
 #footer 
 {
@@ -205,19 +213,21 @@ body
     line-height: 2em; 
     background-color: whitesmoke; 
     height: 235px;
-
+    color: black;
 }
 .nos_hebergement
 {
     float:left;
     text-align:justify;
-    margin-right:2em;   
+    margin-right:2em;
+    color: black;   
 }
 .a_propos
 {
     float:left;
     text-align: justify;
-    margin-right:2em;  
+    margin-right:2em; 
+    color: black; 
 }
 img 
 {
@@ -237,13 +247,15 @@ header
     text-align: left;
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
+
 }
 .assitance
 {
     text-align:justify;
     float:left ;
-    margin-right:1em;   
+    margin-right:1em; 
+    color: black;  
 }
 #plus_popular
 {
@@ -253,7 +265,7 @@ header
     height: 680px;
     float: right;
     margin-top: 0px;
-    
+    color: black;
 }
 #hebergemen_marseille
 {
@@ -262,7 +274,7 @@ header
      width: 775px;
      height: 680px;
      padding-top:5px;
-    
+     color: black;
 }    
 ul
 {
@@ -334,7 +346,7 @@ ul
     background-color: white;
     margin-right:15px; 
     align-items: center; 
-    
+    color: black;
 }
 #box_filtres
 {
@@ -345,6 +357,7 @@ ul
     align-items: center;
     height: 50px; 
     padding-left: 2px;
+    color: black;
 }
 a, a:hover, a:visited, a:active
 {
