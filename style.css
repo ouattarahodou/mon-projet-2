@@ -116,6 +116,8 @@ body
     background-color: white;
     margin:35px;
     color: black;
+    max-width: 1440px;
+    margin: 35px;
 }
 .VieuxPort
 {
@@ -196,25 +198,25 @@ body
 }
 #footer 
 {
-    width: 1250px;   
+    width: 1240px;   
     text-align: justify;
     float: left;
-    float: right;
     line-height: 2em; 
     background-color: whitesmoke; 
-    height: 240px;     
+    height: 235px;
+
 }
 .nos_hebergement
 {
     float:left;
     text-align:justify;
-    margin-right:10em;   
+    margin-right:2em;   
 }
 .a_propos
 {
     float:left;
     text-align: justify;
-    margin-right: 20em;  
+    margin-right:2em;  
 }
 img 
 {
@@ -250,7 +252,7 @@ header
     height: 680px;
     float: right;
     margin-top: 0px;
-  
+    
 }
 #hebergemen_marseille
 {
@@ -259,6 +261,7 @@ header
      width: 775px;
      height: 680px;
      padding-top:5px;
+    
 }    
 ul
 {
@@ -277,8 +280,7 @@ ul
    margin:18px;
    color: black;
    display: flex;
-   align-items: center;
-    
+   align-items: center;  
 }
 .child
 {
@@ -341,7 +343,7 @@ ul
     display: flex;
     align-items: center;
     height: 50px; 
-    padding-left: 25px;
+    padding-left: 2px;
 }
 a, a:hover, a:visited, a:active
 {
@@ -388,7 +390,7 @@ a, a:hover, a:visited, a:active
     display: flex;
     text-align: left;
     margin-left:50px;
-    margin-right: 38px;
+    margin-right: 38px;  
 }
 .circle
 {
@@ -398,7 +400,7 @@ a, a:hover, a:visited, a:active
     border: 1px solid whitesmoke;
     line-height: 55px;
     text-align: center;
-    background-color: aliceblue;
+    background-color:lightblue;
 }
 .search_map
 {
