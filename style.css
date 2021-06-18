@@ -148,7 +148,8 @@ body
     text-align: justify;
     padding: 5px 5px;
     color: black;
-     
+     margin-top: 20px;
+     justify-content: space-between;
 }
 .iledufrioul
 {
@@ -160,6 +161,7 @@ body
     box-shadow: 2px 5px 5px 2px whitesmoke;
     background: white;
     color: black;
+    
 }
 .ParcNationaldesCalanques
 {
@@ -212,7 +214,10 @@ body
      border-radius: 20px/20px;
      text-align: justify;
      padding: 5px 5px;
-     color: black;  
+     color: black; 
+     margin-right:30px; 
+      margin-top: 20px;
+    justify-content: space-between;
 }
 #footer 
 {
