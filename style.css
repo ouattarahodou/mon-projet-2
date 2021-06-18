@@ -611,17 +611,18 @@ body
 }
 .VieuxPort
 {
-    float: left;
+    
     margin: 5px;
     border-radius: 20px/20px;
-    text-align: justify;
+    
     padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
+    box-shadow: px px px px whitesmoke;
     background: white; 
     color: black; 
     display: flex;
     flex-direction: column;
-   
+    width: 130px;
+    height: 180px;
 }
 .a_1
 {
