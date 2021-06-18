@@ -221,7 +221,7 @@ body
 }
 #footer 
 {
-    width: 1240px;   
+    width: 100%;   
     text-align: justify;
     float: left;
     line-height: 2em; 
@@ -459,8 +459,8 @@ a, a:hover, a:visited, a:active
 {
     display: flex;
     flex-direction: column;
-    width: 120px;
-    height: 150px;
+     width: 388px; 
+    height: 680px;
 }
 #activites_a_marseille
 {
