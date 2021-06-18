@@ -448,3 +448,14 @@ a, a:hover, a:visited, a:active
     width: 1250px;
     margin-bottom:2px;  
 }
+/* media query desktop first */
+/* smartphone */
+@media all and (max-device-width: 480px) and (max-width:600px){ 
+#footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
