@@ -459,6 +459,8 @@ a, a:hover, a:visited, a:active
 {
     display: flex;
     flex-direction: column;
+    width: 120px;
+    height: 150px;
 }
 #activites_a_marseille
 {
