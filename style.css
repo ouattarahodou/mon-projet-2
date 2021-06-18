@@ -516,8 +516,7 @@ a, a:hover, a:visited, a:active
     color: black;
      display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+    
 }
 .img52
 {
@@ -533,8 +532,7 @@ a, a:hover, a:visited, a:active
     color: black;
      display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .img76
 {
@@ -550,8 +548,7 @@ a, a:hover, a:visited, a:active
     color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .img46
 {
@@ -567,8 +564,7 @@ a, a:hover, a:visited, a:active
      color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .img23
 {
@@ -584,8 +580,7 @@ a, a:hover, a:visited, a:active
    color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .img96
 {
@@ -601,8 +596,7 @@ a, a:hover, a:visited, a:active
    color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 body
 {
@@ -627,8 +621,7 @@ body
     color: black; 
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .a_1
 {
@@ -656,8 +649,7 @@ body
     color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+    
 }
 .ParcNationaldesCalanques
 {
@@ -671,8 +663,7 @@ body
     color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .Notre-Dame-de-la-Garde
 {
@@ -686,8 +677,7 @@ body
     color: black;
      display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+    
 }
 .ParcLongchamp
 {
@@ -701,8 +691,7 @@ body
     color: black;
     display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .FortdePomegues 
 {
@@ -716,8 +705,7 @@ body
      color: black;
      display: flex;
     flex-direction: column;
-    width: 130px;
-    height: 180px;
+   
 }
 .a_2 
 {
@@ -802,6 +790,8 @@ header
     color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 #hebergemen_marseille
 {
@@ -813,6 +803,8 @@ header
      color: black;
      display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }    
 ul
 {
@@ -990,8 +982,8 @@ a, a:hover, a:visited, a:active
 }
 #activites_a_marseille
 {
-    height:740px;
-    width: 1250px;
+    height:px;
+    width: 600px;
     margin-bottom:2px; 
     display: flex;
     flex-direction: column;
