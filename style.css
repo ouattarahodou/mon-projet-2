@@ -480,5 +480,20 @@ header
     display: flex;
     flex-direction: column;
 }
+body 
+{
+     display: flex;
+    flex-direction: column;
+}
+#search_header
+{
+     display: flex;
+    flex-direction: column;
+}
+.info
+{
+     display: flex;
+    flex-direction: column;
+}
 
 
