@@ -516,6 +516,8 @@ a, a:hover, a:visited, a:active
     color: black;
      display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .img52
 {
@@ -531,6 +533,8 @@ a, a:hover, a:visited, a:active
     color: black;
      display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .img76
 {
@@ -546,6 +550,8 @@ a, a:hover, a:visited, a:active
     color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .img46
 {
@@ -561,6 +567,8 @@ a, a:hover, a:visited, a:active
      color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .img23
 {
@@ -576,6 +584,8 @@ a, a:hover, a:visited, a:active
    color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .img96
 {
@@ -591,6 +601,8 @@ a, a:hover, a:visited, a:active
    color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 body
 {
@@ -615,6 +627,8 @@ body
     color: black; 
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .a_1
 {
@@ -628,6 +642,7 @@ body
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+
 }
 .iledufrioul
 {
@@ -641,6 +656,8 @@ body
     color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .ParcNationaldesCalanques
 {
@@ -654,6 +671,8 @@ body
     color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .Notre-Dame-de-la-Garde
 {
@@ -667,6 +686,8 @@ body
     color: black;
      display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .ParcLongchamp
 {
@@ -680,6 +701,8 @@ body
     color: black;
     display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .FortdePomegues 
 {
@@ -693,6 +716,8 @@ body
      color: black;
      display: flex;
     flex-direction: column;
+    width: 130px;
+    height: 180px;
 }
 .a_2 
 {
