@@ -448,8 +448,7 @@ a, a:hover, a:visited, a:active
     width: 1250px;
     margin-bottom:2px;  
 }
-/* media query desktop first */
-/* smartphone */
+/* media query smartphone */
 @media all and (max-device-width: 480px) and (max-width:600px){ 
 #footer{
     display: flex;
@@ -457,6 +456,26 @@ a, a:hover, a:visited, a:active
    
 }
 #hebergemen_marseille
+{
+    display: flex;
+    flex-direction: column;
+}
+#activites_a_marseille
+{
+    display: flex;
+    flex-direction: column;
+}
+#plus_popular
+{
+    display: flex;
+    flex-direction: column;
+}
+#box_filtres
+{
+    display: flex;
+    flex-direction: column;
+}
+header
 {
     display: flex;
     flex-direction: column;
