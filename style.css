@@ -614,9 +614,7 @@ body
     
     margin: 5px;
     border-radius: 20px/20px;
-    
-    padding: 5px 5px;
-    box-shadow: px px px px whitesmoke;
+    box-shadow:  whitesmoke;
     background: white; 
     color: black; 
     display: flex;
