@@ -449,7 +449,7 @@ a, a:hover, a:visited, a:active
     margin-bottom:2px;  
 }
 /* media query smartphone */
-@media (max-width:600px){ 
+@media (min-width:600px){ 
    
 }
 header
