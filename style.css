@@ -226,7 +226,7 @@ body
     float: left;
     line-height: 2em; 
     background-color: whitesmoke; 
-    height: 235px;
+    height: 100%;
     color: black;
 }
 .nos_hebergement
@@ -467,4 +467,43 @@ header
     display: flex;
     flex-direction: column;
     background-color: chartreuse;
+}
+#box_filtres
+{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+}
+.info
+{
+     float:left;
+    display: flex;
+    flex-direction: column;
+}
+#plus_popular
+{
+    float:left;
+    display: flex;
+    flex-direction: column;
+}
+#hebergemen_marseille
+{
+    float:left;
+    display: flex;
+    flex-direction: column;
+}
+#activites_a_marseille
+{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    
+}
+#footer
+{
+    float:left;
+    display: flex;
+    flex-direction: column
+    
 }
