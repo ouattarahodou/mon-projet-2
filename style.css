@@ -449,28 +449,14 @@ a, a:hover, a:visited, a:active
     margin-bottom:2px;  
 }
 /* media query smartphone */
-@media all and (max-device-width: 480px) and (max-width:600px){ 
+@media (max-width:600px){ 
    
 }
 header
 {
-    display: flex;
-    flex-direction: column;
+   flex-direction: column;
      word-spacing: 4px;
-    text-align: left;  
-    align-items: center;
-    justify-content: space-between;
     background-color: wheat;
     float: left;
 
-}
-#search_header
-{
-    display: flex;
-    flex-direction: column;
-}
-#box_filtres
-{
-      display: flex;
-    flex-direction: column;
 }
