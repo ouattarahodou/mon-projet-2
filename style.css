@@ -132,94 +132,98 @@ body
 .VieuxPort
 {
     float: left;
-    margin: 5px;
+    margin: 20px;
     border-radius: 20px/20px;
     text-align: justify;
-    padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white; 
-    color: black;  
+    background: whitesmoke; 
+    color: black;
+    width: 270px;
+    display: block;
+    margin-left:auto;
+    margin-right:35px;
 }
 .a_1
 {
-    float: left;
-    margin: 5px;
-    border-radius: 20px/20px;
-    text-align: justify;
-    padding: 5px 5px;
-    color: black;
-     margin-top: 20px;
-     justify-content: space-between;
+    float:left; 
+     
 }
 .iledufrioul
 {
-    float: none;
-    margin: 5px;
+   float:none;
+    margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
-    padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white;
-    color: black;
-    
+    background: whitesmoke;
+    color: black; 
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right:35px;
+    padding-bottom:1px;
 }
 .ParcNationaldesCalanques
 {
-    float: left;
-    margin: 5px;
+    float:left;
+    margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
-    padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white;
+    background: whitesmoke;
     color: black;
+    text-align: center;
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right:35px;
+    
 }
 .Notre-Dame-de-la-Garde
 {
     float:none;
-    margin: 5px;
+    margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
-    padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white;
+    background:whitesmoke;
     color: black;
+     width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
 }
 .ParcLongchamp
 {
     float: none;
-    margin: 5px;
+     margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
-    padding: 5px 5px;
-    box-shadow: 2px 5px 5px 2px whitesmoke;
-    background: white;
+    background: whitesmoke;
     color: black;
+    width:270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:1px;
 }
 .FortdePomegues 
 {
-     float: left;
-     border-radius: 20px/20px;
-     margin: 5px;
-     text-align: justify;
-     padding: 5px 5px;
-     box-shadow: 2px 5px 5px 2px whitesmoke;
-     background: white;
-     color: black;
+     float:none;
+     margin:20px;
+    border-radius: 20px/20px;
+    text-align: justify;
+    margin-right: 320px;
+    background: whitesmoke;
+    color: black;
+     width:270px;
+    display: block;
+    margin-left: auto;
+    margin-right:35px;
+   
 }
 .a_2 
 {
-     float: right;
-     margin: 5px;
-     border-radius: 20px/20px;
-     text-align: justify;
-     padding: 5px 5px;
-     color: black; 
-     margin-right:30px; 
-      margin-top: 20px;
-    justify-content: space-between;
+     float:right;
+    
 }
-#footer 
+#footer_search
 {
     width: 100%;   
     text-align: justify;
@@ -228,20 +232,21 @@ body
     background-color: whitesmoke; 
     height: 100%;
     color: black;
+    font-size: large;
 }
 .nos_hebergement
 {
     float:left;
     text-align:justify;
-    margin-right:2em;
-       
+    margin-right:5em;
+    color: black;   
 }
 .a_propos
 {
     float:left;
     text-align: justify;
     margin-right:2em; 
-     
+    color: black;
 }
 img 
 {
@@ -262,14 +267,15 @@ header
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    color: black;
+    font-size: large;
 }
 .assitance
 {
     text-align:justify;
-    float:left ;
+    float:left;
     margin-right:1em; 
-      
+    color: black; 
 }
 #plus_popular
 {
@@ -293,7 +299,7 @@ header
 ul
 {
     list-style-type: none;
-   
+    color: black;
 }
 .money
 {
@@ -347,6 +353,7 @@ ul
      color: black;
     display: flex;
     align-items: center;
+    
 }
 .info
 {
@@ -361,6 +368,14 @@ ul
     margin-right:15px; 
     align-items: center; 
     color: black;
+    
+}
+.info_plus
+{
+     align-items: center;
+     display: flex;
+     margin-bottom: 50px;
+     font-size: large;
 }
 #box_filtres
 {
@@ -372,6 +387,7 @@ ul
     height: 50px; 
     padding-left: 2px;
     color: black;
+    font-size: large;
 }
 a, a:hover, a:visited, a:active
 {
@@ -404,12 +420,19 @@ a, a:hover, a:visited, a:active
    
    display: flex;
    align-items: center;
+   color: black;
 }
 .logement
 {
     text-align: horizontal;
     float:left;
     width:500px
+}
+.populaire_line
+{
+     display: flex;
+     justify-content: space-between;
+    
 }
 .chart-line
 { 
@@ -444,66 +467,14 @@ a, a:hover, a:visited, a:active
 }
 #activites_a_marseille
 {
-    height:740px;
-    width: 1250px;
-    margin-bottom:2px;  
+    height:100%;
+    width: 100%;
 }
-/* media query smartphone */
-@media (max-width:600px){ 
-   
+/* media query smartphone */ 
+@media (min-width:600px) {
+    
 }
 header
 {
-    flex-direction: column;
-    display: flex;
-    word-spacing:2px;
-    background-color: wheat;
-    float:left ;
-
-}
-#search_header
-{
-    float:left;
-    display: flex;
-    flex-direction: column;
-    background-color: chartreuse;
-}
-#box_filtres
-{
-    float:left;
-    display: flex;
-    flex-direction: column;
-    background-color: lightskyblue;
-}
-.info
-{
-     float:left;
-    display: flex;
-    flex-direction: column;
-}
-#plus_popular
-{
-    float:left;
-    display: flex;
-    flex-direction: column;
-}
-#hebergemen_marseille
-{
-    float:left;
-    display: flex;
-    flex-direction: column;
-}
-#activites_a_marseille
-{
-    float:left;
-    display: flex;
-    flex-direction: column;
-    
-}
-#footer
-{
-    float:left;
-    display: flex;
-    flex-direction: column
-    
+    background-color:white;
 }
