@@ -471,12 +471,12 @@ a, a:hover, a:visited, a:active
     width: 100%;
 }
 /* media query smartphone */ 
-@media (min-width:600px) {
+@media (max-width:600px) {
     
 }
 header
 {
-    background-color:white;
+    background-color:blue;
     display: flex;
     vertical-align: top;
     text-align: justify;
@@ -485,52 +485,182 @@ header
 {
    width: 120px;
    margin: auto;
-   min-width: px;
    height: 150px;
-   min-height: ;
    vertical-align: top;
    text-align: justify;
 }
 body
 {
-    background: url('images/font_jaune.png');
-    font-family: 'trebuchet MS', Arial, sans-serif;
-    color: #181818;
-    margin: auto;
+   background-color: chartreuse;
+   max-width: 400px;
+   height: 600px;
+   justify-content: center;
 }
-#plus_popular
+.img128 img 
 {
-    width: 120px;
-   margin: auto;
-   min-width: px;
-   vertical-align: top;
-   flex-direction: column;
-   height: 150px;
+     width: 130px;
+    height: 135px;
+    padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
 }
-.img25,.img52,.img76,.img46,.img23,.img96
+.img71 img 
+{
+    width: 130px;
+    height: 135px;
+    padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+}
+.img68 img
+{
+    width: 130px;
+    height: 135px;
+    padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+}
+.img25 img
 { 
-   width: 150px;
-   margin: auto;
-   min-width:px;
-   vertical-align: top;
-   flex-direction: column;
-   height: 80px;
+    width: 335px;
+    height: 115px;
+     padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
 }
-img.VieuxPort, .FortdePomegues, .iledufrioul, .ParcNationaldesCalanques, .Notre-Dame-de-la-Garde, .ParcLongchamp
+.img52 img 
 {
-   vertical-align: top;
-   flex-direction: column;
-   margin-left:100px;
+    width: 335px;
+    height: 115px;
+     padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
+}
+.img76 img 
+{
+    width: 335px;
+    height: 115px;
+    padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
+}
+.img46 img 
+{
+     width: 335px;
+    height: 115px;
+     padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
+}
+.img23 img
+{
+     width: 335px;
+    height: 115px;
+     padding: 1px 1px;
+    border: 1px solid white;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
+}
+.img96 img 
+{
+     width: 335px;
+    height: 115px;
+     padding: 1px 1px;
+    border: 1px solid white;
+    border-radius: 20px 20px 0px 0px;
+    text-align: justify;
+    margin:1px; 
+    color: black;
+    flex-direction: column;
+}
+.VieuxPort img 
+{
+    flex-direction: column;
+    width: 335px;
+    height: 135px;
+    
+    justify-content: space-between;
    
 }
-img
+.FortdePomegues img 
 {
-    width: 340px;
-    vertical-align: top;
     flex-direction: column;
-    height: 140px;
-    border-radius: 20px/20px;
-    display: block;
-    
-    
+    width: 335px;
+    height: 135px;
+    margin:0px;
+    justify-content: space-between;
 }
+.iledufrioul img 
+{
+    flex-direction: column;
+    width: 335px;
+    height: 150px;
+    margin:0px;
+    justify-content: space-between;
+}
+.ParcNationaldesCalanques img 
+{
+     flex-direction: column;
+    width: 335px;
+    height: 135px;
+    margin:0px;
+    justify-content: space-between;
+}
+.Notre-Dame-de-la-Garde img 
+{
+     flex-direction: column;
+    width: 335px;
+    height: 135px;
+    margin:0px;
+    justify-content: space-between;
+}
+.ParcLongchamp img 
+{
+     flex-direction: column;
+    width: 335px;
+    height: 135px;
+    margin:0px;
+    justify-content: space-between;
+}
+#hebergemen_marseille
+{
+    max-width: 400px;
+    height: 600px;
+}
+
