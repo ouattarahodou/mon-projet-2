@@ -478,5 +478,59 @@ header
 {
     background-color:white;
     display: flex;
+    vertical-align: top;
+    text-align: justify;
+}
+#activites_a_marseille
+{
+   width: 120px;
+   margin: auto;
+   min-width: px;
+   height: 150px;
+   min-height: ;
+   vertical-align: top;
+   text-align: justify;
+}
+body
+{
+    background: url('images/font_jaune.png');
+    font-family: 'trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    margin: auto;
+}
+#plus_popular
+{
+    width: 120px;
+   margin: auto;
+   min-width: px;
+   vertical-align: top;
+   flex-direction: column;
+   height: 150px;
+}
+.img25,.img52,.img76,.img46,.img23,.img96
+{ 
+   width: 150px;
+   margin: auto;
+   min-width:px;
+   vertical-align: top;
+   flex-direction: column;
+   height: 80px;
+}
+img.VieuxPort, .FortdePomegues, .iledufrioul, .ParcNationaldesCalanques, .Notre-Dame-de-la-Garde, .ParcLongchamp
+{
+   vertical-align: top;
+   flex-direction: column;
+   margin-left:100px;
+   
+}
+img
+{
+    width: 340px;
+    vertical-align: top;
     flex-direction: column;
+    height: 140px;
+    border-radius: 20px/20px;
+    display: block;
+    
+    
 }
