@@ -482,10 +482,10 @@ header
     position: relative;
     background-color:cornflowerblue;
     width: 430px;
-    height:80px;
+    height:120px;
     display: inline-block;
     text-align:left;
-    
+     
 }
 #search_header_ville
 {
@@ -495,16 +495,18 @@ header
     display: block;
     flex-direction: column;
     background-color: darkblue;
-
+   
 }
 #plus_popular
 {
     row-gap:0px;
-    border-radius: 0px;
-    padding: 2px;
+    border-radius:0px;
     flex-direction: column;
     background-color: aqua;
     word-wrap: break-word;
+    padding-right:412px; 
+    background:none;
+    
 }
 #activites_a_marseille
 {
@@ -515,6 +517,7 @@ header
      flex-direction: column;
      word-wrap: break-word;
      background-color: cornflowerblue;
+     
 }
 #hebergemen_marseille
 {
@@ -525,6 +528,7 @@ header
     display: block;
     border-radius:0px; 
     background-color: deeppink;
+    
 }
 body
 {
@@ -588,7 +592,6 @@ body
 { 
     width: 335px;
     height: 115px;
-     padding: 1px 1px;
     border: 1px solid white;
     float: left;
     border-radius: 20px 20px 0px 0px;
@@ -596,6 +599,7 @@ body
     margin:1px; 
     color: black;
     display: blocK;
+    
 }
 .img52 img 
 {
@@ -701,6 +705,7 @@ body
     display: blocK;
     justify-content: space-between;
     margin: 0px 0px 0px 0px;
+    float: left;
 }
 .ParcLongchamp img 
 {
@@ -709,7 +714,11 @@ body
     display: blocK;
     justify-content: space-between;
     margin: 0px 0px 0px 0px;
-    
+    float: left;
+}
+.a_2
+{
+    float: left;
 }
 #footer_search
 {
@@ -717,6 +726,8 @@ body
     display: block;
     display: flex;
     width: 400px;
+    height: 600px;
+    
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
