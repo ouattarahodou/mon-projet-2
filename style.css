@@ -484,8 +484,7 @@ header
     width: 390px;
     height:90px;
     display: inline-block;
-    text-align:left;
-     
+    text-align:left;    
 }
 .search_button
 {
@@ -498,12 +497,6 @@ header
     color: white;
     
 }
-.money, .child
-{
-   align-items: flex-start;
-    
-    
-}
 #search_header_ville
 {
     padding: 16px;
@@ -512,8 +505,7 @@ header
     display: block;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    
+    background-color: white;    
 }
 #box_filtres
 {
@@ -526,16 +518,13 @@ header
     height: 50px; 
     padding-left: 2px;
     color: black;
-    font-size: large;
-    
+    font-size: large;    
 }
 .info_plus
 {
-    flex-direction: column;
-    
+     flex-direction: column;
      margin-bottom:50px;
      font-size: large;
-
 }
 #plus_popular
 {
@@ -544,9 +533,11 @@ header
     flex-direction: column;
     background-color: aqua;
     word-wrap: break-word;
-    padding-right:412px; 
+    padding-right:0px; 
     background:none;
     height:620px;
+    width: 400px;
+    float: left;
 }
 #activites_a_marseille
 {
