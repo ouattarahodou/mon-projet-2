@@ -287,7 +287,7 @@ header
     margin-top: 0px;
     color: black;
 }
-#hebergemen_marseille
+#hebergement_marseille
 {
      background-color: whitesmoke;
      border-radius: 20px;
@@ -480,22 +480,62 @@ header
     margin: auto;
     flex-direction: column;
     position: relative;
-    background-color:cornflowerblue;
-    width: 430px;
-    height:120px;
+    background-color:white;
+    width: 390px;
+    height:90px;
     display: inline-block;
     text-align:left;
      
 }
+.search_button
+{
+    width: 10px;
+    border: 1px solid black;
+    height: 12px;
+    background-color: blue;
+    border-radius: 15px 15px 15px 15px;
+    padding:20px;
+    color: white;
+    
+}
+.money, .child
+{
+   align-items: flex-start;
+    
+    
+}
 #search_header_ville
 {
     padding: 16px;
-    width: 400px;
-    height: 500px;
+    width: 360px;
+    height:800px;
     display: block;
+    display: flex;
     flex-direction: column;
-    background-color: darkblue;
-   
+    background-color: white;
+    
+}
+#box_filtres
+{
+    font-size:18px;
+    padding:50px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 50px; 
+    padding-left: 2px;
+    color: black;
+    font-size: large;
+    
+}
+.info_plus
+{
+    flex-direction: column;
+    
+     margin-bottom:50px;
+     font-size: large;
+
 }
 #plus_popular
 {
@@ -506,33 +546,36 @@ header
     word-wrap: break-word;
     padding-right:412px; 
     background:none;
-    
+    height:620px;
 }
 #activites_a_marseille
 {
      width:400px;
-     height:1400px;
+     height:1390px;
      border-radius: 0px;
      padding:0px;
      flex-direction: column;
      word-wrap: break-word;
-     background-color: cornflowerblue;
+     background-color: white;
+     
      
 }
-#hebergemen_marseille
+#hebergement_marseille
 {
-    max-width: 400px;
-    height: 1600px;
-    word-wrap: break-word;
+    row-gap:0px;
+    border-radius:0px;
+    width: 400px;
+    height: 1650px;
     flex-direction: column;
-    display: block;
-    border-radius:0px; 
-    background-color: deeppink;
-    
+    display: flex;
+    background-color: aqua;
+    word-wrap: break-word;
+    padding:2px; 
+    background:white;
 }
 body
 {
-   background-color: darksalmon;
+   background-color: whitesmoke;
    color: black;
    margin: 0px;
    
@@ -590,7 +633,7 @@ body
 }
 .img25 img
 { 
-    width: 335px;
+    width:335px;
     height: 115px;
     border: 1px solid white;
     float: left;
@@ -727,11 +770,8 @@ body
     display: flex;
     width: 400px;
     height: 600px;
-    
-    margin: auto;
-    padding: 0 2rem;
-    box-sizing: border-box;
     flex-direction: column;
+   
 }
 
 
