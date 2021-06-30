@@ -1,7 +1,6 @@
 
 body
 {
-   
     max-width: 1440px;
     margin: auto;
     margin-top: auto;
@@ -15,6 +14,8 @@ body
     padding-left: 32px;
     box-sizing: border-box;
     display: block;
+    
+   
 }
 .search_input
 {
@@ -38,7 +39,7 @@ body
     border: 2px solid #d9d9d9;
    
 }
-.plus_populaire h2 
+.plus_populaire, h2 
 {
     margin: 0;
     display: flex;
@@ -46,126 +47,106 @@ body
 }
 .img128
 {
-    width:120px;
-    height:150px;
+    width:100px;
+    height:110px;
     float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin:15px;
-    border: 20px/20px;
-    color: black;
+    margin:2px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding-bottom: 0px;
+    margin-left:22px;
+
+    
 }
 .img71
 {
-    width:120px;
-    height:150px;
+    width:100px;
+    height:110px;
     float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin:15px;
-    border: 20px/20px;
-    color: black;
+    margin:2px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding-bottom: 0px;
+    margin-left:22px;
 }
 .img68 
 {
-    width:120px;
-    height:150px;
+    width:100px;
+    height:110px;
     float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin:15px;
-    border: 20px/20px;
-    color: black;
+    margin:2px;
+    margin-left:2px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding-bottom: 0px;
+    margin-left:22px;
 }
 .popular1, .popular_128, .popular_space_1
 {
-    background-color:fuchsia;
-    margin:5px;
-    padding-right: 5px;
+    background-color:white;
+    margin:4px;
+    padding-right: 2px;
     border-radius: 20px/20px;
     width: 80%;
-    
+    padding-bottom:5px;
 }
 .popular2, .popula_71, .popular_space_2
 {
-     background-color:fuchsia;
-    margin:5px;
-    padding-right: 5px;
+    background-color:white;
+    margin:4px;
+    padding-right: 2px;
     border-radius: 20px/20px;
     width: 80%;
-   
+    padding-bottom:5px;
 }
 .popular3, .popula_68, .popular_space_3
 {
-     background-color:fuchsia;
-    margin:5px;
-    padding-right: 5px;
+    background-color:white;
+    margin:4px;
+    padding-right: 2px;
     border-radius: 20px/20px;
     width: 80%;
-   
+    padding-bottom:5px;
 }
 #plus_populaire  
 {
-   align-items: center;
+    padding: 1px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 600px;
     padding: 1px 1px;
     border: 1px solid white;
     float: right;
-    background-color: antiquewhite;
-    background-size: 15px;
-    text-align: justify;
     margin:1px; 
     color: black;
     display: blocK;
     width: 380px;
-     
     justify-content: right;
     
 }
 #hebergement_a_marseille
 {
-    
-    flex: content;
-    align-items: flex-start;
-    padding: 1px 1px;
-    border: 1px solid white;
-    float: left;
-    justify-content: center;
-   
-    margin:1px; 
-    color: black;
-
-     
+    padding:1px;
+    background-color: whitesmoke;
+    margin-right: 400px;
+    border-radius: 20px;
+    height: 600px;
 }
 .flex-item1
 {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 1px;
-    align-items: flex-start;
-    flex-direction: row;
-    
-    text-align: justify;
-    width: 230px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-between;
 }
 .flex-item2
 {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 1px;
-    align-items: flex-start;
-     flex-direction: row;
-   
-    
-    text-align: justify;
-    width: 230px;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: space-between;
 }
 .flex-itema
 {
@@ -173,6 +154,7 @@ body
     justify-content: flex-start;
     align-items: center;
    
+    justify-content: space-between;
 }
 .flex-itemb
 {
@@ -189,11 +171,13 @@ body
 }
 .footer
 {
-    height: 250px;
+    height: 300px;
     float: left;
     list-style: none;
-   
-     
+    background-color: whitesmoke;
+    
+    justify-content: flex-start;
+    align-items: center;
      
 }
 .footer li 
@@ -213,12 +197,14 @@ header ul
     padding: 1px 1px;
     border: 1px solid white;
     float: left;
-    background-color: royalblue;
+    background-color:white;
     text-align: justify;
     margin:1px; 
     color: black;
     flex: content;
-    display: flex;
+    padding-right: 70px;
+    
+   
 }
 .search_header
 {
@@ -227,7 +213,7 @@ header ul
 }
 .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
 {
-    background-color:fuchsia;
+    background-color:white;
     margin: 10px;
     padding-right: 5px;
     border-radius: 20px/20px;
@@ -235,100 +221,83 @@ header ul
 }
 .vieux_port
 {
-    background-color:red;
+    background-color:white;
     margin: 10px;
     padding-right: 5px;
     border-radius: 20px/20px;
 }
 .img25 img
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background: white;
-    box-shadow: 1px 1px 1px white;
-    padding: 2px 2px;
-    border: 1px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:15px;
-    color: black;
+    display: grid;
+    
+    width: 210px;
+    height: 110px;
+   
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
+   
 }
 .img52 img 
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background: white;
-    box-shadow: 5px 5px 5px whitesmoke;
-    padding: 5px 5px;
-    border: 1px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:15px;
-    color: black;
+    display: grid;
+    
+    width: 210px;
+    height: 110px;
+    
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .img76 img 
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background: white;
-    box-shadow: 5px 5px 5px whitesmoke;
-    padding: 5px 5px;
-    border: 1px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:15px;
-    color: black;
+    display: grid;
+   
+    width: 210px;
+    height: 110px;
+   
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .img46 img 
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background: white;
-    box-shadow: 5px 5px 5px whitesmoke;
-    padding: 5px 5px;
-    border: 1px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:15px;
-    color: black;
+    display: grid;
+    
+    width: 210px;
+    height: 110px;
+    
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .img23 img 
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background: white;
-    box-shadow: 5px 5px 5px whitesmoke;
-    padding: 5px 5px;
-    border: 1px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:15px;
-    color: black;
+    display: grid;
+   
+    width: 210px;
+    height: 110px;
+   
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .img96 img 
 {
-    width:210px;
-    height:110px;
-    width: 13em;
-    background-color: white;
-    box-shadow: 0px 0px 0px whitesmoke;
-    padding: 5px 5px;
-    border: 5px solid whitesmoke;
-    float: left;
-    border-radius: 20px/20px;
-    text-align: justify;
-    margin:12px;
-    color: black;
+    display: grid;
+    
+    width: 210px;
+    height: 110px;
+    
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .vieux_port img
 {
@@ -607,6 +576,11 @@ logement
     text-align: horizontal;
     float:left;
     width:500px
+
+
+
+    
+
 }
 populaire_line h2
 {
