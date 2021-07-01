@@ -142,26 +142,25 @@ body
 {
     display: flex;
     justify-content: space-between;
+    
 }
 .flex-item2
 {
     display: flex;
     justify-content: space-between;
+   
 }
 .flex-itema
-{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
-    justify-content: space-between;
+{  
+    float: left;
+    display: blocK;
+    justify-content: space-between;   
 }
 .flex-itemb
 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-   
+    display: blocK;
+    justify-content: space-between;
+    float: right; 
 }
 #hebergement_a_marseille ul
 {
@@ -194,16 +193,10 @@ header ul
 #activites_a_marseille
 {
     
-    padding: 1px 1px;
-    border: 1px solid white;
-    float: left;
-    background-color:white;
-    text-align: justify;
-    margin:1px; 
-    color: black;
-    flex: content;
-    padding-right: 70px;
     
+    
+    height:100%;
+    width: 100%;
    
 }
 .search_header
@@ -219,7 +212,7 @@ header ul
     border-radius: 20px/20px;
     width: 250px;
 }
-.vieux_port
+vieux_portNN
 {
     background-color:white;
     margin: 10px;
@@ -301,40 +294,53 @@ header ul
 }
 .vieux_port img
 {
+   
+    
     width:270px;
     height: 480px;
     float: left;
     margin: 20px;
     border-radius: 20px/20px;
     text-align: left;
-    background:white; 
+    background: whitesmoke; 
     color: black;
     width: 270px;
     display: block;
     margin-left:auto;
     margin-right:35px;
+
+    display: blocK;
+    justify-content: space-between;
 }
 .fort_de_pomegues img 
 {
+    
+
     width: 270px;
     height: 240px;
-    float:none;
+     float:none;
      margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
     margin-right: 320px;
     background: whitesmoke;
-    color: red;
-    width:270px;
+    color: black;
+     width:270px;
     display: block;
     margin-left: auto;
     margin-right:35px;
+
+
 }
 .ile_du_frioul img 
 {
+   
+    
+   
+
     width: 270px;
     height: 180px;
-   float:left;
+    float:none;
     margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
@@ -345,10 +351,14 @@ header ul
     margin-left: auto;
     margin-right:35px;
     padding-bottom:1px;
+
+
+   
 }
 .parc_national_des_calanques img
 {
-    width: 270px;
+
+     width: 270px;
     height: 480px;
     float:left;
     margin:20px;
@@ -357,13 +367,19 @@ header ul
     background: whitesmoke;
     color: black;
     text-align: bottom;
-   
+    width: 270px;
     display: block;
     margin-left: auto;
     margin-right:35px;
+
+    display: blocK;
+    justify-content: space-between;
 }
 .Notre-Dame-de-la-Garde img 
 {
+   
+   
+
     width: 270px;
     height: 180px;
     float:none;
@@ -372,20 +388,22 @@ header ul
     text-align: justify;
     background:whitesmoke;
     color: black;
-    width: 270px;
+     width: 270px;
     display: block;
     margin-left: auto;
     margin-right:auto;
 }
 .parc_longchamp img 
 {
+    
+
     width: 270px;
     height: 240px;
     float: none;
-    margin:20px;
+     margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
-    background: red;
+    background: whitesmoke;
     color: black;
     width:270px;
     display: block;
@@ -611,6 +629,3 @@ circle
     border-bottom-left-radius: 1em;
     color: black;
 }
-
-
-    
