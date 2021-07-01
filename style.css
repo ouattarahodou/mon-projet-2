@@ -28,6 +28,16 @@ body
 {
     display: flex;
     margin-top: 2rem;
+
+    font-size:18px;
+    padding:50px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    height: 50px; 
+    padding-left: 2px;
+    color: black;
+    font-size: large;
     
 }
 
@@ -150,17 +160,21 @@ body
     justify-content: space-between;
    
 }
-.flex-itema
+.a_1 
 {  
-    float: left;
-    display: blocK;
-    justify-content: space-between;   
+    
+    
+    display: flex;
+    justify-content: space-between; 
+    float: left;  
 }
-.flex-itemb
+.a_2 
 {
-    display: blocK;
+    display: flex;
     justify-content: space-between;
-    float: right; 
+    float: right;
+    
+     
 }
 #hebergement_a_marseille ul
 {
@@ -170,7 +184,8 @@ body
 }
 .footer
 {
-    height: 300px;
+    height: 200px;
+    width: 1200px;
     float: left;
     list-style: none;
     background-color: whitesmoke;
@@ -178,6 +193,27 @@ body
     justify-content: flex-start;
     align-items: center;
      
+}
+.footer_column1
+{
+    float:left;
+    text-align: justify;
+    margin-right:2em; 
+    color: black;
+}
+.footer_column2
+{
+    float:left;
+    text-align:justify;
+    margin-right:5em;
+    color: black; 
+}
+.footer_column3
+{
+    text-align:justify;
+    float:left;
+    margin-right:1em; 
+    color: black; 
 }
 .footer li 
 {
@@ -189,6 +225,18 @@ header ul
 {
     list-style: none;
     color: black;
+}
+header 
+{
+    word-spacing: 5em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: large
+
+    
 }
 #activites_a_marseille
 {
@@ -212,12 +260,15 @@ header ul
     border-radius: 20px/20px;
     width: 250px;
 }
-vieux_portNN
+.circle
 {
-    background-color:white;
-    margin: 10px;
-    padding-right: 5px;
-    border-radius: 20px/20px;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    line-height: 55px;
+    text-align: center;
+    background-color:lightblue;
 }
 .img25 img
 {
@@ -301,7 +352,7 @@ vieux_portNN
     float: left;
     margin: 20px;
     border-radius: 20px/20px;
-    text-align: left;
+    text-align: justify;
     background: whitesmoke; 
     color: black;
     width: 270px;
@@ -309,13 +360,15 @@ vieux_portNN
     margin-left:auto;
     margin-right:35px;
 
-    display: blocK;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     justify-content: space-between;
 }
 .fort_de_pomegues img 
 {
     
-
+    
     width: 270px;
     height: 240px;
      float:none;
@@ -330,14 +383,16 @@ vieux_portNN
     margin-left: auto;
     margin-right:35px;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ile_du_frioul img 
 {
    
     
    
-
+   
     width: 270px;
     height: 180px;
     float:none;
@@ -352,7 +407,9 @@ vieux_portNN
     margin-right:35px;
     padding-bottom:1px;
 
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .parc_national_des_calanques img
@@ -374,12 +431,13 @@ vieux_portNN
 
     display: blocK;
     justify-content: space-between;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Notre-Dame-de-la-Garde img 
 {
-   
-   
-
     width: 270px;
     height: 180px;
     float:none;
@@ -392,15 +450,17 @@ vieux_portNN
     display: block;
     margin-left: auto;
     margin-right:auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .parc_longchamp img 
 {
-    
-
     width: 270px;
     height: 240px;
     float: none;
-     margin:20px;
+    margin:20px;
     border-radius: 20px/20px;
     text-align: justify;
     background: whitesmoke;
@@ -410,6 +470,10 @@ vieux_portNN
     margin-left: auto;
     margin-right: auto;
     padding-bottom:1px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .plus_populaire h3
 {
@@ -457,7 +521,7 @@ vieux_portNN
 
 .money 
 {
-   width: 180px;
+    width: 180px;
    height: 50px;
    border: 2px solid silver;
    border-radius: 50px;
@@ -467,7 +531,9 @@ vieux_portNN
    margin:18px;
    color: black;
    display: flex;
-   align-items: center; 
+   align-items: center;
+
+   
     
 
 }
