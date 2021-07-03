@@ -147,6 +147,7 @@ body
     margin-right: 400px;
     border-radius: 20px;
     height: 600px;
+    
 }
 .flex-item1
 {
@@ -258,7 +259,7 @@ header
     margin: 10px;
     padding-right: 5px;
     border-radius: 20px/20px;
-    width: 250px;
+    width: 210px;
 }
 .circle
 {
@@ -273,10 +274,8 @@ header
 .img25 img
 {
     display: grid;
-    
     width: 210px;
     height: 110px;
-   
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -286,10 +285,8 @@ header
 .img52 img 
 {
     display: grid;
-    
     width: 210px;
     height: 110px;
-    
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -298,10 +295,8 @@ header
 .img76 img 
 {
     display: grid;
-   
     width: 210px;
     height: 110px;
-   
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -310,10 +305,8 @@ header
 .img46 img 
 {
     display: grid;
-    
     width: 210px;
     height: 110px;
-    
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -322,10 +315,8 @@ header
 .img23 img 
 {
     display: grid;
-   
     width: 210px;
     height: 110px;
-   
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -334,10 +325,8 @@ header
 .img96 img 
 {
     display: grid;
-    
     width: 210px;
     height: 110px;
-    
     border-radius: 8px;
     padding: 1px;
     justify-content: space-between;
@@ -345,8 +334,6 @@ header
 }
 .vieux_port img
 {
-   
-    
     width:270px;
     height: 480px;
     float: left;
@@ -359,7 +346,6 @@ header
     display: block;
     margin-left:auto;
     margin-right:35px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,17 +368,12 @@ header
     display: block;
     margin-left: auto;
     margin-right:35px;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .ile_du_frioul img 
 {
-   
-    
-   
-   
     width: 270px;
     height: 180px;
     float:none;
@@ -406,7 +387,6 @@ header
     margin-left: auto;
     margin-right:35px;
     padding-bottom:1px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,8 +394,7 @@ header
 }
 .parc_national_des_calanques img
 {
-
-     width: 270px;
+    width: 270px;
     height: 480px;
     float:left;
     margin:20px;
@@ -428,10 +407,8 @@ header
     display: block;
     margin-left: auto;
     margin-right:35px;
-
     display: blocK;
     justify-content: space-between;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -446,11 +423,10 @@ header
     text-align: justify;
     background:whitesmoke;
     color: black;
-     width: 270px;
+    width: 270px;
     display: block;
     margin-left: auto;
     margin-right:auto;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -470,7 +446,6 @@ header
     margin-left: auto;
     margin-right: auto;
     padding-bottom:1px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -521,7 +496,7 @@ header
 
 .money 
 {
-    width: 180px;
+   width: 180px;
    height: 50px;
    border: 2px solid silver;
    border-radius: 50px;
@@ -561,9 +536,9 @@ header
      text-align: justify;
      float: left;
      margin: 18px;
-    color: black;
-    display: flex;
-    align-items: center;
+     color: black;
+     display: flex;
+     align-items: center;
 
 
      
@@ -578,8 +553,8 @@ header
      float: left;
      margin:18px;
      color: black;
-    display: flex;
-    align-items: center;
+     display: flex;
+     align-items: center;
 
      
 }
