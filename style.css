@@ -133,7 +133,7 @@ body
     padding: 1px 1px;
     border: 1px solid white;
     float: right;
-    margin:1px; 
+    margin:1px;
     color: black;
     display: blocK;
     width: 380px;
@@ -144,6 +144,7 @@ body
 {
     padding:1px;
     background-color: whitesmoke;
+    margin-top: 50px;
     margin-right: 400px;
     border-radius: 20px;
     height: 600px;
@@ -163,25 +164,18 @@ body
 }
 .a_1 
 {  
-    
-    
-    display: flex;
     justify-content: space-between; 
     float: left;  
 }
 .a_2 
-{
-    display: flex;
+{ 
     justify-content: space-between;
-    float: right;
-    
-     
+    float:right;   
 }
 #hebergement_a_marseille ul
 {
     list-style: none;
-    display: flex;
-    
+    display: flex;  
 }
 .footer
 {
@@ -190,10 +184,8 @@ body
     float: left;
     list-style: none;
     background-color: whitesmoke;
-    
     justify-content: flex-start;
-    align-items: center;
-     
+    align-items: center;   
 }
 .footer_column1
 {
@@ -220,7 +212,6 @@ body
 {
      list-style: none;
     color: black;
-
 }
 header ul 
 {
@@ -235,15 +226,10 @@ header
     align-items: center;
     justify-content: space-between;
     color: black;
-    font-size: large
-
-    
+    font-size: large  
 }
 #activites_a_marseille
 {
-    
-    
-    
     height:100%;
     width: 100%;
    
@@ -257,6 +243,7 @@ header
 {
     background-color:white;
     margin: 10px;
+    margin-top: 30px;
     padding-right: 5px;
     border-radius: 20px/20px;
     width: 210px;
@@ -280,7 +267,7 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
-   
+    border-radius: 20px 20px 2px 2px;
 }
 .img52 img 
 {
@@ -291,6 +278,7 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
 }
 .img76 img 
 {
@@ -301,6 +289,7 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
 }
 .img46 img 
 {
@@ -311,6 +300,7 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
 }
 .img23 img 
 {
@@ -321,6 +311,7 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
 }
 .img96 img 
 {
@@ -331,14 +322,15 @@ header
     padding: 1px;
     justify-content: space-between;
     align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
 }
 .vieux_port img
 {
     width:270px;
     height: 480px;
-    float: left;
+    float:left ;
     margin: 20px;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background: whitesmoke; 
     color: black;
@@ -359,12 +351,12 @@ header
     height: 240px;
      float:none;
      margin:20px;
-    border-radius: 20px/20px;
+     border-radius: 20px 20px 2px 2px;
     text-align: justify;
     margin-right: 320px;
     background: whitesmoke;
     color: black;
-     width:270px;
+    width:270px;
     display: block;
     margin-left: auto;
     margin-right:35px;
@@ -378,7 +370,7 @@ header
     height: 180px;
     float:none;
     margin:20px;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background: whitesmoke;
     color: black; 
@@ -398,7 +390,7 @@ header
     height: 480px;
     float:left;
     margin:20px;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background: whitesmoke;
     color: black;
@@ -419,7 +411,7 @@ header
     height: 180px;
     float:none;
     margin:20px;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background:whitesmoke;
     color: black;
@@ -437,7 +429,7 @@ header
     height: 240px;
     float: none;
     margin:20px;
-    border-radius: 20px/20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background: whitesmoke;
     color: black;
@@ -508,9 +500,10 @@ header
    display: flex;
    align-items: center;
 
-   
-    
-
+}
+.fa-money-bill-wave
+{
+    color: blue;
 }
 .child
 {
@@ -526,6 +519,10 @@ header
     align-items: center;
 
     
+}
+.fa-child
+{
+    color: blue;
 }
 .heart
 {
@@ -543,6 +540,10 @@ header
 
      
 }
+.fa-heart
+{
+    color: blue;
+}
 .dog
 {
      width: 200px;
@@ -558,6 +559,10 @@ header
 
      
 }
+.fa-dog
+{
+    color: blue;
+}
 .info
 {
     float:left; 
@@ -570,7 +575,7 @@ header
     background-color: white;
     margin-right:15px; 
     align-items: center; 
-    color: black;
+    color: blue;
 
   
 }
@@ -580,7 +585,7 @@ header
      display: flex;
      margin-bottom: 50px;
      font-size: large;
-
+    
     
 }
 .box_filtres
