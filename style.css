@@ -49,11 +49,16 @@ body
     border: 2px solid #d9d9d9;
    
 }
-.plus_populaire, h2 
+#plus_populaire, h2 
 {
     margin: 0;
     display: flex;
     justify-content: space-between;
+}
+.fa-chart-line
+{
+    display: flex;
+    padding: 20px;
 }
 .img128
 {
@@ -175,7 +180,8 @@ body
 #hebergement_a_marseille ul
 {
     list-style: none;
-    display: flex;  
+    display: flex;
+    padding: 0px;
 }
 .footer
 {
@@ -187,7 +193,7 @@ body
     justify-content: flex-start;
     align-items: center;   
 }
-.footer_column1
+.footer_column1  
 {
     float:left;
     text-align: justify;
@@ -208,9 +214,9 @@ body
     margin-right:1em; 
     color: black; 
 }
-.footer li 
+.footer ul 
 {
-     list-style: none;
+    list-style: none;
     color: black;
 }
 header ul 
@@ -233,6 +239,18 @@ header
     height:100%;
     width: 100%;
    
+}
+#activites_a_marseille h3 
+{
+    display: block;
+    font-size: 18px ;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 19px 24px;
+    color: black;
 }
 .search_header
 {
@@ -345,8 +363,6 @@ header
 }
 .fort_de_pomegues img 
 {
-    
-    
     width: 270px;
     height: 240px;
      float:none;
@@ -450,19 +466,22 @@ header
     margin-bottom: 0px;
     margin-left: 12px;
 }
-#plus_populaire p 
+#plus_populaire h3, p 
 {
-   margin: 4px 12px 4px 12px;
+  
+   display: flex;
+   padding: 0px;
+   color: black
+}
+#hebergement_a_marseille h3, p 
+{
+    color: black
 }
 #plus_populaire ul 
 {
     list-style: none;
-    list-style-position: initial;
-    list-style-image: initial;
-    display: inline-flex;
-    margin-block-start: 16px;
-    
-    
+    display: flex;
+    padding: 0px;
 }
 #plus_populaire img
 {
@@ -516,9 +535,7 @@ header
     margin:18px;
     color: black;
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;  
 }
 .fa-child
 {
