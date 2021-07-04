@@ -199,6 +199,7 @@ body
     text-align: justify;
     margin-right:2em; 
     color: black;
+    padding-inline-start: 1px;
 }
 .footer_column2
 {
@@ -218,21 +219,28 @@ body
 {
     list-style: none;
     color: black;
+    padding-inline-start: 1px;
+    font-size: 17px;
 }
-header ul 
+header ul  
 {
     list-style: none;
-    color: black;
+    color: blue;
+    word-spacing: 5em;
+    text-align: right;
+    display: inline-flex;
+    justify-content: space-between;
+    white-space: pre;
 }
 header 
 {
-    word-spacing: 5em;
-    text-align: left;
-    display: flex;
+    
+    
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    color: black;
-    font-size: large  
+    font-size: large
+    
+    
 }
 #activites_a_marseille
 {
@@ -275,6 +283,8 @@ header
     line-height: 55px;
     text-align: center;
     background-color:lightblue;
+    
+    
 }
 .img25 img
 {
@@ -482,6 +492,7 @@ header
     list-style: none;
     display: flex;
     padding: 0px;
+    
 }
 #plus_populaire img
 {
@@ -492,7 +503,6 @@ header
     border-bottom-left-radius: 20px;
   
 }
-
 #plus_populaire a 
 {
     display: flex;
@@ -502,9 +512,12 @@ header
 }
 .fa-star 
 {
-    color:blue;
+    color: blue;
 }
-
+.fas[data-active="false"]
+{
+    color: #d9d9d9;
+}
 .money 
 {
    width: 180px;
@@ -518,7 +531,7 @@ header
    color: black;
    display: flex;
    align-items: center;
-
+   
 }
 .fa-money-bill-wave
 {
