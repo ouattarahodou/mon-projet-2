@@ -155,6 +155,11 @@ body
     height: 600px;
     
 }
+.vieux_port, h3
+{
+    display: block;
+    color: black;
+}
 .flex-item1
 {
     display: flex;
@@ -193,6 +198,10 @@ body
     justify-content: flex-start;
     align-items: center;   
 }
+.footer ul a 
+{
+    color: black;
+}
 .footer_column1  
 {
     float:left;
@@ -200,6 +209,7 @@ body
     margin-right:2em; 
     color: black;
     padding-inline-start: 1px;
+    
 }
 .footer_column2
 {
@@ -222,15 +232,25 @@ body
     padding-inline-start: 1px;
     font-size: 17px;
 }
-header ul  
+ nav ul  li  
 {
     list-style: none;
     color: blue;
-    word-spacing: 5em;
     text-align: right;
     display: inline-flex;
     justify-content: space-between;
-    white-space: pre;
+    padding-right: 40px;
+    
+}
+header nav  [data-active="false"]
+{
+    color: black;
+    
+}
+header nav a 
+{
+    color: blue;
+   
 }
 header 
 {
@@ -259,6 +279,7 @@ header
     font-weight: bold;
     margin: 19px 24px;
     color: black;
+   
 }
 .search_header
 {
