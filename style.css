@@ -49,17 +49,24 @@ body
     border: 2px solid #d9d9d9;
    
 }
-#plus_populaire, h2 
+#plus_populaire, h2
 {
-    margin: 2;
+    margin-left: 30px;
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 40px;
+    
 }
 .fa-chart-line
 {
     display: flex;
-    margin-right: 3em;
+    margin-right: 2em;
+    margin-top: 1px;
+}
+.img128, h2, p 
+{
+    margin-right: 0em;
+    line-height: 1px;
 }
 .img128
 {
@@ -74,7 +81,7 @@ body
     margin-right: 1px;
     padding-bottom: 5px;
     padding-top: 1px;
-    margin-left:22px;
+    margin-left:45px;
 
     
 }
@@ -112,16 +119,19 @@ body
 .popular1, .popular_128, .popular_space_1
 {
     background-color:white;
-    margin:20px;
-    padding-right: 2px;
+    margin:12px;
+    margin-right: 12px;
+    margin-left: 10px;
+    padding-right: 21px;
     border-radius: 20px/20px;
     width: 80%;
     padding-bottom:0px;
+    padding-left: 0px;
 }
 .popular2, .popula_71, .popular_space_2
 {
     background-color:white;
-    margin:20px;
+    margin:37px;
     padding-right: 2px;
     border-radius: 20px/20px;
     width: 80%;
@@ -130,7 +140,7 @@ body
 .popular3, .popula_68, .popular_space_3
 {
     background-color:white;
-    margin:20px;
+    margin:37px;
     padding-right: 2px;
     border-radius: 20px/20px;
     width: 80%;
@@ -138,7 +148,7 @@ body
 }
 #plus_populaire  
 {
-    padding: 0px;
+    padding: 1px;
     background-color: whitesmoke;
     border-radius: 20px;
     height: 690px;
@@ -146,24 +156,29 @@ body
     border: 1px solid white;
     float: right;
     margin-left:5px;
+    padding-top: 42px;
     color: black;
     display: blocK;
     width: 380px;
     justify-content: right;
     
 }
-#activites_a_marseille h2
+#activites_a_marseille, h2
 {
-    margin-bottom: 25px;
-    line-height: 115px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    line-height: 45px;
 }
-#hebergement_a_marseille h2
+#hebergement_a_marseille, h2
 {
-    margin: 2px;
+    margin: 5px;
+    
 }
 #hebergement_a_marseille
 {
-    padding:20px;
+    padding: 35px;
+    padding-bottom: 30px;
+    padding-top: 42px;
     background-color: whitesmoke;
     margin-top: 50px;
     margin-right: 400px;
@@ -531,7 +546,7 @@ header
   
    display: flex;
    padding: 0px;
-   color: black
+   color: black;  
 }
 #hebergement_a_marseille h3, p 
 {
@@ -715,34 +730,6 @@ a, a:hover, a:visited, a:active
     border: none;
     
         
-}
-logement
-{
-    text-align: horizontal;
-    float:left;
-    width:500px
-
-
-
-    
-
-}
-populaire_line h2
-{
-     display: flex;
-     justify-content: space-between;
-     align-items: flex-start
-       
-}
-circle
-{
-    height: 52px;
-    width: 52px;
-    border-radius: 50%;
-    border: 1px solid whitesmoke;
-    line-height: 55px;
-    text-align: center;
-    background-color:lightblue;
 }
 .search_map
 {
