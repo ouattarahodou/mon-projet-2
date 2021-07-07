@@ -28,7 +28,6 @@ body
 {
     display: flex;
     margin-top: 2rem;
-
     font-size:18px;
     padding:50px;
     font-style: normal;
@@ -39,15 +38,6 @@ body
     color: black;
     font-size: large;
     
-}
-
-.money
-{
-    display: flex;
-    align-items: center;
-    margin-right: 32px;
-    border: 2px solid #d9d9d9;
-   
 }
 #plus_populaire, h2
 {
@@ -201,7 +191,8 @@ body
 .a_1 
 {  
     justify-content: space-between; 
-    float: left;  
+    float: left;
+     
 }
 .a_2 
 { 
@@ -286,6 +277,10 @@ header nav  [data-active="false"]
     color: black;
     
 }
+header ul  
+{
+    margin-left: 697px;
+}
 header nav a 
 {
     color: blue;
@@ -295,7 +290,7 @@ header
 {
     display: inline-flex;
     align-items: center;
-    font-size: large  
+    font-size: large 
 }
 #activites_a_marseille
 {
@@ -318,11 +313,12 @@ header
 }
 #un h3
 {
-    position: absolute;bottom: 0;
+    position: absolute;top: 100em;
 }
 #quatre h3
 {
-    position: absolute;bottom: 0;
+    position: absolute;top: 100em;
+    margin-left: 35em;
     
 }
 .search_header
@@ -348,7 +344,7 @@ header
     line-height: 55px;
     text-align: center;
     background-color:lightblue;
-   
+    margin-right: 8px;
         
 }
 .img25 img
@@ -441,8 +437,8 @@ header
     width: 270px;
     height: 240px;
      float:none;
-     margin:20px;
-     border-radius: 20px 20px 2px 2px;
+     margin: 20px;
+    border-radius: 20px 20px 2px 2px;
     text-align: justify;
     margin-right: 320px;
     background: whitesmoke;
@@ -454,6 +450,7 @@ header
     display: flex;
     align-items: center;
     justify-content: center;
+     
 }
 .ile_du_frioul img 
 {
@@ -473,7 +470,8 @@ header
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    
+    
 }
 .parc_national_des_calanques img
 {
@@ -597,6 +595,7 @@ header
    display: flex;
    align-items: center;
    margin-left: 2em;
+   
 }
 .fa-money-bill-wave
 {
@@ -614,7 +613,8 @@ header
     margin:18px;
     color: black;
     display: flex;
-    align-items: center;  
+    align-items: center; 
+    
 }
 .fa-child
 {
