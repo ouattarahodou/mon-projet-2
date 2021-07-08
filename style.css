@@ -1,7 +1,7 @@
 
 body
 {
-    max-width: 1440px;
+    max-width: auto;
     margin: auto;
     margin-top: auto;
     margin-right: auto;
@@ -197,7 +197,7 @@ body
 .a_2 
 { 
     justify-content: space-between;
-    float:right;   
+    float: left;   
 }
 #hebergement_a_marseille ul
 {
@@ -226,7 +226,6 @@ body
     margin-right:5em;
     margin-left: 2em; 
     color: black;
-    padding-inline-start: 1px;
     line-height: 30px;
     
 }
@@ -250,7 +249,7 @@ body
 {
     list-style: none;
     color: black;
-    padding-inline-start: 1px;
+    padding-inline-start: 2px;
     font-size: 17px;
 }
  nav ul  li  
@@ -302,10 +301,7 @@ header
 {
     display: block;
     font-size: 18px ;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    
     font-weight: bold;
     margin: 19px 24px;
     color: black;
@@ -349,7 +345,7 @@ header
 }
 .img25 img
 {
-    display: grid;
+    
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -360,7 +356,7 @@ header
 }
 .img52 img 
 {
-    display: grid;
+    
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -371,7 +367,7 @@ header
 }
 .img76 img 
 {
-    display: grid;
+    
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -382,7 +378,7 @@ header
 }
 .img46 img 
 {
-    display: grid;
+    
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -393,7 +389,7 @@ header
 }
 .img23 img 
 {
-    display: grid;
+   
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -404,7 +400,7 @@ header
 }
 .img96 img 
 {
-    display: grid;
+    
     width: 210px;
     height: 110px;
     border-radius: 8px;
@@ -482,7 +478,6 @@ header
     border-radius: 20px 20px 2px 2px;
     text-align: justify;
     background: whitesmoke;
-    text-align: bottom;
     width: 270px;
     display: block;
     margin-left: auto;
@@ -718,12 +713,9 @@ a, a:hover, a:visited, a:active
     background-color: blue;
     border-bottom-right-radius: 1em;
     border-top-right-radius: 1em;
-    padding:20px;
-   
-    justify-content: baseline; 
+    padding:20px; 
     display: flex;
     align-items: center;
-
     background-color: #0065FC;
     color: white;
     font-weight: bold;
@@ -743,3 +735,67 @@ a, a:hover, a:visited, a:active
     border-bottom-left-radius: 1em;
     color: black;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+body 
+{
+    background-color: crimson;
+    flex-direction: column;
+}
+header  
+{
+    flex-direction: column;
+    color: cyan;
+}
+.footer
+{
+    flex-direction: column;
+}
+.info_plus 
+{
+    flex-direction: column;
+}
+#plus_populaire
+{
+    flex-direction: column;
+}
+#hebergement_a_marseille
+{
+    flex-direction: column;
+}
+#hebergement_a_marseille img 
+{
+    flex-direction: column;
+    width: 210px;
+    height: 110px;
+    border-radius: 8px;
+    padding: 1px;
+    justify-content: space-between;
+    align-content: space-between;
+    border-radius: 20px 20px 2px 2px;
+}
+#activites_a_marseille
+{
+    flex-direction: column;
+}
+#header_vacation
+{
+    flex-direction: column;
+}
+#box_filtres
+{
+    flex-direction: column;
+}
+   
+    
+    
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  
