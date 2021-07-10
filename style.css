@@ -39,7 +39,7 @@ body
     font-size: large;
     flex-flow: row wrap;
 }
-#plus_populaire, h2
+.plus_populaire, h2
 {
     margin-left: 30px;
     display: flex;
@@ -59,7 +59,7 @@ body
     margin-right: 0em;
     line-height: 1px;
 }
-.img128
+.img128 img 
 {
     width:100px;
     height:110px;
@@ -76,7 +76,7 @@ body
 
     
 }
-.img71
+.img71 img 
 {
     width:100px;
     height:110px;
@@ -89,9 +89,9 @@ body
     margin-right: 1px;
     padding-bottom: 0px;
     padding-top: 1px;
-    margin-left:22px;
+    margin-left: 22px;
 }
-.img68 
+.img68 img 
 {
     width:100px;
     height:110px;
@@ -120,9 +120,15 @@ body
     padding-left: 0px;
     
 }
+#hebergement
+{
+    display: inline-flex;
+    align-items: center;
+    
+}
 .popular2, .popula_71, .popular_space_2
 {
-    background-color:white;
+    background-color: white;
     margin:37px;
     padding-right: 2px;
     border-radius: 20px/20px;
@@ -140,20 +146,20 @@ body
     padding-bottom:0px;
     
 }
-#plus_populaire  
+.plus_populaire  
 {
     padding: 1px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 20px;
-    height: 690px;
+    height: auto;
     padding: 1px 1px;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
     float: right;
     margin-left:5px;
     padding-top: 42px;
     color: black;
     display: blocK;
-    width: 380px;
+    width: auto;
     justify-content: right;
     
 }
@@ -163,12 +169,12 @@ body
     margin-top: 60px;
     line-height: 45px;
 }
-#hebergement_a_marseille, h2
+.hebergement_a_marseille, h2
 {
     margin: 5px;
     
 }
-#hebergement_a_marseille
+.hebergement_a_marseille
 {
     padding: 35px;
     padding-bottom: 30px;
@@ -206,7 +212,7 @@ body
     float: left; 
     
 }
-#hebergement_a_marseille ul
+.hebergement_a_marseille ul
 {
     list-style: none;
     display: flex;
@@ -337,6 +343,7 @@ header
 {
     flex: content;
     display: flex;
+    
 }
 .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
 {
@@ -550,34 +557,34 @@ header
     margin-bottom: 0px;
     margin-left: 12px;
 }
-#plus_populaire h3, p 
+.plus_populaire h3, p 
 {
   
    display: flex;
    padding: 0px;
    color: black;  
 }
-#hebergement_a_marseille h3, p 
+.hebergement_a_marseille h3, p 
 {
     color: black
 }
-#plus_populaire ul 
+.plus_populaire ul 
 {
     list-style: none;
     display: flex;
     padding: 0px;
     
 }
-#plus_populaire img
+.plus_populaire 
 {
     width:120px;
     height:150px;
     float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-  
+    border-radius: 40px;
 }
-#plus_populaire a 
+.plus_populaire a 
 {
     display: flex;
     align-items: stretch;
@@ -758,19 +765,8 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        max-width: auto;
-        margin: auto;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        padding: 32px;
-        padding-top: 0px;
-        padding-right: 32px;
-        padding-bottom: 0px;
-        padding-left: 32px;
-        box-sizing: border-box;
-        display: block;
+        width: auto;
+        
         background-color: crimson;
        
     }
@@ -796,7 +792,7 @@ a, a:hover, a:visited, a:active
         font-size: large;
         
     }
-    #plus_populaire, h2
+    .plus_populaire, h2
     {
         margin-left: 30px;
         display: flex;
@@ -874,6 +870,8 @@ a, a:hover, a:visited, a:active
         width: 80%;
         padding-bottom:0px;
         padding-left: 0px;
+        width: auto;
+        margin-bottom: 15px;
     }
     .popular2, .popula_71, .popular_space_2
     {
@@ -883,6 +881,8 @@ a, a:hover, a:visited, a:active
         border-radius: 20px/20px;
         width: 80%;
         padding-bottom:0px;
+        width: auto;
+        margin-bottom: 15px;
     }
     .popular3, .popula_68, .popular_space_3
     {
@@ -892,8 +892,10 @@ a, a:hover, a:visited, a:active
         border-radius: 20px/20px;
         width: 80%;
         padding-bottom:0px;
+        width: auto;
+        margin-bottom: 15px;
     }
-    #plus_populaire  
+    .plus_populaire  
     {
         padding: 1px;
         background-color: whitesmoke;
@@ -908,7 +910,8 @@ a, a:hover, a:visited, a:active
         display: blocK;
         width: 380px;
         justify-content: right;
-
+        flex-direction: column;
+        
         
     }
     #activites_a_marseille, h2
@@ -917,12 +920,12 @@ a, a:hover, a:visited, a:active
         margin-top: 60px;
         line-height: 45px;
     }
-    #hebergement_a_marseille, h2
+    .hebergement_a_marseille, h2
     {
         margin: 5px;
         
     }
-    #hebergement_a_marseille
+    .hebergement_a_marseille
     {
         padding: 35px;
         padding-bottom: 30px;
@@ -932,6 +935,7 @@ a, a:hover, a:visited, a:active
         margin-right: 400px;
         border-radius: 20px;
         height: 660px;
+        flex-direction: column;
         
     }
     .flex-item1
@@ -957,7 +961,7 @@ a, a:hover, a:visited, a:active
         justify-content: space-between;
         float: left;   
     }
-    #hebergement_a_marseille ul
+    .hebergement_a_marseille ul
     {
         list-style: none;
         display: flex;
@@ -971,11 +975,13 @@ a, a:hover, a:visited, a:active
         list-style: none;
         background-color: whitesmoke;
         justify-content: flex-start;
-        align-items: center;   
+        align-items: center; 
+        
     }
     .footer ul a 
     {
         color: black;
+        
     }
     .footer_column1  
     {
@@ -994,6 +1000,7 @@ a, a:hover, a:visited, a:active
         margin-right:5em;
         color: black;
         line-height: 30px;
+        
     }
     .footer_column3
     {
@@ -1002,6 +1009,7 @@ a, a:hover, a:visited, a:active
         margin-right:5em; 
         color: black;
         line-height: 30px;
+        
     }
     .footer ul 
     {
@@ -1009,6 +1017,7 @@ a, a:hover, a:visited, a:active
         color: black;
         padding-inline-start: 2px;
         font-size: 17px;
+       
     }
      nav ul  li  
     {
@@ -1018,6 +1027,7 @@ a, a:hover, a:visited, a:active
         display: inline-flex;
         justify-content: space-between;
         padding-right: 40px;
+       
         
     }
     .show_more
@@ -1087,6 +1097,7 @@ a, a:hover, a:visited, a:active
         padding-right: 5px;
         border-radius: 20px/20px;
         width: 210px;
+        
     }
     .circle
     {
@@ -1319,25 +1330,25 @@ a, a:hover, a:visited, a:active
         margin-bottom: 0px;
         margin-left: 12px;
     }
-    #plus_populaire h3, p 
+    .plus_populaire h3, p 
     {
       
        display: flex;
        padding: 0px;
        color: black;  
     }
-    #hebergement_a_marseille h3, p 
+    .hebergement_a_marseille h3, p 
     {
         color: black
     }
-    #plus_populaire ul 
+    .plus_populaire ul 
     {
         list-style: none;
         display: flex;
         padding: 0px;
         
     }
-    #plus_populaire img
+    .plus_populaire img
     {
         width:120px;
         height:150px;
@@ -1346,7 +1357,7 @@ a, a:hover, a:visited, a:active
         border-bottom-left-radius: 20px;
       
     }
-    #plus_populaire a 
+    .plus_populaire a 
     {
         display: flex;
         align-items: stretch;
@@ -1563,7 +1574,7 @@ a, a:hover, a:visited, a:active
         font-size: large;
         
     }
-    #plus_populaire, h2
+    .plus_populaire, h2
     {
         margin-left: 30px;
         display: flex;
@@ -1660,7 +1671,7 @@ a, a:hover, a:visited, a:active
         width: 80%;
         padding-bottom:0px;
     }
-    #plus_populaire  
+    .plus_populaire  
     {
         padding: 1px;
         background-color: whitesmoke;
@@ -1683,12 +1694,12 @@ a, a:hover, a:visited, a:active
         margin-top: 60px;
         line-height: 45px;
     }
-    #hebergement_a_marseille, h2
+    .hebergement_a_marseille, h2
     {
         margin: 5px;
         
     }
-    #hebergement_a_marseille
+    .hebergement_a_marseille
     {
         padding: 35px;
         padding-bottom: 30px;
@@ -1723,7 +1734,7 @@ a, a:hover, a:visited, a:active
         justify-content: space-between;
         float: left;   
     }
-    #hebergement_a_marseille ul
+    .hebergement_a_marseille ul
     {
         list-style: none;
         display: flex;
@@ -2057,25 +2068,25 @@ a, a:hover, a:visited, a:active
         margin-bottom: 0px;
         margin-left: 12px;
     }
-    #plus_populaire h3, p 
+    .plus_populaire h3, p 
     {
       
        display: flex;
        padding: 0px;
        color: black;  
     }
-    #hebergement_a_marseille h3, p 
+    .hebergement_a_marseille h3, p 
     {
         color: black
     }
-    #plus_populaire ul 
+    .plus_populaire ul 
     {
         list-style: none;
         display: flex;
         padding: 0px;
         
     }
-    #plus_populaire img
+    .plus_populaire img
     {
         width:120px;
         height:150px;
@@ -2084,7 +2095,7 @@ a, a:hover, a:visited, a:active
         border-bottom-left-radius: 20px;
       
     }
-    #plus_populaire a 
+    .plus_populaire a 
     {
         display: flex;
         align-items: stretch;
@@ -2305,7 +2316,7 @@ a, a:hover, a:visited, a:active
         font-size: large;
         
     }
-    #plus_populaire, h2
+    .plus_populaire, h2
     {
         margin-left: 30px;
         display: flex;
@@ -2402,7 +2413,7 @@ a, a:hover, a:visited, a:active
         width: 80%;
         padding-bottom:0px;
     }
-    #plus_populaire  
+    .plus_populaire  
     {
         padding: 1px;
         background-color: whitesmoke;
@@ -2425,12 +2436,12 @@ a, a:hover, a:visited, a:active
         margin-top: 60px;
         line-height: 45px;
     }
-    #hebergement_a_marseille, h2
+    .hebergement_a_marseille, h2
     {
         margin: 5px;
         
     }
-    #hebergement_a_marseille
+    .hebergement_a_marseille
     {
         padding: 35px;
         padding-bottom: 30px;
@@ -2465,7 +2476,7 @@ a, a:hover, a:visited, a:active
         justify-content: space-between;
         float: left;   
     }
-    #hebergement_a_marseille ul
+    .hebergement_a_marseille ul
     {
         list-style: none;
         display: flex;
@@ -2800,25 +2811,25 @@ a, a:hover, a:visited, a:active
         margin-bottom: 0px;
         margin-left: 12px;
     }
-    #plus_populaire h3, p 
+    .plus_populaire h3, p 
     {
       
        display: flex;
        padding: 0px;
        color: black;  
     }
-    #hebergement_a_marseille h3, p 
+    .hebergement_a_marseille h3, p 
     {
         color: black
     }
-    #plus_populaire ul 
+    .plus_populaire ul 
     {
         list-style: none;
         display: flex;
         padding: 0px;
         
     }
-    #plus_populaire img
+    .plus_populaire img
     {
         width:120px;
         height:150px;
@@ -2827,7 +2838,7 @@ a, a:hover, a:visited, a:active
         border-bottom-left-radius: 20px;
       
     }
-    #plus_populaire a 
+    .plus_populaire a 
     {
         display: flex;
         align-items: stretch;
