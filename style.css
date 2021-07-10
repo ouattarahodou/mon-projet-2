@@ -63,6 +63,8 @@ body
 {
     width:100px;
     height:110px;
+    
+   
     float: right;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -72,8 +74,6 @@ body
     margin-right: 1px;
     padding-bottom: 5px;
     padding-top: 1px;
-    margin-left:45px;
-
     
 }
 .img71 img 
@@ -99,7 +99,7 @@ body
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin:12px;
-    margin-left:2px;
+    margin-left: 2px;
     margin-bottom: 1px;
     margin-top: 1px;
     margin-right: 1px;
@@ -109,7 +109,6 @@ body
 }
 .popular1, .popular_128, .popular_space_1
 {
-    background-color:white;
     margin:12px;
     margin-right: 12px;
     margin-left: 10px;
@@ -118,6 +117,7 @@ body
     width: 80%;
     padding-bottom:0px;
     padding-left: 0px;
+    
     
 }
 #hebergement
@@ -138,7 +138,7 @@ body
 }
 .popular3, .popula_68, .popular_space_3
 {
-    background-color:white;
+    background-color: white;
     margin:37px;
     padding-right: 2px;
     border-radius: 20px/20px;
@@ -146,7 +146,7 @@ body
     padding-bottom:0px;
     
 }
-.plus_populaire  
+.plus_populaire
 {
     padding: 1px;
     background-color: white;
@@ -154,13 +154,14 @@ body
     height: auto;
     padding: 1px 1px;
     border: 1px solid whitesmoke;
-    float: right;
+    float: left;
     margin-left:5px;
     padding-top: 42px;
     color: black;
     display: blocK;
     width: auto;
     justify-content: right;
+    
     
 }
 #activites_a_marseille, h2
@@ -347,7 +348,7 @@ header
 }
 .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
 {
-    background-color:white;
+    background-color: red;
     margin: 10px;
     margin-top: 30px;
     padding-right: 5px;
