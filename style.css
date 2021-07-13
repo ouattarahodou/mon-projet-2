@@ -185,47 +185,52 @@ body
     padding: 0px;
     
 }
-#footer
+#footer   
 {
     height: 210px;
     width: 1200px;
     float: left;
-   
     background-color: whitesmoke;
+    font-size: 17px;
     
 }
-footerc cul ca 
+#footer ul 
 {
     color: black;
+    list-style: none;
+    line-height: 40px;
     
 }
-.footer_column1 a
+#footer a  
 {
-    float:left;
-    
     color: black;
 }
-.footer_column2 a
+.footer_column1 
 {
     float:left;
-    
+    color: black;
+    margin-right: 25px;
+}
+.footer_column2 
+{
+    float:left;
     color: black; 
-    
+    margin-right: 25px;
 }
-.footer_column3 a
+.footer_column3 
 {
    
     float:left; 
     color: black; 
     
 }
-footerc ulc 
+#footer h3   
 {
-    list-style: none;
+    margin-right: 5px;
     color: black;
     padding-inline-start: 2px;
     font-size: 17px;
-    
+    margin-left: 35px;
 }
 nav ul  li 
 {
@@ -490,6 +495,10 @@ header
     margin-bottom: 0px;
     margin-left: 12px;
 }
+.plus_populaire h2 
+{
+    position: absolute; top: 18em;
+}
 .plus_populaire h3, p 
 {
   
@@ -503,16 +512,34 @@ header
     border-radius: 20px;
     
 }
-.hebergement_a_marseille h3, p 
+.hebergement_a_marseille h3   
 {
-    color: black
+    color: black;
+    margin-left: 15px;
+    line-height: 4px;
 }
-.plus_populaire, ul 
+.hebergement_a_marseille p
+{
+    color: black;
+    margin-left: 15px;
+    line-height: 4px;
+}
+.hebergement_a_marseille ul 
+{
+    margin-left: 15px;
+    line-height: 4px;
+}
+.plus_populaire ul 
 {
     list-style: none;
     display: flex;
-    padding: 0px;
-    
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 3em;
+}
+.plus_populaire p 
+{
+    margin-left: 14px;
 }
 .plus_populaire 
 {
@@ -726,12 +753,14 @@ a, a:hover, a:visited, a:active
     {
         flex-flow: wrap;
         background-color: white;
+        display: inline-flex;
     }
-    .info_plus
+    .info_plus  
     {
-        flex-flow: wrap;
+        
         margin-top: 18em;
         margin-left: 4px;
+        
         
     }
     #hebergement
@@ -741,6 +770,11 @@ a, a:hover, a:visited, a:active
         margin-bottom: 15px;
         margin-top: 1px;
         
+    }
+    .plus_populaire
+    {
+        flex-direction: column;
+        margin-left: 0em;
     }
     .flex-item1
     {
@@ -768,18 +802,34 @@ a, a:hover, a:visited, a:active
         height:110px;
         flex-direction: column;
         background-color: white;
+        border: 1px solid white;
+        padding: 1px;
+        
     }
-    #activites_a_marseille img 
+    .containerActivity1 h3
+    {
+        position: absolute;
+        padding-top: 11em;
+        
+    }
+    .containerActivity2 h3
+    {
+        position: absolute;
+        padding-top: 145em;
+    }
+    #activites_a_marseille img  
     {
         width:320px;
         height:190px;
         flex-direction: column;
+        border: 1px solid white;
+        padding: 1px;
         
     }
-    .footer
+    #footer
     {
         flex-direction: column;
-        height: 400px;
+        
     }
 
 } 
