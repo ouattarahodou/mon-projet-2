@@ -826,6 +826,16 @@ a, a:hover, a:visited, a:active
         padding: 1px;
         
     }
+    .containerActivity1
+    {
+        border: 1px solid white;
+        padding: 1px;
+        width: 320px;
+        height: 278px;
+        padding-top: 0px;
+        border-radius: 20px;
+        background-color: white;
+    }
     #footer
     {
         flex-direction: column;
