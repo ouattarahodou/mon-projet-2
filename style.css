@@ -45,19 +45,16 @@ body
 .plus_populaire h2
 {
     margin-left: 30px;
-    display: flex;
-    justify-content: space-between;
-    line-height: 120px;
-    
-    
+    line-height: 120px;  
 }
 .fa-chart-line
 {
-    display: flex;
     margin-left: 5em;
-    line-height: 120px;
-    flex-flow: row wrap;
-    
+    line-height: 120px; 
+}
+.plus_populaire h2 .fa-chart-line
+{
+    display: inline-flex;
 }
 .img128 img 
 {
@@ -96,7 +93,7 @@ body
 }
 .hebergement_a_marseille h2 
 {
-   
+    margin-left: 15px;
     line-height: 12px;
 }
 .popular1, .popular2, .popular3
@@ -771,10 +768,10 @@ a, a:hover, a:visited, a:active
     }
     .signup
     {
-        display: inline-flex;
+        margin-bottom: 1em;
         float: right;
-        line-height: 0em;
-        padding-bottom: 2em;
+        line-height: 1px;
+        
     }
     header nav [data-active="true"] [data-active="false"]
     {
@@ -835,6 +832,11 @@ a, a:hover, a:visited, a:active
         height: 200px;
         background-color: whitesmoke;
         border: 2px solid white;
+    }
+    .plus_populaire h2 .fa-chart-line
+    {
+        display: inline-flex;
+        padding-top: 21em;
     }
     .popular1, .popular2, .popular3 
     {
