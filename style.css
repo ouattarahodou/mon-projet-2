@@ -42,27 +42,22 @@ body
     color: black;
     font-size: large;
 }
-.plus_populaire, h2
+.plus_populaire h2
 {
     margin-left: 30px;
     display: flex;
     justify-content: space-between;
-    
+    line-height: 120px;
     
     
 }
 .fa-chart-line
 {
     display: flex;
-    margin-right: 2em;
-    margin-top: 1px;
+    margin-left: 5em;
+    line-height: 120px;
     flex-flow: row wrap;
     
-}
-.img128, h2, p 
-{
-    margin-right: 0em;
-    line-height: 1px;
 }
 .img128 img 
 {
@@ -101,7 +96,8 @@ body
 }
 .hebergement_a_marseille h2 
 {
-    margin-top: 1em;
+   
+    line-height: 12px;
 }
 .popular1, .popular2, .popular3
 {
@@ -112,6 +108,16 @@ body
     margin: 2em;
     margin-bottom: 20px;
     position: relative; bottom: 6em;
+}
+vieux_port 
+{
+    border: 1px solid white;
+    padding: 1px;
+    width: 270px;
+    height: 480px;
+    padding-top: 0px;
+    border-radius: 20px;
+    background-color: white;
 }
 #activites_a_marseille
 {
@@ -166,11 +172,12 @@ body
     
     
 }
-.a_1 
+.a_1
 {  
     justify-content: space-between; 
     float: left;
     margin-right: 45px;
+    
 }
 .a_2 
 { 
@@ -185,7 +192,7 @@ body
     padding: 0px;
     
 }
-#footer   
+#footer 
 {
     height: 210px;
     width: 1200px;
@@ -224,7 +231,7 @@ body
     color: black; 
     
 }
-#footer h3   
+#footer h3 
 {
     margin-right: 5px;
     color: black;
@@ -368,6 +375,22 @@ header
     align-content: space-between;
     border-radius: 20px 20px 2px 2px;
 }
+activites_a_marseille h3
+{
+    background-color: white;
+    color: black;
+    font-style: italic;
+    border: 1px solid white;
+    padding: 1px;
+    margin-left: 4px;
+    width:270px;
+    border-radius: 20px;
+    background-color: white;
+}
+activites_a_marseille img 
+{
+    width:270px;
+}
 .vieux_port img
 {
     width:270px;
@@ -386,6 +409,8 @@ header
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    border: 1px solid white;
+    
 }
 .fort_de_pomegues img 
 {
@@ -510,7 +535,7 @@ header
 {
     background-color: whitesmoke;
     border-radius: 20px;
-    
+    height: 685px;
 }
 .hebergement_a_marseille h3   
 {
@@ -544,13 +569,15 @@ header
 .plus_populaire 
 {
     width:400px;
-    height: 660px;
+    height: 500px;
     float: left;
     flex-direction: column;
     border-radius: 20px;
-    margin-right: 320px;
+    margin-left: 30px;
     background-color: whitesmoke;
-    padding-top: 4em;
+    padding-top: 11em;
+    margin-top: 10px;
+    
     color: black;
     
     
@@ -736,11 +763,24 @@ a, a:hover, a:visited, a:active
     }
     header ul 
     {
-        flex-flow: wrap;
+        
         margin-left: 10px;
         height: 100px;
         list-style: none;
         padding: 0px;
+    }
+    .signup
+    {
+        display: inline-flex;
+        float: right;
+        line-height: 0em;
+        padding-bottom: 2em;
+    }
+    header nav [data-active="true"] [data-active="false"]
+    {
+        display: inline-flex;
+        white-space: pre-wrap;
+        
     }
     .search_button
     {
@@ -769,7 +809,6 @@ a, a:hover, a:visited, a:active
         margin-right: 15em;
         margin-bottom: 15px;
         margin-top: 1px;
-        
     }
     .plus_populaire
     {
@@ -793,8 +832,17 @@ a, a:hover, a:visited, a:active
     .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
     {
         width: 320px;
+        height: 200px;
+        background-color: whitesmoke;
+        border: 2px solid white;
+    }
+    .popular1, .popular2, .popular3 
+    {
+        width: 350px;
+        height: 140px;
+        padding: 5px;
+        margin-left: 15px;
         background-color: white;
-        
     }
     .hebergement_a_marseille img 
     {
@@ -804,42 +852,44 @@ a, a:hover, a:visited, a:active
         background-color: white;
         border: 1px solid white;
         padding: 1px;
-        
     }
-    .containerActivity1 h3
+    .containerActivity
+    {
+        width: 320px;
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    containerActivity1 h3 
     {
         position: absolute;
         padding-top: 11em;
         
     }
-    .containerActivity2 h3
+    containerActivity2 h3
     {
         position: absolute;
         padding-top: 145em;
     }
-    #activites_a_marseille img  
+    #activites_a_marseille
+    {
+        width: 350px;
+        height: 1200px;
+        background-color: red;
+    }
+    #activites_a_marseille img 
     {
         width:320px;
-        height:190px;
+        height:110px;
         flex-direction: column;
-        border: 1px solid white;
-        padding: 1px;
         
-    }
-    .containerActivity1
-    {
-        border: 1px solid white;
-        padding: 1px;
-        width: 320px;
-        height: 278px;
-        padding-top: 0px;
-        border-radius: 20px;
-        background-color: white;
+        
     }
     #footer
     {
-        flex-direction: column;
-        
+       flex-flow: column;
+       width: 350px;
+       height: 490px;
+       background-color: whitesmoke;
     }
 
 } 
