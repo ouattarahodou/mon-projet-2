@@ -874,9 +874,9 @@ a, a:hover, a:visited, a:active
     }
     #activites_a_marseille
     {
-        width: 350px;
-        height: 1200px;
-        background-color: red;
+        height: auto;
+        margin-top: 60em;
+        background-color: white;
     }
     #activites_a_marseille img 
     {
