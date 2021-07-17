@@ -665,6 +665,11 @@ a, a:hover, a:visited, a:active
         list-style: none;
         padding: 0px;
     }
+    #header_group
+    {
+        background-color: white;
+        
+    }
     .signup
     {
         margin-bottom: 1em;
@@ -767,6 +772,7 @@ a, a:hover, a:visited, a:active
         margin-left: 0px;
         width: 400px;
         height: 1500px;
+        
     }
     #activites_a_marseille h2
     {
@@ -785,7 +791,6 @@ a, a:hover, a:visited, a:active
     {
         width:330px;
         height:110px;
-        
         flex-flow: column;
         
     }
