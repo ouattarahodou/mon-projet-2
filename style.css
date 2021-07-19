@@ -443,7 +443,8 @@ figcaption
 {
     position: absolute; top: 17em;
     padding-bottom: 10px;
-    display: flex;   
+    display: flex; 
+    
 }
 .plus_populaire h3, p 
 {
@@ -660,13 +661,13 @@ a, a:hover, a:visited, a:active
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 480px and down) */
+@media  all and (max-device-width: 480px) {
 
     body
     {
-        background-color: whitesmoke;
-       
+        background-color: red;
+        width: auto;
     }
     header 
     {
@@ -830,67 +831,60 @@ a, a:hover, a:visited, a:active
     }
 
 } 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
+  /* Small devices (portrait tablets and large phones, 480px and up) */
+  @media  (min-width: 480px) {
 
     body
     {
         width: auto;
-        background-color: wheat;
+        background-color: blueviolet;
         padding: 0;
-        max-width: 1440px;
+        width: auto;
         margin: auto;
         padding: 0 2rem;
-        box-sizing: border-box;
+        
     }
     header
     {
-        padding: 15px;
+        background-color: white;
 
-        text-align: center;
-        font-size: 14px;
+        
+        
     }
     #header_group
     {
-        text-align: center;
-        font-size: 14px;
+        background-color: white;
     }
     .plus_populaire
     {
-        text-align: center;
-        font-size: 14px;
+        flex-direction: row;
     }
     .hebergement_a_marseille
     {
-        text-align: center;
-        font-size: 14px;
+        flex-direction: row;
     }
     #activites_a_marseille
     {
-        text-align: center;
-        font-size: 14px;
+        background-color: white;
     }
     #footer
     {
         height: 210px;
-        width: 1200px;
-        display: block;
-        float: left;
+        width: 767px;
         background-color: whitesmoke;
-        font-size: 17px;
-        font-family: 'Raleway', sans-serif;
+        
     }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media  screen and (min-width: 992px) {
 
 
     body
     {
-        max-width: auto;
-        background-color: white;
+        width: auto;
+        background-color: wheat;
        
     }
     
