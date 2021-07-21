@@ -896,23 +896,64 @@ a, a:hover, a:visited, a:active
         height: 680px;
         border-radius: 0px;
     }
+    .hebergement_a_marseille img 
+    {
+        width: 240px;
+        height: 80px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
+    {
+        width: 250px;
+        height: 160px;
+    }
     .plus_populaire
     {
         width: 800px;
         border-radius: 0px;
+        height: auto;
     }
-    .popular1 .popular2 .popular3  
+    .plus_populaire img 
     {
-        flex-flow: nowrap;
-        width: 150px;
+        width: 200px;
+        height: 130px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .popular1 
+    {
+        width: auto;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .popular2
+    {
+        width: auto;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .popular3
+    {
+        width: auto;
+        height: 140px;
+        border-radius: 10px;
+    }
+    .containActivity img 
+    {
+        width: 300px;
         height: 100px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    figcaption
+    {
+        width: 292px;
+        border-radius: 0px 0px 10px 10px;
     }
     #activites_a_marseille
     {
-        width: 800px;
+        width: 1200px;
         
     }
-    .containActivity, .a_1, .a_2  
+    containActivity, a_1, a_2  
     {
         display: inline-flex;
         width: 800px;
@@ -922,27 +963,6 @@ a, a:hover, a:visited, a:active
     #header_group
     {
         background-color: white;
-    }
-    .vieux_port img, .parc_national_des_calanques img
-    {
-        width: 300px;
-        height: 100px;   
-    }  
-    .fort_de_pomegues img,.parc_longchamp img
-    {
-        width: 300px;
-        height: 100px;   
-    } 
-    .ile_du_frioul img, .Notre-Dame-de-la-Garde img
-    {
-        
-        width: 300px;
-        height: 100px;    
-    }
-    figcaption
-    {
-        width: 292px;
-        
     }
     #footer
     {
