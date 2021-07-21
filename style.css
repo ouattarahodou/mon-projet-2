@@ -185,7 +185,7 @@ body
 #footer 
 {
     height: 210px;
-    width: 1200px;
+    width: 1240px;
     display: block;
     float: left;
     background-color: whitesmoke;
@@ -662,7 +662,7 @@ a, a:hover, a:visited, a:active
 
 
 /* Extra small devices (phones, 480px and down) */
-@media  all and (max-device-width: 480px) {
+@media  all and (max-device-width: 600px) {
 
     body
     {
@@ -730,13 +730,15 @@ a, a:hover, a:visited, a:active
         margin-right: 15em;
         margin-bottom: 15px;
         margin-top: 1px;
-        display: grid;
+        display: inline-flex;
         row-gap: 2rem;
+    
     }
     .plus_populaire
     {
         flex-direction: column;
         margin-left: 0em;
+        border-radius: 0px;
     }
     .flex-item1
     {
@@ -789,57 +791,74 @@ a, a:hover, a:visited, a:active
         border: 1px solid white;
         padding: 1px;
     }
-    #activites_a_marseille img 
+    .hebergement_a_marseille
+    {
+        padding-bottom: 50px;
+        border-radius: 0px;
+        height: 1650px;
+    }
+    activites_a_marseille imgn  
     {
         margin-left: 0px;
         width: 330px;
         height: 140px;
         flex-direction: column;
-
+        display: inline-flex;
+    }
+    .vieux_port img, .parc_national_des_calanques img
+    {
+        width: 330px;
+        height: 140px;
+    }
+    .fort_de_pomegues img,.parc_longchamp img
+    {
+        width: 330px;
+        height: 140px;
+    }
+    .ile_du_frioul img, .Notre-Dame-de-la-Garde img
+    {
+        width: 330px;
+        height: 140px;
     }
     figcaption
     {
         width: 320px;
 
     }
+    .containActivity, .a_1, .a_2
+    {
+        width: 400px;
+        height: 1200px;
+    }
     #activites_a_marseille h2
     {
         margin-right: 50px;
         
     }
-    .activity
+    .containActivity, figure
     {
-        width: 330px;
-        height: 200px;
-        margin-left: 50px;
-        
-    }
-    .vieux_port img, .fort_de_pomegues img, .ile_du_frioul img, .parc_national_des_calanques img,
-    .Notre-Dame-de-la-Garde img, .parc_longchamp img 
-    {
-        width:330px;
-        height:110px;
+        flex-direction: column;
+        margin: 0px;
         flex-flow: column;
-        
-    }
+    } 
     #footer
     {
-       flex-flow: column;
+       
        width: 350px;
-       height: 490px;
-       background-color: whitesmoke;
+       height: 480px;
+       
+       
     }
 
 } 
   /* Small devices (portrait tablets and large phones, 480px and up) */
-  @media  (min-width: 480px) {
+  @media  (min-width: 601px) and (max-width: 991px) {
 
     body
     {
-        width: auto;
         background-color: blueviolet;
         padding: 0;
-        width: auto;
+        width: 1099;
         margin: auto;
         padding: 0 2rem;
         
@@ -847,30 +866,88 @@ a, a:hover, a:visited, a:active
     header
     {
         background-color: white;
-
+        display: inline-flex;
+        align-items: center;
+        display: inline-flex;
+        align-items: center;
+        grid-template-columns: auto 1fr auto auto;
+        grid-template-areas: "logo . navbar button";
+        display: grid;
+        width: auto;
         
+    }
+    #box_filtres
+    {
+        width: auto;
+        height: 130px;
+        flex-flow: wrap;
+        
+    }
+    #hebergement
+    {
+        flex-direction: column-reverse;
+        display: inline-flex;
+        row-gap: 2rem;
+    }
+    .hebergement_a_marseille
+    {
+        flex-flow: nowrap;
+        width: 800px;
+        height: 680px;
+        border-radius: 0px;
+    }
+    .plus_populaire
+    {
+        width: 800px;
+        border-radius: 0px;
+    }
+    .popular1 .popular2 .popular3  
+    {
+        flex-flow: nowrap;
+        width: 150px;
+        height: 100px;
+    }
+    #activites_a_marseille
+    {
+        width: 800px;
+        
+    }
+    .containActivity, .a_1, .a_2  
+    {
+        display: inline-flex;
+        width: 800px;
+        height: 600px;
         
     }
     #header_group
     {
         background-color: white;
     }
-    .plus_populaire
+    .vieux_port img, .parc_national_des_calanques img
     {
-        flex-direction: row;
+        width: 300px;
+        height: 100px;   
+    }  
+    .fort_de_pomegues img,.parc_longchamp img
+    {
+        width: 300px;
+        height: 100px;   
+    } 
+    .ile_du_frioul img, .Notre-Dame-de-la-Garde img
+    {
+        
+        width: 300px;
+        height: 100px;    
     }
-    .hebergement_a_marseille
+    figcaption
     {
-        flex-direction: row;
-    }
-    #activites_a_marseille
-    {
-        background-color: white;
+        width: 292px;
+        
     }
     #footer
     {
-        height: 210px;
-        width: 767px;
+        height: 100%;
+        width: 800px;
         background-color: whitesmoke;
         
     }
@@ -885,7 +962,16 @@ a, a:hover, a:visited, a:active
     {
         width: auto;
         background-color: wheat;
-       
+        
+    }
+    .containActivity, figure
+    {
+        display: inline-flex;
+    }
+    #footer
+    {
+        width: 1240px;
+        
     }
     
     
