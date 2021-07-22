@@ -44,30 +44,26 @@ body
 }
 .fa-chart-line
 {
-    margin-left: 5em;
-    line-height: 1px; 
-    padding-top: 0px;
-    
-    content: "\f201";
+    display: inline-flex;
+    margin-left: 350px;
     font-size: 1.5em;
     font-style: normal;
-    line-height: 1;
+    line-height: 19px;
     font-family: "Font Awesome 5 Free";
+    margin-inline-end: 10px;
 }
 .plus_populaire h2 
 {
     display: inline-flex;
-    margin-left: 30px;
+    margin-left: 5px;
     line-height: 120px;
-    margin: 0;
     display: flex;
     justify-content: space-between;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
+    margin-block-start: 55px;
+    margin-inline-start: 25px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    
 }
 .img128 img 
 {
@@ -111,6 +107,16 @@ body
     grid-column-start: 1;
     grid-column-end: -1;
 }
+.plus_populaire img
+{
+    width: 100px;
+    height: 110;
+    border-radius: 20px 0px 0px 20px;
+}
+.popular2, ul 
+{
+    line-height: 14px;
+}
 .popular1, .popular2, .popular3
 {
     background-color: white;
@@ -118,7 +124,7 @@ body
     width: 330px;
     height: 150px;
     margin: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     position: relative; bottom: 6em;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
@@ -797,49 +803,48 @@ a, a:hover, a:visited, a:active
         border-radius: 0px;
         height: 1650px;
     }
-    activites_a_marseille imgn  
-    {
-        margin-left: 0px;
-        width: 330px;
-        height: 140px;
-        flex-direction: column;
-        display: inline-flex;
-    }
-    .vieux_port img, .parc_national_des_calanques img
-    {
-        width: 330px;
-        height: 140px;
-    }
-    .fort_de_pomegues img,.parc_longchamp img
-    {
-        width: 330px;
-        height: 140px;
-    }
-    .ile_du_frioul img, .Notre-Dame-de-la-Garde img
-    {
-        width: 330px;
-        height: 140px;
-    }
     figcaption
     {
         width: 320px;
 
     }
-    .containActivity, .a_1, .a_2
+    .activites_a_marseille img 
+    {
+        
+        width: 328px;
+        height: 100px;
+    }
+    .containActivity
+    {
+        width: 300px;
+        height: 100px;
+    }
+    a_2
+    {
+        margin-bottom: 400px;
+    }
+    .containActivity
     {
         width: 400px;
         height: 1200px;
+        margin-top: 400px;
     }
-    #activites_a_marseille h2
+    .activites_a_marseille h2
     {
-        margin-right: 50px;
+        margin-right: 10px;
         
+    }
+    .activites_a_marseille h3
+    {
+        margin-left: 20px;
+            line-height: 2px;
     }
     .containActivity, figure
     {
         flex-direction: column;
-        margin: 0px;
+        margin: 30px;
         flex-flow: column;
+        margin-left: 5px;
     } 
     #footer
     {
@@ -888,13 +893,19 @@ a, a:hover, a:visited, a:active
         flex-direction: column-reverse;
         display: inline-flex;
         row-gap: 2rem;
+        
+       
     }
     .hebergement_a_marseille
     {
-        flex-flow: nowrap;
-        width: 800px;
-        height: 680px;
+        width: 550px;
+        height: 620px;
         border-radius: 0px;
+        
+  
+  
+       
+        
     }
     .hebergement_a_marseille img 
     {
@@ -902,10 +913,23 @@ a, a:hover, a:visited, a:active
         height: 80px;
         border-radius: 10px 10px 0px 0px;
     }
+    .flex-item1 
+    {
+        flex-direction: column;
+        display: grid;
+    }
+    .flex-item2
+    {
+        flex-direction: row;
+        
+        
+        
+    }  
     .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
     {
         width: 250px;
         height: 160px;
+        
     }
     .plus_populaire
     {
@@ -937,27 +961,54 @@ a, a:hover, a:visited, a:active
         height: 140px;
         border-radius: 10px;
     }
+    .a_1
+    {
+        flex-direction: column;
+        display: grid;
+        display: contents;
+    }
+    a_2
+    {
+        flex-direction: column;
+        display: grid;
+        display: contents;
+    }
+    containActivity
+    {
+        flex-direction: column;
+        display: grid;
+        display: contents;
+    }
+    .travel
+    {
+        flex-direction: column;
+        display: grid;
+        display: contents;
+    }
     .containActivity img 
     {
         width: 300px;
         height: 100px;
         border-radius: 10px 10px 0px 0px;
+        
     }
     figcaption
     {
         width: 292px;
         border-radius: 0px 0px 10px 10px;
     }
-    #activites_a_marseille
+    activites_a_marseille
     {
-        width: 1200px;
+        width: 600px;
+        
+        
         
     }
-    containActivity, a_1, a_2  
+    containActivity, .a_1, .a_2  
     {
-        display: inline-flex;
-        width: 800px;
+        width: 600px;
         height: 600px;
+        font-family: 'Raleway', sans-serif;
         
     }
     #header_group
