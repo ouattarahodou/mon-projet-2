@@ -51,6 +51,7 @@ body
     line-height: 19px;
     font-family: "Font Awesome 5 Free";
     margin-inline-end: 10px;
+    
 }
 .plus_populaire h2 
 {
@@ -281,6 +282,7 @@ header
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
     display: grid;
+    font-family: 'Raleway', sans-serif;
 }
 .search_header
 {
@@ -388,6 +390,7 @@ figure
     display: flex;
     flex-wrap: wrap;
     width: 1240px;
+    height: 630px;
     background-color: white;
     margin-right: 50px;
 }
@@ -427,7 +430,12 @@ figure
 }
 .vieux_port figcaption, .parc_national_des_calanques figcaption
 {
-    height: 45px;
+    height: 60px;
+}
+figcaption h3
+{
+    margin-left: 20px;
+    line-height: 5px;
 }
 figcaption
 {
@@ -861,7 +869,7 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        background-color: blueviolet;
+        background-color: white;
         padding: 0;
         width: 1099;
         margin: auto;
@@ -881,6 +889,10 @@ a, a:hover, a:visited, a:active
         width: auto;
         
     }
+    header ul 
+    {
+        margin-left: 50px;
+    }
     #box_filtres
     {
         width: auto;
@@ -898,14 +910,12 @@ a, a:hover, a:visited, a:active
     }
     .hebergement_a_marseille
     {
-        width: 550px;
-        height: 620px;
+        width: 600px;
+        height: 780px;
         border-radius: 0px;
-        
-  
-  
-       
-        
+        display: inline-flex;
+        display: grid;
+        flex-direction: column;
     }
     .hebergement_a_marseille img 
     {
@@ -917,12 +927,16 @@ a, a:hover, a:visited, a:active
     {
         flex-direction: column;
         display: grid;
+        margin-right: 40px;
+        
     }
     .flex-item2
     {
         flex-direction: row;
-        
-        
+        flex-direction: column;
+        display: grid;
+        float: right;
+        margin-left: 40px;
         
     }  
     .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
@@ -967,19 +981,13 @@ a, a:hover, a:visited, a:active
         display: grid;
         display: contents;
     }
-    a_2
+    .a_2
     {
         flex-direction: column;
         display: grid;
         display: contents;
     }
     containActivity
-    {
-        flex-direction: column;
-        display: grid;
-        display: contents;
-    }
-    .travel
     {
         flex-direction: column;
         display: grid;
@@ -1000,15 +1008,16 @@ a, a:hover, a:visited, a:active
     activites_a_marseille
     {
         width: 600px;
-        
+        height: 1000px;
         
         
     }
-    containActivity, .a_1, .a_2  
+    .containActivity, .a_1, .a_2  
     {
         width: 600px;
         height: 600px;
         font-family: 'Raleway', sans-serif;
+        
         
     }
     #header_group
@@ -1032,7 +1041,7 @@ a, a:hover, a:visited, a:active
     body
     {
         width: auto;
-        background-color: wheat;
+        background-color: white;
         
     }
     .containActivity, figure
