@@ -680,14 +680,14 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        background-color: red;
+        background-color: white;
         width: auto;
     }
     header 
     {
         align-items: center;
         flex-flow: wrap;
-        background-color: white;
+        background-color: orchid;
     }
     header ul 
     {
@@ -878,7 +878,7 @@ a, a:hover, a:visited, a:active
     }
     header
     {
-        background-color: white;
+        background-color: wheat;
         display: inline-flex;
         align-items: center;
         display: inline-flex;
