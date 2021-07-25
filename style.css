@@ -912,6 +912,25 @@ a, a:hover, a:visited, a:active
         height: 320px;
         
     }
+    .plus_populaire h2
+    {
+        display: inline-flex;
+        
+        margin-left: 35px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute; top: 22em;
+    }
+    .fa-chart-line
+    {
+        display: inline-flex;
+        margin-left: 725px;
+        font-size: 1.5em;
+        font-style: normal;
+        line-height: 5px;
+        font-family: "Font Awesome 5 Free";
+        position: absolute; top: 24em;
+    }
     .plus_populaire
     {
         width: 800px;
