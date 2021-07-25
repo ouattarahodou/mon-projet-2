@@ -1,21 +1,9 @@
 
 body
 {
-    box-sizing: border-box;
-    margin: auto;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    padding: 32px;
-    padding-top: 0px;
-    padding-right: 32px;
-    padding-bottom: 0px;
-    padding-left: 32px;
-    box-sizing: border-box;
-    display: block;
     max-width: 1440px;
-   
+    margin: 0 auto;
+
 }
 .search_input
 {
@@ -48,22 +36,21 @@ body
     margin-left: 350px;
     font-size: 1.5em;
     font-style: normal;
-    line-height: 19px;
+    line-height: 5px;
     font-family: "Font Awesome 5 Free";
-    margin-inline-end: 10px;
+    position: absolute; top: 39em;
     
 }
 .plus_populaire h2 
 {
     display: inline-flex;
     margin-left: 5px;
-    line-height: 120px;
+    line-height: 1px;
     display: flex;
     justify-content: space-between;
-    font-size: 1.5em;
-    margin-block-start: 55px;
-    margin-inline-start: 25px;
-    margin-inline-end: 0px;
+    position: absolute; top: 37em;
+    
+    
     
 }
 .img128 img 
@@ -191,12 +178,9 @@ body
 }
 #footer 
 {
-    height: 210px;
-    width: 1240px;
-    display: block;
-    float: left;
-    background-color: whitesmoke;
-    font-size: 17px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
     font-family: 'Raleway', sans-serif;
 }
 #footer ul 
@@ -309,9 +293,10 @@ header
     border: 0px solid #d9d9d9;
     line-height: 55px;
     text-align: center;
-    background-color:lightblue;
+    background-color: #DEEBFF;
     padding-right: 5px;
-           
+    
+       
 }
 .img25 img
 {
@@ -452,13 +437,6 @@ figcaption
 {
     margin-left: 20px;
     line-height: 5px;
-}
-.plus_populaire h2 
-{
-    position: absolute; top: 17em;
-    padding-bottom: 10px;
-    display: flex; 
-    
 }
 .plus_populaire h3, p 
 {
@@ -680,8 +658,8 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        background-color: white;
-        width: auto;
+        width: 0;
+        
     }
     header 
     {
@@ -772,21 +750,26 @@ a, a:hover, a:visited, a:active
     {
         width: 320px;
         height: 200px;
-        background-color: whitesmoke;
+        background-color: white;
         border: 2px solid white;
     }
     .plus_populaire h2
     {
         display: inline-flex;
-        padding-top: 21em;
+        padding-top: 20em;
         margin: 0;
         display: flex;
         justify-content: space-between;
     }
     .fa-chart-line
     {
-        display: inline-block;
+        display: inline-flex;
+        margin-left: 350px;
+        font-size: 1.5em;
         font-style: normal;
+        line-height: 5px;
+        font-family: "Font Awesome 5 Free";
+        position: absolute; top: 57em;
     }
     .popular1, .popular2, .popular3 
     {
@@ -824,15 +807,6 @@ a, a:hover, a:visited, a:active
     }
     .containActivity
     {
-        width: 300px;
-        height: 100px;
-    }
-    a_2
-    {
-        margin-bottom: 400px;
-    }
-    .containActivity
-    {
         width: 400px;
         height: 1200px;
         margin-top: 400px;
@@ -845,7 +819,7 @@ a, a:hover, a:visited, a:active
     .activites_a_marseille h3
     {
         margin-left: 20px;
-            line-height: 2px;
+        line-height: 2px;
     }
     .containActivity, figure
     {
@@ -856,7 +830,7 @@ a, a:hover, a:visited, a:active
     } 
     #footer
     {
-       
+       flex-direction: column;
        width: 350px;
        height: 480px;
        
@@ -869,29 +843,17 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        background-color: white;
-        padding: 0;
-        width: 1099;
-        margin: auto;
-        padding: 0 2rem;
+        width: 991px;
         
     }
     header
     {
         background-color: wheat;
-        display: inline-flex;
-        align-items: center;
-        display: inline-flex;
-        align-items: center;
-        grid-template-columns: auto 1fr auto auto;
-        grid-template-areas: "logo . navbar button";
-        display: grid;
-        width: auto;
-        
+           
     }
     header ul 
     {
-        margin-left: 50px;
+        margin-left: 300px;
     }
     #box_filtres
     {
@@ -910,39 +872,44 @@ a, a:hover, a:visited, a:active
     }
     .hebergement_a_marseille
     {
-        width: 600px;
-        height: 780px;
+        padding-bottom: 50px;
         border-radius: 0px;
-        display: inline-flex;
-        display: grid;
-        flex-direction: column;
+        height: 2350px;
+        font-family: 'Raleway', sans-serif;
+       
+        margin-left: 0px;
+        
     }
     .hebergement_a_marseille img 
     {
-        width: 240px;
-        height: 80px;
+        width: 730px;
+        height: 230px;
         border-radius: 10px 10px 0px 0px;
+        
     }
     .flex-item1 
     {
-        flex-direction: column;
-        display: grid;
-        margin-right: 40px;
+        flex-flow: column;
+        background-color: white;
+        width: 1100px;
         
+        margin: 0px;
     }
     .flex-item2
     {
-        flex-direction: row;
-        flex-direction: column;
-        display: grid;
-        float: right;
-        margin-left: 40px;
+        flex-flow: column;
+        background-color: white;
+        width: 1100px;
         
+        margin: 0px; 
     }  
     .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
     {
-        width: 250px;
-        height: 160px;
+        
+        background-color: white;
+        border: 2px solid white;
+        width: 730px;
+        height: 320px;
         
     }
     .plus_populaire
@@ -953,7 +920,7 @@ a, a:hover, a:visited, a:active
     }
     .plus_populaire img 
     {
-        width: 200px;
+        width: 230px;
         height: 130px;
         border-radius: 10px 0px 0px 10px;
     }
@@ -975,49 +942,32 @@ a, a:hover, a:visited, a:active
         height: 140px;
         border-radius: 10px;
     }
-    .a_1
+    .containActivity, figure
     {
         flex-direction: column;
-        display: grid;
-        display: contents;
-    }
-    .a_2
-    {
-        flex-direction: column;
-        display: grid;
-        display: contents;
-    }
-    containActivity
-    {
-        flex-direction: column;
-        display: grid;
-        display: contents;
-    }
-    .containActivity img 
-    {
-        width: 300px;
-        height: 100px;
-        border-radius: 10px 10px 0px 0px;
+        margin: 30px;
+        flex-flow: column;
+        
+        
         
     }
     figcaption
     {
-        width: 292px;
+        width: 722px;
         border-radius: 0px 0px 10px 10px;
-    }
-    activites_a_marseille
-    {
-        width: 600px;
-        height: 1000px;
-        
-        
-    }
-    .containActivity, .a_1, .a_2  
-    {
-        width: 600px;
-        height: 600px;
         font-family: 'Raleway', sans-serif;
-        
+    }
+    .activites_a_marseille img
+    {
+        width: 730px;
+        height: 230px;
+
+    }
+    .containActivity 
+    {
+        width: 400px;
+        height: 2050px;
+        margin-top: 300px;
         
     }
     #header_group
@@ -1040,9 +990,7 @@ a, a:hover, a:visited, a:active
 
     body
     {
-        width: auto;
-        background-color: white;
-        
+        width: 0;
     }
     .containActivity, figure
     {
