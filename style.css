@@ -5,9 +5,13 @@ body
 }
 .search_input
 {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
     flex-flow: row wrap;
+}
+.fa-search
+{
+    font-size: 20px;
 }
 #box_filtres h2
 {
@@ -247,6 +251,15 @@ header
     grid-template-areas: "logo . navbar button";
     display: grid;
     font-family: 'Raleway', sans-serif;
+}
+#header_group h1
+{
+    font-size: 40px;
+    
+}
+#header_group p  
+{
+    font-size: 25px;
 }
 .search_header
 {
@@ -562,6 +575,10 @@ figcaption
 
   
 }
+.search_header  
+{
+    display: inline-flex;
+}  
 .info_plus
 {
      align-items: center;
@@ -578,8 +595,8 @@ a, a:hover, a:visited, a:active
 .search_input
 {
     border-radius: 5px;
-    height:45px;
-    width:220px;
+    height:60px;
+    width:290px;
     border: 1px solid white;
     padding:1px;
     
@@ -587,9 +604,9 @@ a, a:hover, a:visited, a:active
 }
 .search_button
 {
-    width: 90px;
+    width: 145px;
     border: 1px solid black;
-    height: 12px;
+    height: 26px;
     background-color: blue;
     border-bottom-right-radius: 1em;
     border-top-right-radius: 1em;
@@ -609,6 +626,7 @@ a, a:hover, a:visited, a:active
     padding: 1rem 1.25rem;
     border-radius: 1rem 0 0 1rem;
     text-align: center;
+    font-size: 30px;
 }
 
 /* Extra small devices (phones, 480px and down) */
