@@ -34,6 +34,11 @@ body
     display: inline-flex;
     
 }
+.popular_Line
+{
+    display: inline-flex;
+    display: flex;
+}
 .fa-chart-line
 {
     display: inline-flex;
@@ -41,7 +46,7 @@ body
     font-size: 30px;
     font-style: normal;
     line-height: 5px;
-    position: absolute; top: 24em;
+    position: absolute; top: 23em;
     
 }
 .plus_populaire h2 
@@ -98,7 +103,7 @@ body
 }
 .containActivity
 {
-    margin-right: 60px;
+    margin-right: 10px;
    
 }
 .activites_a_marseille h2
@@ -128,7 +133,7 @@ body
 }
 .a_1
 { 
-    justify-content: space-between;
+    margin-right: 20px;
     float: left; 
     
 }
@@ -300,7 +305,8 @@ header
 figure
 {
     display: flex;
-    flex-flow: column;  
+    flex-direction: column;
+    margin-right: 4px;
 }
 .containActivity
 {
@@ -308,36 +314,8 @@ figure
     width: 1440px;
     height: 830px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 0px;
     
-}
-.vieux_port
-{
-   
-   border-spacing: 40px;
-}
-.a_1
-{
-    
-    border-spacing: 40px;
-}
-ile_du_frioul
-{
-    margin-left: 5px;
-}
-.parc_national_des_calanques
-{
-    border-spacing: 40px;
-    
-}
-.a_2
-{
-   
-    border-spacing: 0px;
-}
-parc_longchamp
-{
-    margin-left: 5px;
 }
 .a_1,  .a_2  
 {
@@ -352,6 +330,7 @@ parc_longchamp
     height: 660px;
     border-radius: 20px 20px 0px 0px;
     filter: brightness(1);
+    
 }
 .fort_de_pomegues img, .parc_longchamp img  
 {
@@ -359,6 +338,7 @@ parc_longchamp
     height: 320px;
     border-radius: 20px 20px 0px 0px;
     filter: brightness(1);
+    
 }
 .ile_du_frioul img, .Notre-Dame-de-la-Garde img 
 {
@@ -366,6 +346,7 @@ parc_longchamp
     height: 220px;
     border-radius: 20px 20px 0px 0px;
     filter: brightness(1);
+    
 }
 .vieux_port figcaption, .parc_national_des_calanques figcaption
 {
