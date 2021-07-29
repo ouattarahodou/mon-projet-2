@@ -151,7 +151,7 @@ body
     justify-content: space-around;
     font-family: "gill sans", sans-serif;
     font-size: 22px;
-    width: 1500px;
+    width: 1670px;
     height: 300px;
 }
 #footer ul 
@@ -169,21 +169,21 @@ body
 {
     float:left;
     color: black;
-    margin-left: 10px;
+    margin-right: 50px;
     
 }
 .footer_column2 
 {
     float:left;
     color: black; 
-    margin-right: 10px;
+    margin-right: 40px;
 }
 .footer_column3 
 {
    
     float:left; 
     color: black; 
-    margin-right: 480px;
+    margin-right: 700px;
 }
 #footer h3 
 {
@@ -624,26 +624,20 @@ a, a:hover, a:visited, a:active
     font-size: 30px;
 }
 
-/* Extra small devices (phones, 480px and down) */
-@media  all and (max-device-width: 600px) {
+/* Extra small devices (phones, 700px and down) */
+@media only screen and (max-width: 700px)  {
 
-    body
-    {
-        width: 600px;
-        
-    }
     header 
     {
-        align-items: center;
-        flex-flow: wrap;
+        
         background-color: orchid;
+        
+        
     }
     header ul 
     {
-        margin-left: 10px;
-        height: 100px;
-        list-style: none;
-        padding: 0px;
+        margin-right: 1200px;
+        width: 600px;
     }
     #header_group
     {
@@ -700,8 +694,8 @@ a, a:hover, a:visited, a:active
     .plus_populaire
     {
         flex-direction: column;
-        margin-left: 0em;
         border-radius: 0px;
+        padding-left: 30px;
     }
     .flex-item1
     {
@@ -719,15 +713,16 @@ a, a:hover, a:visited, a:active
     }
     .marseille1, .marseille2, .marseille3, .marseille4, .marseille5, .marseille6
     {
-        width: 320px;
-        height: 200px;
+        width: 450px;
+        height: 240px;
         background-color: white;
         border: 2px solid white;
     }
     .plus_populaire h2
     {
         display: inline-flex;
-        padding-top: 20em;
+        padding-top: 13em;
+        padding-left: 20px;
         margin: 0;
         display: flex;
         justify-content: space-between;
@@ -735,25 +730,25 @@ a, a:hover, a:visited, a:active
     .fa-chart-line
     {
         display: inline-flex;
-        margin-left: 350px;
+        margin-left: 420px;
         font-size: 1.5em;
         font-style: normal;
         line-height: 5px;
         font-family: "Font Awesome 5 Free";
-        position: absolute; top: 57em;
+        position: absolute; top: 44em;
     }
     .popular1, .popular2, .popular3 
     {
-        width: 350px;
-        height: 140px;
+        width: 450px;
+        height: 200px;
         padding: 5px;
         margin-left: 15px;
         background-color: white;
     }
     .hebergement_a_marseille img 
     {
-        width:320px;
-        height:110px;
+        width:450px;
+        height:130px;
         flex-direction: column;
         background-color: white;
         border: 1px solid white;
@@ -763,24 +758,35 @@ a, a:hover, a:visited, a:active
     {
         padding-bottom: 50px;
         border-radius: 0px;
-        height: 1650px;
+        height: 1900px;
+        width: 520px;
+        margin: 20px;
+    }
+    .hebergement_a_marseille h2
+    {
+        padding-left: 30px;
     }
     figcaption
     {
-        width: 320px;
+        width: 470px;
 
     }
     .activites_a_marseille img 
     {
         
-        width: 328px;
-        height: 100px;
+        width: 480px;
+        height: 150px;
     }
     .containActivity
     {
         width: 400px;
-        height: 1200px;
-        margin-top: 400px;
+        height: 1400px;
+        
+    }
+    figure 
+    {
+        padding-left: 20px;
+        
     }
     .activites_a_marseille h2
     {
@@ -802,36 +808,120 @@ a, a:hover, a:visited, a:active
     #footer
     {
         flex-direction: column;
-       width: 350px;
-       height: 480px;
+        height: 650px;
+        width: 400px;
        
        
     }
 
 }  
-  /* Small devices (portrait tablets and large phones, 480px and up) */
-  @media  (min-width: 601px) and (max-width: 990px) {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
 
-    body
-    {
-        width: 991px;
-        
-    }
-    header
+    header 
     {
         background-color: wheat;
+        
+    }
+    header ul 
+    {
+        margin-left: 280px;
            
     }
-   
+    #header_group
+    {
+        max-width: 990px
+    }
+    #box_filtres
+    {
+        flex-direction: row;
+    }
+    #hebergement
+    {
+        display: inline-flex;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .plus_populaire
+    {
+        width: auto;
+        height: auto;
+    }
+    .fa-chart-line
+    {
+        margin-left: 1100px;
+    }
+    .plus_populaire h2
+    {
+        margin-left: 50px;
+    }
+    .plus_populaire img
+    {
+        width: 200px;
+        height: 190px;
+        
+    }
+    .popular1, .popular2, .popular3
+    {
+        width: 1100px;
+        height: 200px;
+          
+    }
+    .flex-item1
+    {
+        flex-direction: column;
+    }
+    .flex-item2
+    {
+        flex-direction: column;
+        padding-left: 540px;
+        position: absolute; top: 104em;
+    }
+    .hebergement_a_marseille
+    {
+        height: 1100px;
+        background-color: white;
+    }
+    .hebergement_a_marseille img
+    {
+        width: 480px;
+        height: 150px;
+    }
+    .marseille1, .marseille2, .marseille3
+    {
+        width: 480px;
+        height: 280px;
+    }
+    .marseille4, .marseille5, .marseille6
+    {
+        width: 480px;
+        height: 280px;
+    }
+    .activites_a_marseille img
+    {
+        width: 480px;
+        height: 150px;
+    }
+    figcaption
+    {
+        width: 470px;
+    }
+    .containActivity
+    {
+        width: 480px;
+        height: 800px;
+        
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media  screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
 
 
-    body 
+    header  
     {
-        width: auto;
+        background-color: #0065FC;
+        width: 1240px;
     }
     footerF
     {
