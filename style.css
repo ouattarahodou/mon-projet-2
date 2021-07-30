@@ -630,13 +630,16 @@
     {
         
         background-color: orchid;
-        
+        height: 220px;
         
     }
     header ul 
     {
-        margin-right: 1200px;
-        width: 600px;
+        margin-left: 5px;
+        
+        display: inline-flex;
+        font-size: 25px;
+        font-family: "gill sans", sans-serif;
     }
     #header_group
     {
@@ -646,15 +649,25 @@
     .signup
     {
         margin-bottom: 1em;
+        position: absolute; left: 20em;
+        position: absolute; top: 2em;
         float: right;
         line-height: 1px;
         
     }
+    header img 
+    {
+        position: absolute; top: 1em;
+    }
     header nav [data-active="true"] [data-active="false"]
     {
         display: inline-flex;
-        white-space: pre-wrap;
+        word-spacing: 5px;
         
+    }
+    header nav [data-active="false"]
+    {
+        position: absolute; right: 5em;
     }
     .search_button
     {
@@ -676,7 +689,7 @@
     }
     .info_plus  
     {
-        margin-top: 18em;
+        margin-top: 23em;
         margin-left: 4px;
         
     }
@@ -720,7 +733,7 @@
     .plus_populaire h2
     {
         display: inline-flex;
-        padding-top: 13em;
+        padding-top: 24em;
         padding-left: 20px;
         margin: 0;
         display: flex;
@@ -734,7 +747,7 @@
         font-style: normal;
         line-height: 5px;
         font-family: "Font Awesome 5 Free";
-        position: absolute; top: 44em;
+        position: absolute; top: 57em;
     }
     .popular1, .popular2, .popular3 
     {
@@ -760,6 +773,7 @@
         height: 1900px;
         width: 520px;
         margin: 20px;
+        background-color: white;
     }
     .hebergement_a_marseille h2
     {
@@ -774,19 +788,36 @@
     {
         
         width: 480px;
-        height: 150px;
+        height: 200px;
     }
     .containActivity
     {
         width: 400px;
-        height: 1400px;
+        height: 2000px;
         
+    }
+    .parc_longchamp
+    {
+        position: absolute; top: 375em;
+    }
+    .parc_national_des_calanques
+    {
+        position: absolute; top: 315em;
+    }
+    .ile_du_frioul
+    {
+        position: absolute; top: 355em;
+    }
+    .Notre-Dame-de-la-Garde
+    {
+        position: absolute; top: 335em;
     }
     figure 
     {
         padding-left: 20px;
         
     }
+
     .activites_a_marseille h2
     {
         margin-right: 10px;
@@ -808,7 +839,7 @@
     {
         flex-direction: column;
         height: 650px;
-        width: 400px;
+        width: 500px;
        
        
     }
@@ -852,11 +883,12 @@
     }
     .fa-chart-line
     {
-        margin-left: 890px;
+        position: absolute; top: 27em;
+        position: absolute; right: 1em;
     }
     .plus_populaire h2
     {
-        margin-left: 50px;
+        position: absolute; top: 26em;
     }
     .plus_populaire img
     {
@@ -879,6 +911,10 @@
         flex-direction: column;
         padding-left: 540px;
         position: absolute; top: 110em;
+    }
+    .hebergement_a_marseille h2
+    {
+        margin-left: 35px;
     }
     .hebergement_a_marseille
     {
@@ -943,8 +979,15 @@
 
     header  
     {
-        background-color: #0065FC;
-        width: auto;
+        background-color: mediumspringgreen;
+        
+    }
+    header ul
+    {
+        margin-left: 1080px;
+        display: inline-flex;
+        font-size: 25px;
+        font-family: "gill sans", sans-serif;
     }
     #hebergement
     {
@@ -952,6 +995,30 @@
         column-gap: 0px;
         display: grid;
         grid-template-columns: 6fr 3fr;
+        margin-right: 340px;
+    }
+    .plus_populaire
+    {
+        width:420px;
+        height: 785px;
+        padding-right: 100px;
+        flex-direction: column;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        padding-top: 8em;
+        margin-top: 60px;
+        margin-left: 1px;
+        
+        color: black;
+    }
+    .plus_populaire h2
+    {
+        position: absolute; top: 26em;   
+    }
+    .fa-chart-line
+    {
+        position: absolute; top: 27em;
+        position: absolute; left: 37em;
     }
     .plus_populaire img
     {
@@ -973,14 +1040,21 @@
         box-sizing: border-box;
         padding: 0.375rem;
     }
+    .hebergement_a_marseille
+    {
+        background-color: whitesmoke;
+        border-radius: 20px;
+        width: 1050px;
+        height: 900px;
+        margin: 60px;
+        margin-left: 10px;
+        margin-right: 2px;
+        
+    }
     .hebergement_a_marseille img 
     {
         width: 280px;
         height: 150px;
-        border-radius: 8px;
-        padding: 1px;
-        justify-content: space-between;
-        align-content: space-between;
         border-radius: 20px 20px 2px 2px;
     }
     .marseille1, .marseille2, .marseille3
@@ -1009,5 +1083,86 @@
         box-shadow: 0 0 16px #0000002e;
         padding: 0.375rem;
     }
-    
+    .show_more
+    {
+        position: absolute; top: 76em;
+    }
+    .flex-item1
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row; 
+    }
+    .flex-item2
+    {
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        position: absolute; top: 74em;
+        position: absolute; right: 61em;
+    }
+    .ile_du_frioul
+    {
+        position: absolute; left: 26em;
+        position: absolute; top: 142em;   
+    }
+    .parc_national_des_calanques
+    {
+        position: absolute; left: 52em;
+        position: absolute; top: 115em;
+    }
+    .Notre-Dame-de-la-Garde
+    {
+        position: absolute; left: 78em;
+        position: absolute; top: 115em;
+    }
+    .parc_longchamp
+    {
+        position: absolute; left: 78em;
+        position: absolute; top: 136em;
+    }
+    .containActivity
+    {
+        display: flex;
+        width: 1440px;
+        height: 830px;
+        background-color: white;
+        margin-right: 0px;
+        
+    }
+    .vieux_port img, .parc_national_des_calanques img 
+    {
+        width:370px;
+        height: 660px;
+        border-radius: 20px 20px 0px 0px;
+        filter: brightness(1);
+        
+    }
+    .fort_de_pomegues img, .parc_longchamp img  
+    {
+        width: 370px;
+        height: 320px;
+        border-radius: 20px 20px 0px 0px;
+        filter: brightness(1);
+        
+    }
+    .ile_du_frioul img, .Notre-Dame-de-la-Garde img 
+    {
+        width: 370px;
+        height: 220px;
+        border-radius: 20px 20px 0px 0px;
+        filter: brightness(1);
+        
+    }
+    figcaption
+    {
+        background-color: white;
+        box-shadow: 0 0 20px #0000002e;
+        color: black;
+        width: 362px;
+        height: 70px;
+        padding: 4px;
+        border-radius: 0px 0px 20px 20px;
+        
+    }
 }
