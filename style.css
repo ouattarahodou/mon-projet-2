@@ -1,7 +1,44 @@
 
     body
     {
-        width: auto;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    h1, h2, h3, p, ul, li, a
+    {
+        margin: 0;
+        padding: 0;
+    }
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0;
+    }
+    header ul
+    {
+        display: flex;
+        list-style: none;
+    }
+    header li
+    {
+        padding: 0 1em;
+    }
+    .vacation
+    {
+        padding-bottom: 0.5em;
+    }
+    .vacation h1 
+    {
+        padding-bottom: 0.5em;
+    }
+    .search_header
+    {
+        display: flex;
+    }
+    .search_header .fa-search
+    {
+        display: none;
     }
     .search_input
     {
@@ -22,7 +59,11 @@
         color: black;
         margin-right: 20px;  
     }
-    #box_filtres 
+    #box_filtres
+    {
+        display: flex;
+    }
+    box_filtres 
     {
         font-size:18px;
         padding:50px;
@@ -34,6 +75,15 @@
         display: inline-flex;
         
     }
+    .containerFilter
+    {
+        display: flex;
+    }
+    .elementFilter 
+    {
+        display: flex;
+    }
+
     .popular_Line
     {
         display: inline-flex;
@@ -61,6 +111,14 @@
         
     }
     #hebergement
+    {
+        display: flex;
+    }
+    #hebergement img 
+    {
+        max-width: 100%;
+    }
+    hebergement
     {
         display: inline-flex;
         column-gap: 0px;
@@ -114,12 +172,36 @@
         font-size: 35px;
         margin-left: 35px;
     }
-    .flex-item1
+    .flex-item1, .flex-item2
+    {
+        display: flex;
+    }
+    .flex-item1>div, .flex-item2>div
+    {
+        max-width: 300px;
+    }
+    .travel 
+    {
+        display: flex;
+    }
+    .travel img 
+    {
+        max-width: 100%;
+    }
+    .containActivity
+    {
+        display: flex;
+    }
+    .containActivity div
+    {
+        max-width: 300%;
+    }
+    !flex-item1
     {
         display: flex;
         justify-content: space-between;  
     }
-    .flex-item2
+    !flex-item2
     {
         display: flex;
         justify-content: space-between;   
@@ -219,19 +301,19 @@
         font-family: 'Raleway', sans-serif;
         
     }
-    header ul 
+    headerl ull 
     {
         margin-left: 1080px;
         display: inline-flex;
         font-size: 25px;
         font-family: "gill sans", sans-serif;
     }
-    header nav a 
+    headerv navv av  
     {
         color: blue;
         
     }
-    header 
+    headerV 
     {
         display: inline-flex;
         align-items: center;
@@ -251,7 +333,7 @@
     {
         font-size: 25px;
     }
-    .search_header
+    search_header
     {
         flex: content;
         display: flex;
@@ -984,7 +1066,7 @@
     }
     header ul
     {
-        margin-left: 1080px;
+        margin-left: 820px;
         display: inline-flex;
         font-size: 25px;
         font-family: "gill sans", sans-serif;
