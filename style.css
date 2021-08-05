@@ -835,7 +835,7 @@ a, a:hover, a:visited, a:active
     .fa-chart-line
     {
         position: relative; top: 1em;
-        position: relative; right: 2em;
+        position: relative; left: 4em;
     }
     .plus_populaire h2
     {
@@ -843,13 +843,13 @@ a, a:hover, a:visited, a:active
     }
     .plus_populaire img
     {
-        width: 200px;
+        width: 280px;
         height: 190px;
         
     }
     .popular1, .popular2, .popular3
     {
-        width: 700px;
+        width: 850px;
         height: 200px;
         margin: 40px; 
     }
@@ -869,61 +869,80 @@ a, a:hover, a:visited, a:active
     }
     .hebergement_a_marseille
     {
-        height: 900px;
-        margin: 1px;
+        height: 1200px;
+        margin: 10px;
         background-color: white;
     }
     .hebergement_a_marseille img
     {
-        width: 280px;
+        width: 400px;
         height: 220px;
     }
     .marseille1, .marseille2, .marseille3
     {
-        width: 280px;
+        width: 400px;
         height: 330px;
-        margin: 40px;
+        margin-left: 60px;
     }
     .marseille4, .marseille5, .marseille6
     {
-        width: 280px;
+        width: 400px;
         height: 330px;
-        margin: 40px;
+        margin-right: 40px;
     }
     .activites_a_marseille img
     {
-        width: 280px;
-        height: 150px;
+        width: 450px;
+        height: 140px;
     }
     figcaption
     {
-        width: 280px;
+        width: 340px;
+    }
+    .fort_de_pomegues
+    {
+        position: relative; top: 12em;
+        position: relative; left: 6em;
+    }
+    .vieux_port
+    {
+        position: relative; top: 12em;
     }
     .parc_national_des_calanques
     {
-        position: relative; right: 46em;
-        position: relative; top: 15em;
+        position: relative; right: 54em;
+        position: relative; top: 27em;
     }
     .ile_du_frioul
     {
-        position: relative; right: 22em;
-        position: relative; top: 15em;
+        position: relative; right: 27em;
+        position: relative; top: 27em;
     }
     .Notre-Dame-de-la-Garde
     {
-        position: relative; right: 46em;
-        position: relative; top: 15em;
+        position: relative; right: 48em;
+        position: relative; top: 27em;
     }
     .parc_longchamp
     {
-        position: relative; right: 46em;
-        position: relative; bottom: 5em;
+        position: relative; right: 48em;
+        position: relative; bottom: 1em;
     }
     .containActivity
     {
         width: 480px;
-        height: 800px;
+        height: 900px;
         
+    }
+    #footer
+    {
+        width: 1500px;
+        height: 300px;
+        font-size: 14px;
+    }
+    #footer h3
+    {
+        font-size: 20px;
     }
 } 
 
@@ -1051,9 +1070,14 @@ a, a:hover, a:visited, a:active
         position: relative; right: 540px;
         position: relative; top: 5px;
     }
+    .vieux_port
+    {
+        position: relative; top: 0px;
+    }
     .fort_de_pomegues
     {
         position: absolute; left: 26em;
+        position: absolute; top: 115em;
     }
     .ile_du_frioul
     {
