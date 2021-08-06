@@ -16,6 +16,8 @@ body
 #box_filtres h2
 {
     display: flex;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 5px;
     margin-bottom: 50px;
     margin-left: 5px;
@@ -33,6 +35,10 @@ body
     padding-left: 2px;
     
     
+}
+.info_plus 
+{
+    margin: 30px;
 }
 .popular_Line
 {
@@ -214,7 +220,7 @@ header
 {
     display: flex;
     align-items: center;
-      
+     
 }
 #header_group h1
 {
@@ -580,6 +586,7 @@ a, a:hover, a:visited, a:active
     header img 
     {
         position: absolute; top: 1em;
+        
     }
     header nav [data-active="true"] [data-active="false"]
     {
@@ -617,6 +624,7 @@ a, a:hover, a:visited, a:active
         flex-flow: wrap;
         display: flex;
         background-color: white;
+        height: 80px;
     
     }
     .info_plus  
@@ -792,11 +800,15 @@ a, a:hover, a:visited, a:active
     {
         background-color: wheat;
         flex-flow: wrap;
+        height: 70px;
     }
     header ul 
     {
-        margin-left: 280px;
-        flex-flow: wrap;   
+        
+        flex-flow: wrap; 
+        font-size: 23px;
+        position: relative; bottom: 3em;
+        margin-left: 450px;
     }
     #header_group
     {
@@ -805,8 +817,14 @@ a, a:hover, a:visited, a:active
     #box_filtres
     {
         width: 100%;
-        height: auto; 
-        margin-bottom: 20px;
+        height: 180px; 
+        margin-top: 0px;
+        flex-flow: wrap;
+        display: flex;
+    }
+    .info_plus
+    {
+        height: 20px;
     }
     #hebergement
     {
@@ -966,18 +984,45 @@ a, a:hover, a:visited, a:active
         width: 116%;
         padding: 1em 0;
         flex-flow: wrap;
+        margin: 30px;
     }
     header ul
     {
-        margin-left: 1090px;
+        
         display: flex;
         font-size: 22px;
         font-family: "gill sans", sans-serif;
         flex-flow: wrap;
+        position: relative; top: 1em;
+        position: absolute; left: 10em;
+    }
+    header nav [data-active="true"] [data-active="false"]
+    {
+        display: flex;
+        word-spacing: 5px;
+        
+    }
+    header nav [data-active="true"]
+    {
+        position: absolute; left: 24em;
+
+    }
+    header nav [data-active="false"]
+    {
+        position: relative; left: 30em;
+    }
+    .signup
+    {
+        position: relative; left: 31em;
+        position: relative; top: 0em;
+    }
+    #header_group
+    {
+        margin: 30px;
     }
     #box_filtres
     {
-        
+        margin: 30px;
     }
     #hebergement
     {
