@@ -136,6 +136,7 @@ body
     display: flex;
     font-family: "gill sans", sans-serif;
     
+        
     
 }
 #footer ul 
@@ -143,6 +144,7 @@ body
     color: black;
     list-style: none;
     line-height: 40px;
+    
     
 }
 #footer a  
@@ -153,21 +155,20 @@ body
 {
     float:left;
     color: black;
-    margin-right: 40px;
-    
+    margin-right: 40px; 
 }
 .footer_column2 
 {
     float:left;
     color: black; 
-    margin-right: 40px;
+    margin-right: 40px; 
 }
 .footer_column3 
 {
    
     float:left; 
     color: black; 
-    margin-right: 700px;
+    margin-right: 700px;     
 }
 #footer h3 
 {
@@ -559,28 +560,21 @@ a, a:hover, a:visited, a:active
     {
         background-color: orchid;
         height: 220px;
-        
+        display: grid;
+        max-width: 1440px;
+        margin: auto;
     }
     header ul 
     {
         margin-left: 5px;
         
-        display: inline-flex;
+        display: flex;
         font-size: 25px;
         font-family: "gill sans", sans-serif;
     }
     #header_group
     {
         background-color: white;
-        
-    }
-    .signup
-    {
-        margin-bottom: 1em;
-        position: absolute; left: 17em;
-        position: absolute; top: 2em;
-        float: right;
-        line-height: 1px;
         
     }
     header img 
@@ -593,9 +587,18 @@ a, a:hover, a:visited, a:active
         word-spacing: 5px;
         
     }
+    header nav [data-active="true"]
+    {
+        position: absolute; left: 0em;
+    }
     header nav [data-active="false"]
     {
-        position: absolute; right: 5em;
+        position: absolute; right: 0em;
+    }
+    .signup
+    {
+        position: relative; left: 9em;
+        position: absolute; bottom: 29em;
     }
     .search_button
     {
@@ -612,8 +615,9 @@ a, a:hover, a:visited, a:active
     #box_filtres
     {
         flex-flow: wrap;
-        background-color: white;
         display: flex;
+        background-color: white;
+    
     }
     .info_plus  
     {
@@ -787,12 +791,12 @@ a, a:hover, a:visited, a:active
     header 
     {
         background-color: wheat;
-        
+        flex-flow: wrap;
     }
     header ul 
     {
         margin-left: 280px;
-           
+        flex-flow: wrap;   
     }
     #header_group
     {
@@ -800,9 +804,8 @@ a, a:hover, a:visited, a:active
     }
     #box_filtres
     {
-        width: auto;
+        width: 100%;
         height: auto; 
-        display: flex;
         margin-bottom: 20px;
     }
     #hebergement
@@ -961,7 +964,8 @@ a, a:hover, a:visited, a:active
     {
         background-color: mediumspringgreen;
         width: 116%;
-        padding: 1em 0; 
+        padding: 1em 0;
+        flex-flow: wrap;
     }
     header ul
     {
@@ -969,6 +973,11 @@ a, a:hover, a:visited, a:active
         display: flex;
         font-size: 22px;
         font-family: "gill sans", sans-serif;
+        flex-flow: wrap;
+    }
+    #box_filtres
+    {
+        
     }
     #hebergement
     {
@@ -988,16 +997,19 @@ a, a:hover, a:visited, a:active
         margin-top: 60px;
         margin-left: 30px;
         color: black;
+        
     }
     .plus_populaire h2
     {
         position: relative; bottom: 30em;
-        position: relative; left: 0em;  
+        position: relative; left: 0em;
+        
     }
     .fa-chart-line
     {
         position: relative; bottom: 30em;
         position: relative; left: 6em;
+        
     }
     .plus_populaire img
     {
@@ -1018,6 +1030,7 @@ a, a:hover, a:visited, a:active
         box-shadow: 0 0 16px #0000002e;
         box-sizing: border-box;
         padding: 0.375rem;
+        
     }
     .hebergement_a_marseille h2
     {
@@ -1033,6 +1046,8 @@ a, a:hover, a:visited, a:active
         margin-left: 10px;
         margin-right: 2px;
         margin-left: 50px;
+        
+        
     }
     .hebergement_a_marseille img 
     {
@@ -1052,6 +1067,7 @@ a, a:hover, a:visited, a:active
         height: 300px;
         box-shadow: 0 0 16px #0000002e;
         padding: 0.375rem;
+        
     }
     .marseille4, .marseille5, .marseille6
     {
@@ -1175,9 +1191,13 @@ a, a:hover, a:visited, a:active
         width: 1670px;
         height: 300px;
         font-size: 22px;
+        
+        
     }
     #footer h3 
     {
         font-size: 25px;
+        
+        
     }
 }
