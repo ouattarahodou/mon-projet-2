@@ -34,11 +34,14 @@
         display: flex;
         list-style: none;
     }
-
+    
     header li {
         padding: 0 1em;
     }
-
+    header nav  [data-active="false"]
+    {
+        color: black;
+    }
     header a {
         color: blue;
         text-decoration: none;
@@ -159,7 +162,14 @@
         display: flex;
         justify-content: space-between;
     }
-
+    #hebergement [data-active="false"] 
+    {
+        color: #d9d9d9;
+    }
+    #hebergement [data-active="true"]
+    {
+        color: cornflowerblue;
+    }
     #hebergement img {
         max-width: 100%;
     }
@@ -167,7 +177,7 @@
     .hebergement_a_marseille {
         width: 65%;
         background-color: #F2F2F2;
-        border-radius: 25px;
+        border-radius: 50px;
         padding: 2em;
     }
 
