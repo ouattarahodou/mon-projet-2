@@ -1096,6 +1096,18 @@ a, a:hover, a:visited, a:active
         border-radius: 20px 0px 0px 20px;
         filter: brightness(1);
     }
+    .popular1 ul
+    {
+        position: relative; top: 0px;
+    }
+    .popular2 ul 
+    {
+        position: relative; top: 2px;
+    }
+    .popular3 ul
+    {
+        position: relative; top: 24px;
+    } 
     .popular1, .popular2, .popular3
     {
         background-color: white;
