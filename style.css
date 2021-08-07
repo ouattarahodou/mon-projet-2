@@ -18,8 +18,8 @@ body
     display: flex;
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 5px;
-    margin-bottom: 50px;
+    line-height: 0px;
+    margin-bottom: 20px;
     margin-left: 5px;
     color: black;
     margin-right: 20px;  
@@ -53,12 +53,8 @@ body
 }
 .plus_populaire h2 
 {
-    
     font-size: 30px;
-    display: flex;
-    
-   
-    
+    display: flex; 
 }
 #hebergement
 {
@@ -76,23 +72,23 @@ body
 }
 .popular1 ul 
 {
-    line-height: 80px;
+    line-height: 95px;
     
 }
 .popular2 ul 
 {
-    line-height: 20px;
+    line-height: 40px;
 }
 .popular3 ul 
 {
-    line-height: 80px;
+    line-height: 50px;
 }
 .popular1, .popular2, .popular3
 {
     filter: brightness(1);
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    box-sizing: border-box;
+    
     
 }
 .containActivity
@@ -568,7 +564,8 @@ a, a:hover, a:visited, a:active
         height: 220px;
         display: grid;
         max-width: 1440px;
-        margin: auto;
+        margin: 10px;
+
     }
     header ul 
     {
@@ -581,7 +578,7 @@ a, a:hover, a:visited, a:active
     #header_group
     {
         background-color: white;
-        
+        margin: 10px;
     }
     header img 
     {
@@ -596,11 +593,11 @@ a, a:hover, a:visited, a:active
     }
     header nav [data-active="true"]
     {
-        position: absolute; left: 0em;
+        position: absolute; left: 1em;
     }
     header nav [data-active="false"]
     {
-        position: absolute; right: 0em;
+        position: absolute; right: 1em;
     }
     .signup
     {
@@ -609,8 +606,8 @@ a, a:hover, a:visited, a:active
     }
     .search_button
     {
-        width: 12px;
-        height: 12px;
+        width: 15px;
+        height: 15px;
         border-radius: 15px;
         font-size: 5px;
         
@@ -641,7 +638,7 @@ a, a:hover, a:visited, a:active
         margin-top: 1px;
         display: flex;
         row-gap: 2rem;
-    
+        
     }
     .plus_populaire
     {
@@ -650,6 +647,7 @@ a, a:hover, a:visited, a:active
         padding-left: 30px;
         width: 600px;
         height: 740px;
+        
     }
     .flex-item1
     {
@@ -673,6 +671,7 @@ a, a:hover, a:visited, a:active
         border: 2px solid white;
         margin: 35px;
         position: relative; right: 2em;
+        
     }
     .plus_populaire h2
     {
@@ -691,6 +690,14 @@ a, a:hover, a:visited, a:active
         font-family: "Font Awesome 5 Free";
         position: relative; top: 0em;
         position: relative; left: 8em;
+    }
+    .popular1 ul, .popular2 ul
+    {
+        position: relative;top: 1em;
+    }
+    .popular3 ul 
+    {
+        position: relative;top: 2em;
     }
     .popular1, .popular2, .popular3 
     {
@@ -782,18 +789,17 @@ a, a:hover, a:visited, a:active
     #footer
     {
         flex-direction: column;
+        font-size: 20px;
         height: 650px;
-        width: 600px;
-       
-       
+        width: 600px;  
     }
     #footer h3
     {
-        font-size: 20px;
+        font-size: 22px;
     }
 
 }  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
+  /* Small devices (portrait tablets and large phones, 601px and up) */
 @media only screen and (min-width: 601px) {
 
     header 
@@ -801,6 +807,7 @@ a, a:hover, a:visited, a:active
         background-color: wheat;
         flex-flow: wrap;
         height: 70px;
+        margin: 10px;
     }
     header ul 
     {
@@ -814,17 +821,27 @@ a, a:hover, a:visited, a:active
     {
         max-width: 990px
     }
+    .vacation
+    {
+        margin: 10px;
+    }
+    .search_header
+    {
+        margin: 10px;
+    }
     #box_filtres
     {
         width: 100%;
-        height: 180px; 
         margin-top: 0px;
         flex-flow: wrap;
         display: flex;
+        position: relative; bottom: 4em;
+        margin: 10px;
     }
     .info_plus
     {
-        height: 20px;
+        
+        position: relative; top: 3em;
     }
     #hebergement
     {
@@ -855,12 +872,22 @@ a, a:hover, a:visited, a:active
         height: 190px;
         
     }
+    .popular1 ul
+    {
+        position: relative;top: 1em;
+    }
+    .popular2 ul, .popular3 ul 
+    {
+        position: relative;top: 2em;
+    }
     .popular1, .popular2, .popular3
     {
-        width: 850px;
+        max-width: 850px;
         height: 200px;
         margin: 40px; 
-        border: 5px solid white;
+        border: 0px solid white;
+        background-color: white;
+        
     }
     .flex-item1
     {
@@ -878,7 +905,8 @@ a, a:hover, a:visited, a:active
     .show_more
     {
         position: relative; bottom: 60em;
-        margin-left: 60px;
+        position: relative; left: 4em;
+        
     }
     .hebergement_a_marseille h2
     {
@@ -958,7 +986,7 @@ a, a:hover, a:visited, a:active
     }
     .containActivity
     {
-        width: 480px;
+        max-width: 480px;
         height: 800px;
         
     }
@@ -966,11 +994,11 @@ a, a:hover, a:visited, a:active
     {
         width: 1500px;
         height: 300px;
-        font-size: 14px;
+        font-size: 20px;
     }
     #footer h3
     {
-        font-size: 20px;
+        font-size: 22px;
     }
 } 
 
@@ -983,8 +1011,8 @@ a, a:hover, a:visited, a:active
         background-color: mediumspringgreen;
         width: 116%;
         padding: 1em 0;
-        flex-flow: wrap;
         margin: 30px;
+        
     }
     header ul
     {
@@ -992,7 +1020,6 @@ a, a:hover, a:visited, a:active
         display: flex;
         font-size: 22px;
         font-family: "gill sans", sans-serif;
-        flex-flow: wrap;
         position: relative; top: 1em;
         position: absolute; left: 10em;
     }
@@ -1005,24 +1032,30 @@ a, a:hover, a:visited, a:active
     header nav [data-active="true"]
     {
         position: absolute; left: 24em;
-
+        
     }
     header nav [data-active="false"]
     {
         position: relative; left: 30em;
+        
     }
     .signup
     {
         position: relative; left: 31em;
         position: relative; top: 0em;
+        
     }
     #header_group
     {
         margin: 30px;
+        
     }
     #box_filtres
     {
         margin: 30px;
+        flex-flow: row;
+        position: relative; top: 2em;
+        
     }
     #hebergement
     {
@@ -1075,7 +1108,7 @@ a, a:hover, a:visited, a:active
         box-shadow: 0 0 16px #0000002e;
         box-sizing: border-box;
         padding: 0.375rem;
-        
+        border: 0px solid white;
     }
     .hebergement_a_marseille h2
     {
@@ -1112,6 +1145,7 @@ a, a:hover, a:visited, a:active
         height: 300px;
         box-shadow: 0 0 16px #0000002e;
         padding: 0.375rem;
+        border: 0px solid white;
         
     }
     .marseille4, .marseille5, .marseille6
@@ -1126,6 +1160,7 @@ a, a:hover, a:visited, a:active
         height: 260px;
         box-shadow: 0 0 16px #0000002e;
         padding: 0.375rem;
+        border: 0px solid white;
         
     }
     .show_more
@@ -1202,7 +1237,8 @@ a, a:hover, a:visited, a:active
         height: 660px;
         border-radius: 20px 20px 0px 0px;
         filter: brightness(1);
-        
+        box-shadow: 0 0 16px #0000002e;
+        border: 1px solid white;
     }
     .fort_de_pomegues img, .parc_longchamp img  
     {
@@ -1210,7 +1246,8 @@ a, a:hover, a:visited, a:active
         height: 320px;
         border-radius: 20px 20px 0px 0px;
         filter: brightness(1);
-        
+        box-shadow: 0 0 16px #0000002e;
+        border: 1px solid white;
     }
     .ile_du_frioul img, .Notre-Dame-de-la-Garde img 
     {
@@ -1218,7 +1255,8 @@ a, a:hover, a:visited, a:active
         height: 220px;
         border-radius: 20px 20px 0px 0px;
         filter: brightness(1);
-        
+        box-shadow: 0 0 16px #0000002e;
+        border: 1px solid white;
     }
     figcaption
     {
@@ -1229,7 +1267,7 @@ a, a:hover, a:visited, a:active
         height: 70px;
         padding: 4px;
         border-radius: 0px 0px 20px 20px;
-        
+        border: 1px solid white;
     }
     #footer
     {
