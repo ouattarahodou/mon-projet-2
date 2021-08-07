@@ -100,12 +100,9 @@
         align-items: center;
         
     }
-    .circle
-    {
-        background-color:  #DEEBFF;
-    }
     .containerFilter {
         display: flex;
+        
     }
 
     .elementFilter {
@@ -113,7 +110,7 @@
     }
 
     .elementFilter:hover {
-        background-color:#F2F2F2 ;
+        background-color: #F2F2F2 ;
     }
 
     .containerFilter a {
@@ -121,8 +118,10 @@
     }
 
     .elementFilter {
-        border: 2px solid #F2F2F2;
+        border: 2px solid  #F2F2F2;
         border-radius: 25px;
+        font-size: 20px;
+        
     }
 
     .containerFilter p {
@@ -132,22 +131,24 @@
     }
 
     .containerFilter i {
-        background-color: #F2F2F2;
+        background-color: #DEEBFF;
         color: #0065FC;
         padding: 0.7em;
         border-radius: 25px;
+        
     }
 
     .info_plus {
         display: flex;
         align-items: center;
         margin: 1em 0;
+        font-size: large;
     }
 
     .info {
-        border: 1px solid #F2F2F2;
-        width: 25px;
-        height: 25px;
+        border: 2px solid #F2F2F2;
+        width: 30px;
+        height: 30px;
         margin-right: 1em;
         border-radius: 25px;
         display: flex;
@@ -172,14 +173,24 @@
     }
     #hebergement [data-active="true"]
     {
-        color: cornflowerblue;
+        color: hsl(224, 86%, 61%);
     }
     #hebergement img {
         max-width: 100%;
     }
-    .hebergement_a_marseille p,ul,h3 
+    #hebergement p,
+    #hebergement h3, 
+    #hebergement ul
     {
-        margin-left: 5px;
+        margin-left: 15px;
+    }
+    #hebergement h3
+    {
+        font-size: 20px;
+    }
+    #hebergement p
+    {
+        font-size: 15px;
     }
     .hebergement_a_marseille {
         width: 65%;
@@ -187,17 +198,12 @@
         border-radius: 20px;
         padding: 2em;
     }
-    
     .plus_populaire {
         width: 30%;
         background-color: #F2F2F2;
         border-radius: 20px;
         padding: 2em;
         margin-left: 2em;
-    }
-    .plus_populaire p,h3,ul 
-    {
-        margin-left: 5px;
     }
     .flex-item1,
     .flex-item2 {
@@ -239,7 +245,18 @@
         align-items: center;
         justify-content: space-between;
     }
-
+    .popular1 ul 
+    {
+        margin-top: 40px;
+    } 
+    .popular2 ul 
+    {
+        margin-top: 20px;
+    }
+    .popular3 ul 
+    {
+        margin-top: 40px;
+    }
     .popular1 a,
     .popular2 a,
     .popular3 a {
