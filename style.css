@@ -98,8 +98,12 @@
     #box_filtres {
         display: flex;
         align-items: center;
+        
     }
-
+    .circle
+    {
+        background-color:  #DEEBFF;
+    }
     .containerFilter {
         display: flex;
     }
@@ -109,7 +113,7 @@
     }
 
     .elementFilter:hover {
-        background-color: #F2F2F2;
+        background-color:#F2F2F2 ;
     }
 
     .containerFilter a {
@@ -173,34 +177,42 @@
     #hebergement img {
         max-width: 100%;
     }
-
+    .hebergement_a_marseille p,ul,h3 
+    {
+        margin-left: 5px;
+    }
     .hebergement_a_marseille {
         width: 65%;
         background-color: #F2F2F2;
-        border-radius: 50px;
+        border-radius: 20px;
         padding: 2em;
     }
-
+    
     .plus_populaire {
         width: 30%;
         background-color: #F2F2F2;
-        border-radius: 25px;
+        border-radius: 20px;
         padding: 2em;
         margin-left: 2em;
     }
-
+    .plus_populaire p,h3,ul 
+    {
+        margin-left: 5px;
+    }
     .flex-item1,
     .flex-item2 {
         display: flex;
         justify-content: space-between;
         padding-bottom: 1em;
+        height: 235px;
     }
 
     .flex-item1>div,
     .flex-item2>div {
         width: 30%;
+        height: 215px;
         background-color: white;
-        border-radius: 25px;
+        border-radius: 20px;
     }
 
     .flex-item1 ul,
@@ -216,9 +228,9 @@
     .flex-item1 img,
     .flex-item2 img {
         width: 100%;
-        height: 150px;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
+        height: 120px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         object-fit: cover;
     }
 
@@ -233,7 +245,7 @@
     .popular3 a {
         display: flex;
         background-color: white;
-        border-radius: 25px;
+        border-radius: 20px;
         height: 150px;
         margin-bottom: 1em;
     }
@@ -251,12 +263,13 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     #hebergement div.plus_populaire div a div ul {
         display: flex;
+        
     }
 
     /*activitie*/
@@ -270,7 +283,10 @@
         max-width: 100%;
         object-fit: cover;
     }
-
+    .activites_a_marseille h3
+    {
+        margin-left: 15px;
+    }
     .activites_a_marseille {
         width: 100%;
     }
@@ -283,20 +299,24 @@
     .containActivity>div a figure {
         max-width: 300px;
         height: 450px;
-        border-radius: 25px;
+        border-radius: 20px;
         -webkit-box-shadow: 0px 0px 7px 4px #F2F2F2;
         box-shadow: 0px 0px 7px 4px #F2F2F2;
     }
 
     .containActivity>div a figure img {
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
 
     .containActivity>div:nth-child(odd) img {
         height: 400px;
     }
-
+    .containActivity .a_1 figcaption,
+    .containActivity .a_2 figcaption
+    {
+        height: 45px;
+    }
     .containActivity .a_1,
     .containActivity .a_2 {
         width: 300px;
@@ -323,10 +343,24 @@
         display: flex;
         justify-content: space-between;
         padding: 3em;
+        font-size: 20px;
+        line-height: 35px;
     }
-
+    .footer_column1
+    {
+        margin-right: 80px;
+    }
+    .footer_column2
+    {
+        margin-right: 100px;
+    }
+    .footer_column3 
+    {
+        margin-right: 540px;
+    }
     footer h3 {
         padding: 1em 0;
+        font-size: 25px;
     }
 
     @media screen and (max-width:600px) {
