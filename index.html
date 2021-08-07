@@ -3,10 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Reservia - Openclassroom</title>
 	<link rel="stylesheet" href="style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/79e163a779.js" crossorigin="anonymous"></script>
+	<title>Reservia - Openclassroom</title>
 </head>
 
 <body>
@@ -17,8 +17,8 @@
 		</a>
 		<nav>
 			<ul>
-				<li><a href="#" data-active="true">Hébergements</a></li>
-				<li><a href="#" data-active="false">Activités</a></li>
+				<li><a href="#hebergement" data-active="true">Hébergements</a></li>
+				<li><a href="#travel" data-active="false">Activités</a></li>
 				<li class="signup"><a href="#">S'inscrire</a></li>
 			</ul>
 		</nav>
@@ -34,49 +34,52 @@
 					<i class=" fas fa-map-marker-alt" aria-hidden="true"></i>
 				</div>
 				<div class="search_input">
-					<input class="search_input" placeholder="Marseille, France">
+					<input placeholder="Marseille, France">
 				</div>
 				<a href="#">
 					<div class="search_button">
-						<i class="fas fa-search">rechercher</i>
+						<i class="fas fa-search"></i>
+						<p>rechercher</p>
 					</div>
 				</a>
 			</div>
 		</div>
 		<div id="box_filtres">
 			<h2>Filtres</h2>
-			<a href="#">
-				<div class="money">
-					<div class="circle">
+			<div class="containerFilter">
+				<a href="#">
+					<div class="elementFilter">
+
 						<i class="fas fa-money-bill-wave"></i>
+						<p class="filters">Économique</p>
 					</div>
-					<span class="filters">Économique</span>
-				</div>
-			</a>
-			<a href="#">
-				<div class="child">
-					<div class="circle">
+				</a>
+				<a href="#">
+					<div class="elementFilter">
+
 						<i class="fas fa-child"></i>
+
+						<p class="filters">Familial</p>
 					</div>
-					<span class="filters">Familial</span>
-				</div>
-			</a>
-			<a href="#">
-				<div class="heart">
-					<div class="circle">
+				</a>
+				<a href="#">
+					<div class="elementFilter">
+
 						<i class="fas far fa-heart"></i>
+
+						<p class="filters">Romantique</p>
 					</div>
-					<span class="filters">Romantique</span>
-				</div>
-			</a>
-			<a href="#">
-				<div class="dog">
-					<div class="circle">
+				</a>
+				<a href="#">
+					<div class="elementFilter">
+
 						<i class="fas fa-dog"></i>
+
+						<p class="filters">Animaux autorisés</p>
 					</div>
-					<span class="filters">Animaux autorisés</span>
-				</div>
-			</a>
+				</a>
+
+			</div>
 		</div>
 
 		<div class="info_plus">
@@ -267,7 +270,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="travel">
+	<section id="travel" class="travel">
 		<div class="activites_a_marseille">
 			<h2>Activités à Marseille</h2>
 			<div class="containActivity">
