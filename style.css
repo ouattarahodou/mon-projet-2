@@ -33,6 +33,7 @@
     header ul {
         display: flex;
         list-style: none;
+        font-size: 19px;
     }
     
     header li {
@@ -106,7 +107,7 @@
     #box_filtres {
         display: flex;
         align-items: center;
-        
+        padding: 1em;
     }
     .containerFilter {
         display: flex;
@@ -149,7 +150,7 @@
     .info_plus {
         display: flex;
         align-items: center;
-        margin: 1em 0;
+        margin: 2em 0;
         
     }
     .info_plus p 
