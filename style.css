@@ -492,5 +492,46 @@
         footer {
             display: flex;
         }
-
+        #hebergement
+        {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+        .flex-item1,
+        .flex-item2
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        .travel
+        {
+            height: 1200px;
+            
+        }
+        .containActivity>div:nth-child(odd) img  
+        {
+            height: 35%;
+        }
+        .containActivity a figure
+        {
+            height: 20px;
+        }
+        .containActivity
+        {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        }
+        .containActivity .a_1,
+        .containActivity .a_2
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
     }
