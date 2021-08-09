@@ -428,7 +428,6 @@
         #hebergement {
             flex-direction: column-reverse;
         }
-
         .plus_populaire,
         .hebergement_a_marseille {
             width: 100%;
@@ -439,20 +438,37 @@
         .flex-item1,
         .flex-item2 {
             flex-direction: column;
+            height: 800px;
         }
 
         .flex-item1 div,
         .flex-item2 div {
             width: 100%;
         }
-
-        .containActivity {
-            flex-direction: column;
+        .travel
+        {
+            height: 1300px;
         }
-
-        .containActivity div a figure {
+        #un img,
+        #quatre img  
+        {
+            height: 200px;
             width: 100%;
             max-width: 100%;
+        }
+        .containActivity .a_1,
+        .containActivity .a_2  
+        {
+            height: 0px;
+        }
+        .containActivity {
+            flex-direction: column;
+            height: 2000px;
+        }
+        .containActivity div a figure  {
+            width: 100%;
+            max-width: 100%;
+            height: 20px;
             margin: 0;
         }
 
@@ -462,6 +478,7 @@
         .containActivity .a_2 div a figure {
             width: 100%;
             max-width: 100%;
+            
             margin: 0;
         }
 
@@ -470,5 +487,10 @@
         }
     }
     @media (min-width:601px) and (max-width:800px) {
+
+        
+        footer {
+            display: flex;
+        }
 
     }
