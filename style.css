@@ -419,7 +419,29 @@
     }
 
     @media screen and (max-width:600px) {
+        
 
+        header 
+        {
+            height: 180px;
+            flex-wrap: wrap;
+            font-family: 'Raleway', sans-serif;
+        }
+        header nav [data-active="false"]
+        {
+            position: relative; top: 4em;
+            position: relative; left: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        header nav [data-active="true"]
+        {
+            position: relative; top: 4em;
+            position: relative; right: 5em;
+            display: flex;
+            flex-wrap: wrap;
+        }
         #box_filtres,
         .containerFilter {
             flex-wrap: wrap;
@@ -447,14 +469,12 @@
         }
         .travel
         {
-            height: 1300px;
+            height: 2600px;
         }
-        #un img,
-        #quatre img  
+        .containActivity img   
         {
-            height: 200px;
-            width: 100%;
-            max-width: 100%;
+            height: 20px;
+            min-width: 50%;
         }
         .containActivity .a_1,
         .containActivity .a_2  
@@ -484,6 +504,7 @@
 
         footer {
             flex-direction: column;
+            
         }
     }
     @media (min-width:601px) and (max-width:800px) {
@@ -491,6 +512,13 @@
         
         footer {
             display: flex;
+            
+            
+        }
+        #box_filtres,
+        .containerFilter
+        {
+            flex-wrap: wrap;
         }
         #hebergement
         {
@@ -498,33 +526,59 @@
             flex-direction: column-reverse;
             justify-content: space-between;
         }
+        .plus_populaire
+        {
+            width: 100%;
+            height: 600px;
+            margin: 0;
+            padding: 0;
+        }
+        .hebergement_a_marseille
+        {
+            width: 150%;
+            height: 800px;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+            
+        }
         .flex-item1,
         .flex-item2
         {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             justify-content: space-between;
+            height: 700px;
             
+        }
+        .show_more
+        {
+            position: relative;bottom: 45em;
+        }
+        .flex-item2
+        {
+            position: relative;left: 35%;
+            position: relative;bottom: 45em;
         }
         .travel
         {
             height: 1200px;
             
         }
-        .containActivity>div:nth-child(odd) img  
+        .containActivity img 
         {
-            height: 35%;
-        }
-        .containActivity a figure
-        {
-            height: 20px;
+            height: 50%;
         }
         .containActivity
         {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            
+            margin: 0;
+            padding: 0;
+            width: 96%;
         }
         .containActivity .a_1,
         .containActivity .a_2
@@ -532,6 +586,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            
+            margin: 0;
+            padding: 0;
         }
     }
