@@ -423,27 +423,34 @@
 
         header 
         {
-            height: 180px;
+            height: 170px;
             flex-wrap: wrap;
             font-family: 'Raleway', sans-serif;
             display: flex;
         }
         header img 
         {
-            position: relative; left: 2em;
+            position: relative; left: 1em;
             position: relative; bottom: 1em;
+            
         }
         header nav [data-active="false"]
         {
-            position: relative; top: 3em;
-            position: relative; left: 2em;
-            
+            position: relative; top: 0em;
+            position: relative; left: 8em;
+            font-size: 15px;
         }
         header nav [data-active="true"]
         {
-            position: relative; top: 3em;
-            position: relative; right: 3em;
-            
+            position: relative; top: 0em;
+            position: relative; left: 2em;
+            font-size: 15px;
+        }
+        .signup
+        {
+            font-size: 15px;
+            position: relative; left: 4em;
+            position: relative; bottom: 6em;
         }
         #box_filtres,
         .containerFilter {
