@@ -266,6 +266,7 @@
     .fa-chart-line
     {
         font-size: larger;
+        margin-right: 10px;
     }
     .popular_Line {
         display: flex;
@@ -331,6 +332,7 @@
         max-width: 100%;
         object-fit: cover;
         
+        
     }
     .activites_a_marseille h2
     {
@@ -362,6 +364,7 @@
     .containActivity>div a figure img {
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        
     }
 
     .containActivity>div:nth-child(odd) img {
@@ -482,11 +485,6 @@
             height: 2600px;
             
         }
-        .containActivity img   
-        {
-            height: 20px;
-            min-width: 50%;
-        }
         .containActivity .a_1,
         .containActivity .a_2  
         {
@@ -497,7 +495,7 @@
             height: 2000px;
             
         }
-        .containActivity div a figure  {
+        .containActivitydiv div a figure figcaption {
             width: 100%;
             max-width: 100%;
             height: 20px;
@@ -517,6 +515,7 @@
 
         footer {
             flex-direction: column;
+            
             
         }
     }
@@ -580,6 +579,7 @@
             height: 1200px;
             
         }
+        
         .containActivity img 
         {
             height: 50%;
