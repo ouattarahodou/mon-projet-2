@@ -324,12 +324,13 @@
         display: flex;
         margin-top: 2em;
         padding: 1em;
-        height: 680px;
-        
+        height: 700px;
+       
     }
 
     .travel img {
-        max-width: 100%;
+        width: 100%;
+        height: 0px;
         object-fit: cover;
         
         
@@ -346,15 +347,15 @@
     }
     .activites_a_marseille {
         width: 100%;
+        
     }
-
     .containActivity {
         display: flex;
         justify-content: space-between;
     }
 
-    .containActivity>div a figure {
-        max-width: 300px;
+    .containActivity>div a figure  {
+        width: 300px;
         height: 550px;
         border-radius: 20px;
         -webkit-box-shadow: 0px 0px 7px 4px #F2F2F2;
@@ -369,6 +370,7 @@
 
     .containActivity>div:nth-child(odd) img {
         height: 500px;
+        width: 100%;
     }
     .containActivity .a_1 figcaption,
     .containActivity .a_2 figcaption
@@ -383,7 +385,6 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
     .containActivity .a_1 figure,
     .containActivity .a_2 figure {
         height: 100%;
@@ -403,6 +404,7 @@
         padding: 3em;
         font-size: 20px;
         line-height: 35px;
+        height: 200px;
     }
     .footer_column1
     {
@@ -482,13 +484,23 @@
         }
         .travel
         {
-            height: 2600px;
-            
+            height: 2590px;
         }
         .containActivity .a_1,
         .containActivity .a_2  
         {
             height: 0px;
+            
+        }
+        .containActivity>div a figure 
+        {
+            width: 300px;
+            height: 360px;
+        }
+        .containActivity>div:nth-child(odd) img
+        {
+            height: 300px;
+            width: 126%;
         }
         .containActivity {
             flex-direction: column;
@@ -498,7 +510,7 @@
         .containActivitydiv div a figure figcaption {
             width: 100%;
             max-width: 100%;
-            height: 20px;
+            height: 100px;
             margin: 0;
             
         }
@@ -515,8 +527,7 @@
 
         footer {
             flex-direction: column;
-            
-            
+            height: 600px;   
         }
     }
     @media (min-width:601px) and (max-width:800px) {
@@ -524,8 +535,12 @@
         
         footer {
             display: flex;
-            
-            
+            height: 300px;
+            font-size: 18px;
+        }
+        footer h3
+        {
+            font-size: 20px;
         }
         #box_filtres,
         .containerFilter
@@ -576,13 +591,18 @@
         }
         .travel
         {
-            height: 1200px;
+            height: 1300px;
+        }
+        .containActivity>div a figure  
+        {
+            width: 300px;
+            height: 250px;
             
         }
-        
-        .containActivity img 
+        .containActivity>div:nth-child(odd) img 
         {
-            height: 50%;
+            height: 200px;
+            width: 100%;
         }
         .containActivity
         {
