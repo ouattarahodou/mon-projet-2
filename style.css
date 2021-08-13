@@ -464,6 +464,15 @@
             position: relative; left: 4em;
             position: relative; bottom: 6em;
         }
+        .search_button
+        {
+            width: 45px;
+            height: 30px;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            font-size: 0px;
+            
+        }
         #box_filtres,
         .containerFilter {
             flex-wrap: wrap;
