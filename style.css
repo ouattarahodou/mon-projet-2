@@ -360,6 +360,7 @@
         border-radius: 20px;
         -webkit-box-shadow: 0px 0px 7px 4px #F2F2F2;
         box-shadow: 0px 0px 7px 4px #F2F2F2;
+        
     }
 
     .containActivity>div a figure img {
@@ -371,11 +372,13 @@
     .containActivity>div:nth-child(odd) img {
         height: 500px;
         width: 100%;
+        
     }
     .containActivity .a_1 figcaption,
     .containActivity .a_2 figcaption
     {
         height: 45px;
+        
     }
     .containActivity .a_1,
     .containActivity .a_2 {
@@ -572,6 +575,18 @@
         {
             font-size: 20px;
         }
+        .footer_column1
+        {
+            margin-right: 40px;
+        }
+        .footer_column2
+        {
+            margin-right: 50px;
+        }
+        .footer_column3
+        {
+            margin-right: 50px;
+        }
         #box_filtres,
         .containerFilter
         {
@@ -621,7 +636,8 @@
         }
         .travel
         {
-            height: 1300px;
+            height: 950px;
+            
         }
         .containActivity>div a figure  
         {
@@ -629,10 +645,29 @@
             height: 250px;
             
         }
+        .parc_national_des_calanques
+        {
+            position: relative; right: 0em;
+            position: relative; bottom: 16em;
+        }
+        .Notre-Dame-de-la-Garde
+        {
+            position: relative; bottom: 16em;
+        }
+        .parc_longchamp
+        {
+            position: relative; bottom: 17em;
+        }
+        .ile_du_frioul 
+        {
+            position: relative; right: 23em;
+            position: relative; top: 17em;
+        }
         .containActivity>div:nth-child(odd) img 
         {
             height: 200px;
             width: 100%;
+            
         }
         .containActivity
         {
