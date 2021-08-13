@@ -471,35 +471,66 @@
         .plus_populaire,
         .hebergement_a_marseille {
             width: 100%;
-            
             margin: 0;
             padding: 0;
         }
         .hebergement_a_marseille  
         {
-            height: 2200px;
+            height: 2450px;
+        }
+        .flex-item1
+        {
+            height: 1100px;
+        }
+        .flex-item2
+        {
+            height: 1200px;
         }
         .flex-item1,
         .flex-item2 {
             flex-direction: column;
-            height: 1000px;
-        }
-        flex-item1 imgn,
-        flex-item2 imgn 
-        {
-            height: 250px;
-            width: 385px;
-        }
-        .flex-item1 div,
-        .flex-item2 div
-        {  
-            width: 450px;
-            height: 280px;
             
+        }
+        .flex-item1>div,
+        .flex-item2>div 
+        {
+            width: 100%;
+            height: 330px;
+        }
+        .flex-item1 img,
+        .flex-item2 img 
+        {  
+            width: 100%;
+            height: 240px;
+            
+        }
+        .vieux_port
+        {
+            position: relative;top: 0em;
+        }
+        .parc_longchamp
+        {
+            position: relative;top: 30em;
+        }
+        .fort_de_pomegues
+        {
+            position: relative;top: 2em;
+        }
+        .Notre-Dame-de-la-Garde
+        {
+            position: relative;top: 6em;
+        }
+        .parc_national_des_calanques
+        {
+            position: relative;top: 4em;
+        }
+        .ile_du_frioul
+        {
+            position: relative;top: 48em;
         }
         .travel
         {
-            height: 1700px;
+            height: 2200px;
         }
         .containActivity .a_1,
         .containActivity .a_2  
