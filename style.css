@@ -540,7 +540,7 @@
         }
         .containActivity>div a figure  
         {
-            width: 480px;
+            width: 380px;
             height: 320px;
         }
         .containActivity>div:nth-child(odd) img
@@ -551,13 +551,6 @@
         .containActivity {
             flex-direction: column;
             height: 0;
-            
-        }
-        containActivitydiv div a figure figcaption {
-            width: 100%;
-            max-width: 100%;
-            height: 100px;
-            margin: 0;
             
         }
         .containActivity .a_1,
