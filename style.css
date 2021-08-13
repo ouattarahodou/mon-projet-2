@@ -475,28 +475,17 @@
             margin: 0;
             padding: 0;
         }
-        hebergement_a_marseille img 
-        {
-            width: 150px;
-            height: 200px;
-        }
         .hebergement_a_marseille  
         {
-            height: 500px;
-        }
-        marseille1, .marseille2, .marseille3 img,
-        marseille4, .marseille5, .marseille6 img 
-        {
-            width: 200px;
-            height: 0px;
+            height: 2200px;
         }
         .flex-item1,
         .flex-item2 {
             flex-direction: column;
-            height: 3500px;
+            height: 1000px;
         }
-        .flex-item1 img,
-        .flex-item2 img 
+        flex-item1 imgn,
+        flex-item2 imgn 
         {
             height: 250px;
             width: 385px;
@@ -510,7 +499,7 @@
         }
         .travel
         {
-            height: 3000px;
+            height: 1700px;
         }
         .containActivity .a_1,
         .containActivity .a_2  
@@ -530,7 +519,7 @@
         }
         .containActivity {
             flex-direction: column;
-            height: 2000px;
+            height: 0;
             
         }
         containActivitydiv div a figure figcaption {
