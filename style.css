@@ -349,6 +349,10 @@
         width: 100%;
         
     }
+    .containActivity div a 
+    {
+        display: flex;
+    }
     .containActivity {
         display: flex;
         justify-content: space-between;
@@ -540,7 +544,7 @@
         }
         .containActivity>div a figure  
         {
-            width: 380px;
+            width: 500px;
             height: 320px;
         }
         .containActivity>div:nth-child(odd) img
