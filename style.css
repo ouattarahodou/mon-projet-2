@@ -491,10 +491,12 @@
         .search_button i 
         {
             display: block;
+           
         }
         .search_button p 
         {
             display: none;
+            
         }
         #box_filtres,
         .containerFilter {
