@@ -454,6 +454,7 @@
             flex-wrap: wrap;
             font-family: 'Raleway', sans-serif;
             display: flex;
+            
         }
         header img 
         {
@@ -466,12 +467,18 @@
             position: relative; top: 0em;
             position: relative; left: 8em;
             font-size: 15px;
+            border-bottom: 3px #f2f2f2 solid;
+            width: 100%;
+            
         }
         header nav [data-active="true"]
         {
             position: relative; top: 0em;
             position: relative; left: 2em;
             font-size: 15px;
+            border-bottom: 3px #0065FC solid;
+            width: 100%;
+            
         }
         .signup
         {
@@ -488,14 +495,18 @@
             display: flex;
             
         }
-        .search_button i 
+        .fa-search p
         {
             display: block;
-           
+            width: 16px;
+            height: 16px;
+            
         }
-        .search_button p 
+        .search_button p   
         {
             display: none;
+            width: 16px;
+            height: 16px;
             
         }
         #box_filtres,
