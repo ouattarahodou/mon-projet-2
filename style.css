@@ -1,6 +1,8 @@
     body {
         max-width: 1440px;
         margin: 0 auto;
+
+        
     }
 
     h1,
@@ -457,7 +459,7 @@
             flex-wrap: wrap;
             font-family: 'Raleway', sans-serif;
             display: flex;
-  
+
         }
         header img 
         {
@@ -617,7 +619,8 @@
 
         footer {
             flex-direction: column;
-            height: auto;   
+            height: auto; 
+
         }
     }
     @media (min-width:601px) and (max-width:800px) {
