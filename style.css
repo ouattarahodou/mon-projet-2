@@ -14,7 +14,6 @@
         margin: 0;
         padding: 0;
     }
-
     a {
         text-decoration: none;
         color: black;
@@ -35,7 +34,12 @@
         list-style: none;
         font-size: 19px;
     }
-    
+    header ul :hover
+    {
+        border-bottom: 3px #0065FC solid;
+        width: 120px;
+        height: 50px;
+    }
     header li {
         padding: 0 1em;
     }
@@ -56,7 +60,7 @@
         padding-bottom: 0.5em;
         
     }
-
+    
     /* recherche */
 
     .search_header {
@@ -66,7 +70,8 @@
     }
 
     .search_header .fa-search {
-        display: none;
+        color: white;
+        font-size: 0px;
     }
 
     .search_map {
@@ -80,10 +85,6 @@
         width: 30px;
         height: 54px;
     }
-    input
-    {
-        margin-left: 30px;
-    }
     .search_input input {
         border: none;
         border-top: 1px solid #F2F2F2;
@@ -92,7 +93,7 @@
         height: 28px;
         width: 180px;
         font-size: 18px;
-        
+        text-align: center;
         
     }
     .search_button {
@@ -100,15 +101,17 @@
         padding: 10px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        width: 120px;
+        width: 120%;
         height: 31px;
         line-height: 26px;
         display: flex;
         justify-content: center;
+        color: white;
     }
 
     .search_button p {
         color: white;
+        font-size: 20px;
     }
 
     /* filtre */
@@ -454,7 +457,7 @@
             flex-wrap: wrap;
             font-family: 'Raleway', sans-serif;
             display: flex;
-            
+  
         }
         header img 
         {
@@ -462,52 +465,40 @@
             position: relative; bottom: 1em;
             
         }
-        header nav [data-active="false"]
+        header li [data-active="false"] :hover
         {
             position: relative; top: 0em;
             position: relative; left: 8em;
             font-size: 15px;
-            border-bottom: 3px #f2f2f2 solid;
             width: 100%;
             
+            
         }
-        header nav [data-active="true"]
+        header li [data-active="true"] :hover
         {
             position: relative; top: 0em;
-            position: relative; left: 2em;
+            position: relative; left: 1em;
             font-size: 15px;
-            border-bottom: 3px #0065FC solid;
             width: 100%;
             
         }
         .signup
         {
             font-size: 15px;
-            position: relative; left: 4em;
+            position: relative; left: 5em;
             position: relative; bottom: 6em;
         }
-        .search_button
+       
+        .search_header .fa-search
         {
-            width: 45px;
-            height: 30px;
-            border-top-right-radius: 12px;
-            border-bottom-right-radius: 12px; 
-            display: flex;
+            color: white;
+            font-size: 18px;
+            line-height: 35px;
             
         }
-        .fa-search p
-        {
-            display: block;
-            width: 16px;
-            height: 16px;
-            
-        }
-        .search_button p   
+        .search_button p    
         {
             display: none;
-            width: 16px;
-            height: 16px;
-            
         }
         #box_filtres,
         .containerFilter {
@@ -636,6 +627,7 @@
             display: flex;
             height: 300px;
             font-size: 18px;
+
         }
         footer h3
         {
@@ -670,6 +662,7 @@
             height: 600px;
             margin: 0;
             padding: 0;
+
         }
         .hebergement_a_marseille
         {
@@ -726,7 +719,7 @@
         }
         .ile_du_frioul 
         {
-            position: relative; right: 23em;
+            position: relative; right: 24em;
             position: relative; top: 17em;
         }
         .containActivity>div:nth-child(odd) img 
