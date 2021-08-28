@@ -23,6 +23,7 @@
 
     ul {
         list-style: none;
+        
     }
 
     header {
@@ -35,8 +36,9 @@
         display: flex;
         list-style: none;
         font-size: 19px;
+        
     }
-    header ul :hover
+    header ul li:hover
     {
         border-bottom: 3px #0065FC solid;
         width: 120px;
@@ -467,30 +469,34 @@
             position: relative; bottom: 1em;
             
         }
-        header li [data-active="false"] :hover
-        {
-            position: relative; top: 0em;
-            position: relative; left: 8em;
-            font-size: 15px;
-            width: 100%;
-            
-            
-        }
-        header li [data-active="true"] :hover
-        {
-            position: relative; top: 0em;
-            position: relative; left: 1em;
-            font-size: 15px;
-            width: 100%;
-            
-        }
-        .signup
-        {
-            font-size: 15px;
-            position: relative; left: 5em;
-            position: relative; bottom: 6em;
-        }
        
+        header>a{position: absolute;}
+        nav 
+        {
+            width: 100%;
+        }
+        nav ul 
+        {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        nav ul li 
+        {
+            width: 50%;
+            padding: 0;
+            text-align: center;
+            line-height: 50px;
+        }
+        nav ul li.signup
+        {
+            width: 100%;
+            text-align: right;
+        }
+        nav ul li a 
+        {
+            width: 100%;
+        }
+        
         .search_header .fa-search
         {
             color: white;
@@ -749,4 +755,7 @@
             margin: 0;
             padding: 0;
         }
+    }
+    @media (min-width:801px) and (max-width:1225px) {
+        .containActivity figure{margin: 0 8px;}
     }
