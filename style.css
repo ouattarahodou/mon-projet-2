@@ -637,6 +637,10 @@
             height: 300px;
             font-size: 18px;
 
+            margin: 0;
+            padding: 0;
+            width: 100%;
+
         }
         footer h3
         {
@@ -664,6 +668,10 @@
             display: flex;
             flex-direction: column-reverse;
             justify-content: space-between;
+
+            margin: 0;
+            padding: 0;
+            width: 100%;
         }
         .plus_populaire
         {
@@ -675,7 +683,7 @@
         }
         .hebergement_a_marseille
         {
-            width: 150%;
+            width: 100%;
             height: 800px;
             margin: 0;
             padding: 0;
@@ -683,6 +691,10 @@
             display: flex;
             justify-content: space-between;
             
+        }
+        .hebergement_a_marseille img 
+        {
+            width: 200%;
         }
         .flex-item1,
         .flex-item2
@@ -692,6 +704,9 @@
             justify-content: space-between;
             height: 700px;
             
+            margin: 0;
+            padding: 0;
+            width: 60%;
         }
         .show_more
         {
@@ -701,41 +716,64 @@
         {
             position: relative;left: 35%;
             position: relative;bottom: 45em;
+
+            margin: 0;
+            padding: 0;
         }
         .travel
         {
             height: 950px;
             
+            margin: 0;
+            padding: 0;
         }
         .containActivity>div a figure  
         {
             width: 300px;
             height: 250px;
+
+            margin: 0;
+            padding: 0;
             
         }
         .parc_national_des_calanques
         {
             position: relative; right: 0em;
             position: relative; bottom: 16em;
+
+            margin: 0;
+            padding: 0;
         }
         .Notre-Dame-de-la-Garde
         {
             position: relative; bottom: 16em;
+
+            margin: 0;
+            padding: 0;
         }
         .parc_longchamp
         {
             position: relative; bottom: 17em;
+
+            margin: 0;
+            padding: 0;
         }
         .ile_du_frioul 
         {
             position: relative; right: 24em;
             position: relative; top: 17em;
+
+            margin: 0;
+            padding: 0;
         }
         .containActivity>div:nth-child(odd) img 
         {
             height: 200px;
             width: 100%;
-            
+
+
+            margin: 0;
+            padding: 0;
         }
         .containActivity
         {
@@ -758,7 +796,21 @@
     }
     @media (min-width:801px) and (max-width:1225px) {
         .containActivity figure{margin: 0 8px;} 
-        
+        .flex-item1,
+        .flex-item2
+        {
+            width: 104%;
+            height: auto;
+            margin-right: 5em;
+        }
+        .hebergement_a_marseille
+        {
+            width: 680px;
+        }
+        footer 
+        {
+            height: auto;
+        }
 
         
     }
