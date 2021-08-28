@@ -757,5 +757,12 @@
         }
     }
     @media (min-width:801px) and (max-width:1225px) {
-        .containActivity figure{margin: 0 8px;}
+        .containActivity figure{margin: 0 8px;} 
+        body
+        {
+            margin: 0;
+            padding: 0;
+        } 
+
+        
     }
