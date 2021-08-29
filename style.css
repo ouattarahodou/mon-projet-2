@@ -677,24 +677,43 @@
         {
             width: 100%;
             height: 600px;
+            border-radius: 0px;
             margin: 0;
             padding: 0;
 
         }
         .hebergement_a_marseille
         {
-            width: 100%;
-            height: 800px;
-            margin: 0;
+            width: 90%;
+            height: 1020px;
+            margin: 15px;
             padding: 0;
             flex-direction: column;
             display: flex;
             justify-content: space-between;
+            background-color: white;
             
         }
-        .hebergement_a_marseille img 
+        .flex-item1>div,
+        .flex-item2>div 
         {
-            width: 200%;
+            width: 70%;
+            height: 330px;
+            margin: 10px;
+            align-content:space-between;
+            -webkit-box-shadow: 0px 0px 7px 4px #F2F2F2;
+            box-shadow: 0px 0px 7px 4px #F2F2F2;
+        }
+        .flex-item1 img,
+        .flex-item2 img
+        {
+            width: 100%;
+            height: 200px;
+            
+        }
+        .hebergement_a_marseille h2  
+        {
+            margin-left: 20px;
         }
         .flex-item1,
         .flex-item2
@@ -706,16 +725,17 @@
             
             margin: 0;
             padding: 0;
-            width: 60%;
+            width: 54%;
         }
         .show_more
         {
-            position: relative;bottom: 45em;
+            position: relative;bottom: 31em;
+            margin-left: 20px;
         }
         .flex-item2
         {
-            position: relative;left: 35%;
-            position: relative;bottom: 45em;
+            position: relative;left: 55%;
+            position: relative;bottom: 43em;
 
             margin: 0;
             padding: 0;
@@ -724,12 +744,12 @@
         {
             height: 950px;
             
-            margin: 0;
-            padding: 0;
+            margin: 5px;
+            padding: 5px;
         }
         .containActivity>div a figure  
         {
-            width: 300px;
+            width: 100%;
             height: 250px;
 
             margin: 0;
@@ -760,8 +780,8 @@
         }
         .ile_du_frioul 
         {
-            position: relative; right: 24em;
-            position: relative; top: 17em;
+           position: relative; right: 26em; 
+           position: relative; top: 17em;
 
             margin: 0;
             padding: 0;
