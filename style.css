@@ -25,7 +25,6 @@
         list-style: none;
         
     }
-
     header {
         display: flex;
         justify-content: space-between;
@@ -38,22 +37,39 @@
         font-size: 19px;
         
     }
-    header ul li:hover
+    header h1:hover
     {
-        border-bottom: 3px #0065FC solid;
-        width: 120px;
+        border-top: 3px #0065FC solid;
+        width: 80px;
         height: 50px;
+        color: #0065FC;
+        cursor: pointer;
+    }
+    header h1  
+    {
+        color: black;
+        font-size: 18px;
+    }
+    header .signup_1 :hover
+    {
+        border-top: 3px #0065FC solid;
+        width: 120px;
+        height: 50px;  
+    }
+    header .signup_1 
+    {
+        color: blue;
+    }
+    header .signup
+    {
+        color: #0065FC;
     }
     header li {
         padding: 0 1em;
     }
-    header nav  [data-active="false"]
-    {
-        color: black;
-    }
-    header a {
-        color: #0065FC;
-        text-decoration: none;
+    header a{
+        color: blue;
+        text-decoration:none;
     }
     .vacation {
         padding-bottom: 0.5em;
@@ -486,22 +502,78 @@
             text-align: center;
             line-height: 50px;
         }
-        nav ul li.signup
+        .signup
+        {
+           
+               
+        }
+        header 
+        {
+            border-bottom: 3px gainsboro solid;
+            position: relative;bottom: 2em;
+            height: 120px;
+        }
+        header .signup_1
+        {
+            position: relative;left: 0em;top: 2em;
+        }
+        header h1 
+        {
+            position: relative;left: 4em;top: 3em;
+        }
+        header h1 :hover
+        {
+            border-top: white;
+            cursor: pointer;
+            
+        }
+        header .signup
         {
             width: 100%;
             text-align: right;
+            position: relative;top: 0.5em;
+        }
+        header img 
+        {
+            position: relative;top: 0.5em;
         }
         nav ul li a 
         {
             width: 100%;
         }
-        
+        header .signup_1 :hover
+        {
+            border-bottom: 3px blue solid;
+            width: 100%;
+            
+        }
+        header .signup_1 :hover
+        {
+        border-top: white solid;
+        width: 0;
+        height: 0;
+        }
         .search_header .fa-search
         {
             color: white;
             font-size: 18px;
             line-height: 35px;
             
+        }
+        .search_input input
+        {
+            height: 28px;
+            width: 25%;
+        }
+        #header_vacation
+        {
+            margin-left: 20px;
+           
+            
+        }
+        .search_button 
+        {
+            border-radius: 15px;
         }
         .search_button p    
         {
