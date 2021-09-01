@@ -29,6 +29,7 @@
         display: flex;
         justify-content: space-between;
         padding: 1em 0;
+        width: 100%;
     }
 
     header ul {
@@ -510,17 +511,18 @@
             border-bottom: 3px #f2f2f2 solid;
             position: relative;bottom: 2em;
             height: 120px;
+            width: 85%;
         }
         header p  
         {
-            position: relative;left: 1em;top: 2em;
+            position: relative;left: 3em;top: 2em;
         }
         header  p:hover 
         {
             border-bottom: 3px #0065FC solid;
             border-top: none;
             color: #0065FC;
-            width: 120%;
+            width: 100%;
             height: 50px;
             position: relative;top: 35px;
         }
@@ -528,7 +530,7 @@
         {
             width: 90%;
             text-align: right;
-            position: relative;top: 0.5em;
+            position: relative;top: 0.5em;left: 4em;
         }
         header img 
         {
@@ -711,6 +713,7 @@
 
         }
     }
+   
     @media (min-width:601px) and (max-width:800px) {
 
         
@@ -718,15 +721,19 @@
             display: flex;
             height: 300px;
             font-size: 18px;
-
+            width: 100%;
             margin: 0;
             padding: 0;
-            width: 100%;
+            
 
         }
         footer h3
         {
             font-size: 20px;
+        }
+        header 
+        {
+            width: 100%;
         }
         .footer_column1
         {
@@ -744,13 +751,13 @@
         .containerFilter
         {
             flex-wrap: wrap;
+            
         }
         #hebergement
         {
             display: flex;
             flex-direction: column-reverse;
             justify-content: space-between;
-
             margin: 0;
             padding: 0;
             width: 100%;
@@ -758,7 +765,7 @@
         #header_vacation
         {
             margin-left: 20px;
-           
+            width: 80%;
             
         }
         .plus_populaire h2 
@@ -768,16 +775,18 @@
 
         .plus_populaire
         {
-            width: 100%;
+            width: 95%;
             height: 600px;
             border-radius: 0px;
+            margin-left: 20px;
             margin: 0;
             padding: 0;
+            position: relative;left: 2em;
 
         }
         .hebergement_a_marseille
         {
-            width: 90%;
+            width: 85%;
             height: 1020px;
             margin: 15px;
             padding: 0;
@@ -835,7 +844,7 @@
         .travel
         {
             height: 950px;
-            
+            width: 80%;
             margin: 5px;
             padding: 5px;
         }
@@ -848,11 +857,20 @@
             padding: 0;
             
         }
-        .parc_national_des_calanques
+        .activites_a_marseille h2
         {
-            position: relative; right: 0em;
+            margin-left: 35px;
+        }
+        .vieux_port
+        {
+            position: relative; left: 2em;
+            width: 40%;
+        }
+        .parc_national_des_calanques 
+        {
+            position: relative; left: 2em;
             position: relative; bottom: 16em;
-
+            width: 40%;
             margin: 0;
             padding: 0;
         }
@@ -872,9 +890,9 @@
         }
         .ile_du_frioul 
         {
-           position: relative; right: 26em; 
-           position: relative; top: 17em;
-
+            position: relative; right: 19em; 
+            position: relative; top: 17em;
+            width: 90%;
             margin: 0;
             padding: 0;
         }
@@ -882,11 +900,10 @@
         {
             height: 200px;
             width: 100%;
-
-
             margin: 0;
             padding: 0;
         }
+        
         .containActivity
         {
             display: flex;
@@ -894,7 +911,11 @@
             flex-wrap: wrap;
             margin: 0;
             padding: 0;
-            width: 96%;
+            width: 100%;
+        }
+        .containActivity .a_1
+        {
+            width: 20%;
         }
         .containActivity .a_1,
         .containActivity .a_2
@@ -904,6 +925,7 @@
             justify-content: space-between;
             margin: 0;
             padding: 0;
+            width: 45%;
         }
     }
     @media (min-width:801px) and (max-width:1225px) {
