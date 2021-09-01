@@ -37,24 +37,27 @@
         font-size: 19px;
         
     }
-    header h1:hover
+    header p:hover
     {
         border-top: 3px #0065FC solid;
+        border-bottom: none;
         width: 80px;
         height: 50px;
         color: #0065FC;
         cursor: pointer;
     }
-    header h1  
+    header p   
     {
         color: black;
         font-size: 18px;
     }
-    header .signup_1 :hover
+    header .signup_1:hover
     {
         border-top: 3px #0065FC solid;
-        width: 120px;
-        height: 50px;  
+        border-bottom:none;
+        width: 80px;
+        height: 50px;
+         
     }
     header .signup_1 
     {
@@ -502,34 +505,28 @@
             text-align: center;
             line-height: 50px;
         }
-        .signup
-        {
-           
-               
-        }
         header 
         {
-            border-bottom: 3px gainsboro solid;
+            border-bottom: 3px #f2f2f2 solid;
             position: relative;bottom: 2em;
             height: 120px;
         }
-        header .signup_1
+        header p  
         {
-            position: relative;left: 0em;top: 2em;
+            position: relative;left: 1em;top: 2em;
         }
-        header h1 
+        header  p:hover 
         {
-            position: relative;left: 4em;top: 3em;
-        }
-        header h1 :hover
-        {
-            border-top: white;
-            cursor: pointer;
-            
+            border-bottom: 3px #0065FC solid;
+            border-top: none;
+            color: #0065FC;
+            width: 120%;
+            height: 50px;
+            position: relative;top: 35px;
         }
         header .signup
         {
-            width: 100%;
+            width: 90%;
             text-align: right;
             position: relative;top: 0.5em;
         }
@@ -537,21 +534,30 @@
         {
             position: relative;top: 0.5em;
         }
-        nav ul li a 
+        nav ul li a
         {
             width: 100%;
         }
-        header .signup_1 :hover
+        header .signup_1
         {
-            border-bottom: 3px blue solid;
-            width: 100%;
+            position: relative;left: 0em;top: 2em;
             
         }
-        header .signup_1 :hover
+        header .signup_1:hover 
         {
-        border-top: white solid;
-        width: 0;
-        height: 0;
+            
+            border-top: white;
+            
+            
+        }
+        header .signup_1:hover 
+        {
+            border-bottom: 3px #0065FC solid;
+            border-top: none;
+            width: 50%;
+            height: 50px;
+            position: relative;top: 35px;
+            
         }
         .search_header .fa-search
         {
@@ -563,7 +569,8 @@
         .search_input input
         {
             height: 28px;
-            width: 25%;
+            width: 100%;
+            text-align: center;
         }
         #header_vacation
         {
@@ -586,6 +593,10 @@
 
         #hebergement {
             flex-direction: column-reverse;
+        }
+        .plus_populaire h2 
+        {
+            margin-left: 20px;
         }
         .plus_populaire,
         .hebergement_a_marseille {
@@ -744,6 +755,17 @@
             padding: 0;
             width: 100%;
         }
+        #header_vacation
+        {
+            margin-left: 20px;
+           
+            
+        }
+        .plus_populaire h2 
+        {
+            margin-left: 20px;
+        }
+
         .plus_populaire
         {
             width: 100%;
@@ -892,6 +914,12 @@
             width: 104%;
             height: auto;
             margin-right: 5em;
+        }
+        #header_vacation
+        {
+            margin-left: 20px;
+           
+            
         }
         .hebergement_a_marseille
         {
